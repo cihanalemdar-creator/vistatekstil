@@ -1,0 +1,227 @@
+.cta-sec {
+    padding: 60px 0; 
+    background-size: 83.6% 100%;
+    background-position: left;
+    transform: translate(0px, 50%);
+    position: relative;
+    z-index: 3;
+    margin-top: -105px;
+}
+.cta-title {
+    margin: 0;
+    color: $white-color;
+    font-size: 40px;
+    line-height: 50px;
+    margin-top: -0.25em;
+}
+.cta-btn-group {
+    margin-right: 70px;
+    gap: 65px;
+    .play-btn {
+        &:hover {
+            transform: scale(1.2);
+            i {
+                background: $white-color;
+                color: $theme-color;
+            }
+        }
+    }
+}
+.cta-sec2 {
+    padding: 60px 0; 
+    background-size: 83.6% 100%;
+    background-position: right;
+    transform: translate(0, -50%);
+    position: relative;
+    z-index: 2;
+    margin-bottom: -220px;
+    .cta-title {
+        padding-left: 70px;
+    }
+}
+.cta-sec3 {
+    padding: 49px 0;
+    .cta-title {
+        font-size: 16px;
+        line-height: 26px;
+    }
+}
+.cta-sec4 {
+    padding: 70px 0;
+    background-blend-mode: luminosity;
+    background-color: #D9D9D9;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+.cta-sec5 {
+    padding: 60px;
+    transform: translate(0px, 50%);
+    z-index: 3;
+    position: relative;
+    margin-top: -100px;
+}
+.cta-sec6 {
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    &:before {
+        z-index: -1;
+    }
+}
+.cta-sec7 {
+    padding: 50px;
+    overflow: hidden;
+    .cta-title {
+        font-size: 36px;
+        font-weight: 800;
+        line-height: 46px;
+    }
+}
+.cta4-shape1 {
+    width: 265.32px;
+    height: 1028.02px;
+    z-index: 4;
+    background: var(--theme-color);
+    mix-blend-mode: soft-light;
+    border-radius: 500px;
+    transform: rotate(44.86deg);
+    animation: left-to-right 7s infinite alternate;
+    margin-left: -15%;
+}
+.cta4-shape2 {
+    width: 269.35px;
+    height: 1028.02px;
+    z-index: 4;
+    background: var(--theme-color);
+    mix-blend-mode: soft-light;
+    border-radius: 500px;
+    transform: rotate(50.83deg);
+    margin-left: -15%;
+    position: a;
+}
+.cta-icon {
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    border-radius: 50%;
+    background: $white-color;
+    text-align: center;
+    &:hover:after, 
+    &:hover::before {
+        background: $white-color;
+    }
+}
+.cta-contact-wrap {
+    background: $white-color;
+    padding: 30px 98px;
+    .subtitle {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+    .title {
+        font-size: 30px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        a {
+            color: $title-color;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+}
+@media (max-width: 1600px) {
+    .cta-sec2,
+    .cta-sec {
+        background-size: 90.3% 100%;
+    }
+    .cta-sec7 {
+        .cta-thumb7 {
+            left: -100px !important;
+        }
+    }
+}
+@include xxl {
+    .cta-sec2,
+    .cta-sec {
+        background-size: cover;
+        transform: none;
+        margin: 0;
+    }
+    .cta-sec2 .cta-title {
+        padding: 0;
+    }
+    .cta-btn-group {
+        margin: 0;
+    }
+    .cta-sec2 {
+        margin-bottom: -120px;
+    }
+    .cta-sec7 .cta-thumb7 {
+        left: -180px !important;
+    }
+}
+@include ml {
+    .cta-sec7 .cta-thumb7 {
+        left: -200px !important;
+    }
+}
+@media (max-width: 1200px) {
+    .cta-sec7 .cta-thumb7 {
+        left: -220px !important;
+        width: 53%;
+    }
+}
+@include lg {
+    .sec-title.cta-title {
+        text-align: center;
+    }
+    .cta-sec7 .cta-thumb7 {
+        left: -300px !important;
+        width: 64%;
+    }    
+}
+@include md {
+    .sec-title.cta-title {
+        font-size: 34px;
+        line-height: normal;
+    }
+    .cta-sec5 {
+        transform: none;
+        margin-top: 0;
+        margin-bottom: 80px;
+    }
+}
+
+@include sm {
+    .sec-title.cta-title {
+        font-size: 32px;
+    }
+    .cta-sec7 .cta-title {
+        font-size: 30px;
+        line-height: initial;
+    }
+}
+
+@include xs {
+    .sec-title.cta-title {
+        font-size: 30px;
+    }
+    .cta-btn-group {
+        gap: 30px;
+    }
+    .cta-sec5 {
+        padding: 50px 30px;
+    }
+    .cta-contact-wrap {
+        padding: 30px;
+        .title {
+            font-size: 24px;
+        }
+    }
+    .cta-sec7 .cta-title {
+        font-size: 20px;
+    }
+}

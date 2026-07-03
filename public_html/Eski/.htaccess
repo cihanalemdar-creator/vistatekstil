@@ -1,0 +1,23 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} !^www\.vistatekstil\.com
+RewriteRule (.*) https://www.vistatekstil.com/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+RewriteRule ^index.html ./index.php [L,NC]
+
+RewriteRule ^hakkimizda.html ./hakkimizda.php [L,NC]
+RewriteRule ^hizmetlerimiz.html ./hizmetlerimiz.php [L,NC]
+RewriteRule ^hizmetlerimiz-detay.html ./hizmetlerimiz-detay.php [L,NC]
+RewriteRule ^urunler.html ./urunler.php [L,NC]
+RewriteRule ^urunler-detay.html ./urunler-detay.php [L,NC]
+RewriteRule ^iletisim.html ./iletisim.php [L,NC]
+
+
+ReWriteRule ^hizmetlerimiz/([0-9]+)/(.*) hizmetlerimiz.php?id=$1 [L,NC,QSA]
+ReWriteRule ^hizmetlerimiz-detay/([0-9]+)/(.*) hizmetlerimiz-detay.php?id=$1 [L,NC,QSA]
+ReWriteRule ^urunler/([0-9]+)/(.*) urunler.php?id=$1 [L,NC,QSA]
+ReWriteRule ^urunler-detay/([0-9]+)/(.*) urunler-detay.php?id=$1 [L,NC,QSA]
+ReWriteRule ^hakkimizda/([0-9]+)/(.*) hakkimizda.php?id=$1 [L,NC,QSA]

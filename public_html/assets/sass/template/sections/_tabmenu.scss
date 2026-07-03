@@ -1,0 +1,12 @@
+/* Tab Menu 1 ---------------------------------- */
+@include lg {
+    .filter-menu.tab-menu1 {
+        gap: 10px 30px;
+    }
+}
+
+@include sm {
+    .filter-menu.tab-menu1 {
+        gap: 10px 20px;
+    }
+}

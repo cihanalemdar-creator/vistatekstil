@@ -1,0 +1,203 @@
+.footer-wrapper {
+    --border-color: rgba(255, 255, 255, 0.3);
+    position: relative;
+    z-index: 2;
+}
+.widget-area {
+    padding-top: 80px;
+    padding-bottom: 20px;
+}
+
+.copyright-wrap {
+    padding: 25px 0;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-size: 100% auto;
+}
+
+.copyright-text {
+    margin: 0;
+    color: $light-color;
+    a {
+        color: $light-color;
+        &:hover {
+            color: $white-color;
+        }
+    }
+}
+.footer-layout1 {
+    background-color: $title-color;
+    --body-color: #fff;
+    overflow: hidden;
+    background-position: top center;
+    background-size: 100% 100%;
+    padding-top: 110px;
+}
+.footer-layout2 {
+    padding: 76px 0 0;
+    background-color: $title-color;
+    .widget-area {
+        padding-bottom: 30px;
+    }
+    .th-social a {
+        background: $black-color;
+        &:hover {
+            background: $theme-color;
+        }
+    }
+}
+.footer-layout3 {
+    padding: 80px 0 0;
+    background-color: $smoke-color;
+    .widget-area {
+        padding-bottom: 30px;
+    }
+    .copyright-wrap {
+        padding: 25.5px 0;
+    }
+    .th-widget-about .about-text {
+        color: $light-color;
+    }
+    .footer-widget .widget_title {
+        color: $title-color;
+    }
+    ul.menu {
+        min-width: 165px;
+    }
+}
+.footer-layout4 {
+    background-color: $title-color;
+    .widget-area {
+        padding-bottom: 47px;
+    }
+    .th-widget-about .about-logo {
+        margin-bottom: 34px;
+    }
+    .th-widget-about .about-text {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+    }
+    .footer-top {
+        padding: 60px 0;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    }
+}
+.th-widget-contact {
+    max-width: 250px;
+}
+.info-wrap {
+    margin-bottom: 21px;
+    &:last-child {
+        margin-bottom: -5px;
+    }
+	&_text {
+		display: block;
+		color: $light-color;
+		margin-top: -0.45em;
+		margin-bottom: 0;
+        font-weight: 500;
+	}
+	&_link {
+        display: block;
+		color: $light-color;
+        font-weight: 500;
+		&:hover {
+			color: $theme-color;
+		}
+	}
+    &.style2 {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 30px;
+        &:last-child {
+            margin-bottom: -5px;
+        }
+        img {
+            align-self: flex-start;
+            flex: none;
+        }
+    }
+}
+.footer-links {
+    ul {
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            position: relative;
+            &:not(:last-child) {
+                &:after {
+                    content: "/";
+                    margin: 0 20px;
+                    color: $light-color;
+                }
+            }
+            a {
+                color: $light-color;
+                &:hover {
+                    color: $white-color;
+                }
+            }
+        }
+    }
+}
+@include xxl {
+    .footer-layout1 {
+        padding: 0;
+    }
+}
+@include xl {
+    .footer-layout1 {
+        background-size: cover;
+    }
+}
+
+@include md {
+    .footer-wrapper {
+        .widget-area {
+            padding-top: $space-mobile;
+            padding-bottom: 30px;
+        }
+    }
+    .copyright-text {
+        text-align: center;
+    }
+    .footer-layout2 {
+        padding-top: 0;
+    }
+}
+
+@include xs {
+    .copyright-wrap {
+        background-size: cover;
+    }
+}
+
+
+@include lg {
+    .footer-logo {
+        padding: 40px 15px;
+        border: 1px solid var(--border-color);
+        border-top: 0;
+        text-align: center;
+    }
+} 
+
+@include xs {
+    .footer-logo {
+        padding: 25px 15px;
+    }
+    .newsletter-form.style2 {
+        display: block;
+        text-align: center;
+        .form-control {
+            padding: 0 20px;
+            height: 60px;
+        }
+        .th-btn {
+            position: inherit;
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,20 @@
+RewriteCond %{HTTP_HOST} !^www\.vistatekstil\.com
+RewriteRule (.*) https://www.vistatekstil.com/$1 [R=301,L]
+
+RewriteCond %{HTTPS} !=on
+RewriteRule ^.*$ https://%{SERVER_NAME}%{REQUEST_URI} [R,L]
+
+RewriteEngine On
+
+RewriteRule ^kurumsal$ kurumsal.php [NC,L]
+RewriteRule ^urunler$ urunler.php [NC,L]
+RewriteRule ^tasarim$ tasarim.php [NC,L]
+RewriteRule ^koleksiyon$ koleksiyon.php [NC,L]
+RewriteRule ^galeri$ galeri.php [NC,L]
+RewriteRule ^iletisim$ iletisim.php [NC,L]
+RewriteRule ^urun-kategori$ urun-kategori.php [NC,L]
+
+RewriteRule ^([0-9a-zA-Z-_]+)$ urun-detay.php?link=$1 [L,QSA]
+RewriteRule ^kategori/([0-9a-zA-Z-_]+)$ urun-kategori.php?link=$1 [L,QSA]
+RewriteRule ^koleksiyon/([0-9a-zA-Z-_]+)$ koleksiyon.php?link=$1 [L,QSA]
+RewriteRule ^galeri/([0-9a-zA-Z-_]+)$ galeri.php?link=$1 [L,QSA]

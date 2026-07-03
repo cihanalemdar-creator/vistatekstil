@@ -1,0 +1,190 @@
+/* Pricing 1 ---------------------------------- */ 
+.available-list {
+    margin-bottom: 45px;
+    ul {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    li {
+        position: relative;
+        margin-bottom: 18px;
+        font-size: 16px;
+        font-weight: 400;
+        font-family: $body-font;
+        i {
+            font-size: 18px;
+            width: 18px;
+            height: 18px;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
+        &.unavailable {
+            i {
+                color: $light-color;
+                background: $white-color;
+                border-radius: 50%;
+                font-size: 13px;
+                text-align: center;
+                line-height: 19px;
+            }
+        }
+    }
+}
+.price-card {
+    padding: 50px;
+    position: relative;
+    background: $smoke-color;
+    overflow: hidden;
+    .offer-tag {
+        background: $theme-color;
+        font-size: 14px;
+        font-weight: 700;
+        font-family: $title-font;
+        color: $white-color;
+        padding: 2px 55px;
+        position: absolute;
+        right: -61px;
+        transform: rotate(45deg);
+        top: 33px;
+        z-index: 1;
+        opacity: 0;
+    }
+    .price-bg-shape {
+        position: absolute;
+        left: 0;
+        top: 0;
+        opacity: 0.03;
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+    &_title {
+        font-weight: 700;
+        margin-top: -0.35em;
+        margin-bottom: 17px;
+    }
+    &_price {
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 1;
+        padding-right: 44px;
+        position: relative;
+        display: block;
+        margin-bottom: 9px;
+        max-width: fit-content;
+        .duration {
+            font-size: 14px;
+            font-weight: 700;
+            color: $body-color;
+            margin-bottom: 0;
+            position: absolute;
+            bottom: 7px;
+            left: calc(100% - 44px);
+            white-space: nowrap;
+        }
+    }
+    &_text {
+        padding-bottom: 25px;
+        margin-bottom: 28px;
+        border-bottom: 1px solid rgba(18, 18, 18, 0.1);
+        color: $gray-color;
+    }
+    .th-btn {
+        background-color: $title-color;
+        font-weight: 700;
+        font-size: 16px;
+        font-family: $title-font;
+        padding: 22px 65px;
+        &:before,
+        &:after {
+            display: none;
+        }
+        &:hover {
+            background-color: $theme-color;
+        }
+    }
+    &.active {
+        .th-btn {
+            background-color: $theme-color;
+            &:hover {
+                background-color: $title-color;
+            }
+        }
+        .offer-tag {
+            opacity: 1;
+        }
+    }
+    &.style2 {
+        &.active {
+            background: $theme-color;
+            .price-bg-shape {
+                opacity: 0.1;
+                img {
+                    filter: brightness(99);
+                }
+            }
+            .offer-tag {
+                background: $white-color;
+                color: $theme-color;
+            }
+            .price-card_title,
+            .price-card_price,
+            .price-card_price .duration,
+            .price-card_text,
+            .available-list li i,
+            .available-list li {
+                color: $white-color;
+            }
+            .price-card_text {
+                border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+            }
+            .available-list li.unavailable {
+                i {
+                    background: rgba(255, 255, 255, 0.4);
+                    color: rgba(255, 255, 255, 0.6);
+                }
+            }
+            .th-btn {
+                background-color: $white-color;
+                color: $title-color;
+                &:hover {
+                    background-color: $title-color;
+                    color: $white-color;
+                }
+            }
+        }
+        padding: 40px;
+        .th-btn {
+            padding: 22px 35px;
+        }
+    }
+}
+
+@include md {
+    .price-card {
+        padding: 40px;
+        .th-btn {
+            padding: 22px 30px;
+        }
+    }
+}
+@include sm {
+    .price-card .th-btn {
+        padding: 18px 30px;
+        font-size: 14px;
+    }
+    .price-card_price {
+        font-size: 40px;
+    }
+}
+@include vxs {
+    .price-card {
+        padding: 40px 30px;
+    }
+    .available-list {
+        margin-bottom: 35px;
+    }
+}
