@@ -1,0 +1,2073 @@
+{
+  "generatedAt": "2026-07-11T11:46:46.208Z",
+  "origin": "https://vista-tekstil-preview.vercel.app",
+  "responsive": [
+    {
+      "locale": "tr",
+      "width": 320,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.16846,
+          "errorCode": null,
+          "opacity": "0.932205"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 1488,
+            "size": 195200,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+          "type": "media",
+          "time": 1783770408298
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 375,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.161286,
+          "errorCode": null,
+          "opacity": "0.932284"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 192,
+            "size": 228750,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 430,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.166887,
+          "errorCode": null,
+          "opacity": "0.889192"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 180,
+            "size": 262300,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 768,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 700,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.173388,
+          "errorCode": null,
+          "opacity": "0.932381"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 160,
+            "size": 537600,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+          "type": "media",
+          "time": 1783770409612
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.170635,
+          "errorCode": null,
+          "opacity": "0.889201"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 164,
+            "size": 89136,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.170837,
+          "errorCode": null,
+          "opacity": "0.931958"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 272,
+            "size": 113562,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.201068,
+          "errorCode": null,
+          "opacity": "0.983487"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 160,
+            "size": 113562,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.170141,
+          "errorCode": null,
+          "opacity": "0.932284"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 212,
+            "size": 195200,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-mobile.webm",
+          "type": "media",
+          "time": 1783770411479
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.168603,
+          "errorCode": null,
+          "opacity": "0.932444"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 288,
+            "size": 228750,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.156428,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 204,
+            "size": 262300,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 700,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.166456,
+          "errorCode": null,
+          "opacity": "0.931938"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 208,
+            "size": 537600,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop.webm",
+          "type": "media",
+          "time": 1783770412696
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.175621,
+          "errorCode": null,
+          "opacity": "0.932212"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 216,
+            "size": 119616,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.166228,
+          "errorCode": null,
+          "opacity": "0.8308"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 220,
+            "size": 153114,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.167603,
+          "errorCode": null,
+          "opacity": "0.889225"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 224,
+            "size": 153114,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    }
+  ],
+  "scenarios": {
+    "reducedMotion": {
+      "pass": true,
+      "before": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "",
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 0,
+          "currentTime": 0,
+          "errorCode": null,
+          "opacity": "0"
+        },
+        "mediaClass": "home-hero__media is-reduced-motion",
+        "posterOpacity": "1",
+        "playVisible": true,
+        "playLabel": "Videoyu oynat",
+        "muteVisible": false,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "after": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.158821,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "beforeVideoRequests": [],
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=reduced-motion",
+            "type": "document",
+            "time": 1783770414383
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783770415033
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783770415033
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "type": "image",
+            "time": 1783770415033
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783770415033
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783770415033
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783770415033
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783770415033
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783770415041
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783770415193
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+            "type": "media",
+            "time": 1783770416157
+          }
+        ],
+        "responses": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=reduced-motion",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 2420
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+            "status": 206,
+            "type": "media",
+            "contentLength": 1764718
+          }
+        ]
+      }
+    },
+    "autoplayBlocked": {
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": false,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0,
+          "errorCode": null,
+          "opacity": "0"
+        },
+        "mediaClass": "home-hero__media is-autoplay-blocked",
+        "posterOpacity": "1",
+        "playVisible": true,
+        "playLabel": "Videoyu oynat",
+        "muteVisible": false,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=autoplay-blocked",
+            "type": "document",
+            "time": 1783770416658
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783770416861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783770416861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "type": "image",
+            "time": 1783770416861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783770416861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783770416861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783770416861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783770416861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783770416861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+            "type": "media",
+            "time": 1783770417029
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783770417149
+          }
+        ],
+        "responses": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=autoplay-blocked",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 2420
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+            "status": 206,
+            "type": "media",
+            "contentLength": 1764718
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 0
+          }
+        ]
+      }
+    },
+    "keyboardControls": {
+      "pass": true,
+      "paused": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 708,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.28287,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu oynat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "unmuted": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 708,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": false,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.512488,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi kapat",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=keyboard",
+            "type": "document",
+            "time": 1783770418412
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783770418618
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783770418618
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783770418618
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783770418619
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783770418619
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783770418619
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783770418619
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+            "type": "media",
+            "time": 1783770418724
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_97660069.jpg",
+            "type": "image",
+            "time": 1783770418888
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_69409616.jpg",
+            "type": "image",
+            "time": 1783770418888
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_84604029.jpg",
+            "type": "image",
+            "time": 1783770418888
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783770418897
+          }
+        ],
+        "responses": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=keyboard",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+            "status": 206,
+            "type": "media",
+            "contentLength": 3942312
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_97660069.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 355619
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_84604029.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 371861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_69409616.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 344595
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 0
+          }
+        ]
+      }
+    },
+    "lowBandwidth": {
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 3,
+          "currentTime": 0.690961,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=slow-3g",
+            "type": "document",
+            "time": 1783770419796
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783770420977
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783770420977
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "type": "image",
+            "time": 1783770420977
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783770420977
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783770420977
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783770420977
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783770420994
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783770421011
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+            "type": "media",
+            "time": 1783770421766
+          }
+        ],
+        "responses": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=slow-3g",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 2420
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-mobile.webm",
+            "status": 206,
+            "type": "media",
+            "contentLength": 1764718
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          }
+        ]
+      },
+      "profile": {
+        "latencyMs": 180,
+        "downloadBytesPerSecond": 120000
+      }
+    }
+  },
+  "performance": {
+    "posterOnlyBaseline": {
+      "label": "poster-only",
+      "requestCount": 12,
+      "transferSize": 1762202,
+      "encodedBodySize": 1882336,
+      "videoEntries": [],
+      "responseContentLength": 1748520,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "",
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 0,
+          "currentTime": 0,
+          "errorCode": null,
+          "opacity": "0"
+        },
+        "mediaClass": "home-hero__media is-reduced-motion",
+        "posterOpacity": "1",
+        "playVisible": true,
+        "playLabel": "Videoyu oynat",
+        "muteVisible": false,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0.00015854820387517147,
+          "lcp": {
+            "startTime": 1272,
+            "size": 113562,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=performance-poster-only",
+            "type": "document",
+            "time": 1783770423699
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783770424783
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783770424783
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783770424783
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783770424783
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783770424783
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783770424783
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783770424783
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_97660069.jpg",
+            "type": "image",
+            "time": 1783770424965
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_69409616.jpg",
+            "type": "image",
+            "time": 1783770424966
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_84604029.jpg",
+            "type": "image",
+            "time": 1783770424966
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783770424991
+          }
+        ],
+        "responses": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=performance-poster-only",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_97660069.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 355619
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_69409616.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 344595
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_84604029.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 371861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 0
+          }
+        ]
+      }
+    },
+    "autoplay": {
+      "label": "autoplay",
+      "requestCount": 13,
+      "transferSize": 1762202,
+      "encodedBodySize": 1882336,
+      "videoEntries": [],
+      "responseContentLength": 5690832,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 2.717911,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 324,
+            "size": 113562,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=performance-autoplay",
+            "type": "document",
+            "time": 1783770427998
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783770428160
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783770428160
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783770428163
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783770428163
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783770428163
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783770428163
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783770428163
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_97660069.jpg",
+            "type": "image",
+            "time": 1783770428328
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_69409616.jpg",
+            "type": "image",
+            "time": 1783770428328
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_84604029.jpg",
+            "type": "image",
+            "time": 1783770428328
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+            "type": "media",
+            "time": 1783770428348
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783770428446
+          }
+        ],
+        "responses": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/?qa=performance-autoplay",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_97660069.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 355619
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_69409616.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 344595
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_84604029.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 371861
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/tr-desktop.webm",
+            "status": 206,
+            "type": "media",
+            "contentLength": 3942312
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 0
+          }
+        ]
+      }
+    }
+  },
+  "browserSupport": {
+    "chromium": {
+      "available": true
+    },
+    "webkit": {
+      "available": true,
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 708,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop.mp4",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.1573004,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [
+          "Temporal.Duration properties must be finite and of consistent sign"
+        ],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/en/?qa=webkit",
+            "type": "document",
+            "time": 1783770437577
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/en?qa=webkit",
+            "type": "document",
+            "time": 1783770437743
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783770437821
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783770437821
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop-poster.webp",
+            "type": "image",
+            "time": 1783770437821
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783770437821
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783770437821
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783770437830
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783770437830
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/156a8b06-9b8c-46fa-b3e3-171c9efa897c",
+            "type": "image",
+            "time": 1783770437831
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/4183efad-e1ea-44c1-bb96-317436cb3efa",
+            "type": "image",
+            "time": 1783770437831
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/d679ccd8-1b81-4d31-9d06-0d222ee3f2f5",
+            "type": "image",
+            "time": 1783770437831
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/25a061ed-f543-4eb8-9855-94dd00e1683f",
+            "type": "image",
+            "time": 1783770437831
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/79b67ed9-ebe6-4ec6-a892-6593711539b7",
+            "type": "image",
+            "time": 1783770437831
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/51baebef-776a-4038-b241-46b7a42098db",
+            "type": "image",
+            "time": 1783770437841
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/c20b7369-3d45-419b-ba3e-53b9fbbbb97e",
+            "type": "image",
+            "time": 1783770437841
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/87452729-f0d9-46ec-9192-d608b0c32d42",
+            "type": "image",
+            "time": 1783770437854
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/8c0b1531-be3f-44ed-a792-43684dc50e6b",
+            "type": "image",
+            "time": 1783770437856
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/11970c68-4d13-4528-bb56-e75c2a4e5d7a",
+            "type": "image",
+            "time": 1783770437885
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/c4fbe94a-6608-4755-ba09-2289618f9755",
+            "type": "image",
+            "time": 1783770437982
+          }
+        ],
+        "responses": [
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/en/?qa=webkit",
+            "status": 308,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/en?qa=webkit",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/156a8b06-9b8c-46fa-b3e3-171c9efa897c",
+            "status": 200,
+            "type": "image",
+            "contentLength": 399
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/4183efad-e1ea-44c1-bb96-317436cb3efa",
+            "status": 200,
+            "type": "image",
+            "contentLength": 841
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/d679ccd8-1b81-4d31-9d06-0d222ee3f2f5",
+            "status": 200,
+            "type": "image",
+            "contentLength": 3139
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/25a061ed-f543-4eb8-9855-94dd00e1683f",
+            "status": 200,
+            "type": "image",
+            "contentLength": 1556
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/79b67ed9-ebe6-4ec6-a892-6593711539b7",
+            "status": 200,
+            "type": "image",
+            "contentLength": 310
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/51baebef-776a-4038-b241-46b7a42098db",
+            "status": 200,
+            "type": "image",
+            "contentLength": 3571
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/c20b7369-3d45-419b-ba3e-53b9fbbbb97e",
+            "status": 200,
+            "type": "image",
+            "contentLength": 501
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/87452729-f0d9-46ec-9192-d608b0c32d42",
+            "status": 200,
+            "type": "image",
+            "contentLength": 860
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/8c0b1531-be3f-44ed-a792-43684dc50e6b",
+            "status": 200,
+            "type": "image",
+            "contentLength": 833
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/media/hero/eng-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 0
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/11970c68-4d13-4528-bb56-e75c2a4e5d7a",
+            "status": 200,
+            "type": "image",
+            "contentLength": 1489
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "https://vista-tekstil-preview.vercel.app/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "blob:https://vista-tekstil-preview.vercel.app/c4fbe94a-6608-4755-ba09-2289618f9755",
+            "status": 200,
+            "type": "image",
+            "contentLength": 1448
+          }
+        ]
+      },
+      "ignoredEngineErrors": [
+        "Temporal.Duration properties must be finite and of consistent sign"
+      ],
+      "actionablePageErrors": []
+    }
+  },
+  "failures": [],
+  "summary": {
+    "responsiveChecks": 14,
+    "responsivePasses": 14,
+    "totalFailures": 0
+  }
+}

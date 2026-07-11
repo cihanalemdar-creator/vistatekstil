@@ -1,0 +1,535 @@
+{
+  "generatedAt": "2026-07-11T19:00:29.136Z",
+  "baseUrl": "http://127.0.0.1:8082",
+  "viewports": [
+    320
+  ],
+  "routeCount": 14,
+  "checkCount": 103,
+  "passed": 103,
+  "failed": 0,
+  "browsers": [
+    {
+      "browser": "Chromium/Edge",
+      "status": "tested"
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "name": "320px / HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "320px / runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px / language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "320px / one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "320px / navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "320px / breadcrumb",
+      "pass": true,
+      "detail": "0/0"
+    },
+    {
+      "name": "320px / section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "320px / horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "320px / button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px / mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "320px / mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /kurumsal HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "320px /kurumsal runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /kurumsal language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "320px /kurumsal one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "320px /kurumsal navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "320px /kurumsal breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "320px /kurumsal section navigation",
+      "pass": true,
+      "detail": "9; missing="
+    },
+    {
+      "name": "320px /kurumsal horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "320px /kurumsal button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /kurumsal sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "320px /kurumsal anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":105.5,\"headerBottom\":82}"
+    },
+    {
+      "name": "320px /kurumsal floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":249,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":295,\"bottom\":888,\"left\":249}}"
+    },
+    {
+      "name": "320px /kurumsal footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-34.8125}"
+    },
+    {
+      "name": "320px /kurumsal mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "320px /kurumsal mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /urunler HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "320px /urunler runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /urunler language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "320px /urunler one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "320px /urunler navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "320px /urunler breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "320px /urunler section navigation",
+      "pass": true,
+      "detail": "5; missing="
+    },
+    {
+      "name": "320px /urunler horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "320px /urunler button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /urunler sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "320px /urunler anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":96.75,\"headerBottom\":82}"
+    },
+    {
+      "name": "320px /urunler floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":249,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":295,\"bottom\":888,\"left\":249}}"
+    },
+    {
+      "name": "320px /urunler footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-83.859375}"
+    },
+    {
+      "name": "320px /urunler mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "320px /urunler mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /tasarim HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "320px /tasarim runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /tasarim language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "320px /tasarim one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "320px /tasarim navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "320px /tasarim breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "320px /tasarim section navigation",
+      "pass": true,
+      "detail": "8; missing="
+    },
+    {
+      "name": "320px /tasarim horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "320px /tasarim button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /tasarim sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "320px /tasarim anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":104,\"headerBottom\":82}"
+    },
+    {
+      "name": "320px /tasarim floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":249,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":295,\"bottom\":888,\"left\":249}}"
+    },
+    {
+      "name": "320px /tasarim footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-83.65625}"
+    },
+    {
+      "name": "320px /tasarim mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "320px /tasarim mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /koleksiyon/referans HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "320px /koleksiyon/referans runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /koleksiyon/referans language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "320px /koleksiyon/referans one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "320px /koleksiyon/referans navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "320px /koleksiyon/referans breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "320px /koleksiyon/referans section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "320px /koleksiyon/referans horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "320px /koleksiyon/referans button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /koleksiyon/referans sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "320px /koleksiyon/referans floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":249,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":295,\"bottom\":888,\"left\":249}}"
+    },
+    {
+      "name": "320px /koleksiyon/referans footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-84.046875}"
+    },
+    {
+      "name": "320px /koleksiyon/referans mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "320px /koleksiyon/referans mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /galeri/galerim2 HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "320px /galeri/galerim2 runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /galeri/galerim2 language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "320px /galeri/galerim2 one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "320px /galeri/galerim2 navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "320px /galeri/galerim2 breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "320px /galeri/galerim2 section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "320px /galeri/galerim2 horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "320px /galeri/galerim2 button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /galeri/galerim2 sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "320px /galeri/galerim2 floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":249,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":295,\"bottom\":888,\"left\":249}}"
+    },
+    {
+      "name": "320px /galeri/galerim2 footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-83.453125}"
+    },
+    {
+      "name": "320px /galeri/galerim2 mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "320px /galeri/galerim2 mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /galeri/galerim2 lightbox",
+      "pass": true,
+      "detail": "{\"open\":true,\"title\":\"Tesis\",\"description\":\"Vista Moda Tekstil uretim alani\",\"collision\":false,\"imageWidth\":269}"
+    },
+    {
+      "name": "320px /galeri/galerim2 lightbox navigation",
+      "pass": true,
+      "detail": "1 / 24 -> 2 / 24"
+    },
+    {
+      "name": "320px /galeri/galerim2 lightbox focus return",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /iletisim HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "320px /iletisim runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /iletisim language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "320px /iletisim one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "320px /iletisim navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "320px /iletisim breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "320px /iletisim section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "320px /iletisim horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "320px /iletisim button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /iletisim sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "320px /iletisim floating controls",
+      "pass": true,
+      "detail": "{\"visible\":false,\"avoidanceVisible\":true,\"overlaps\":[]}"
+    },
+    {
+      "name": "320px /iletisim footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-84.015625}"
+    },
+    {
+      "name": "320px /iletisim mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "320px /iletisim mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "320px /iletisim form contract",
+      "pass": true,
+      "detail": "{\"basic\":7,\"details\":8,\"privacy\":1,\"total\":16,\"disabled\":true,\"detailsInitiallyClosed\":true,\"statusVisible\":false}"
+    },
+    {
+      "name": "320px /iletisim form accordion",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

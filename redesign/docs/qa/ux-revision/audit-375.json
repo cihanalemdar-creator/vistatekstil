@@ -1,0 +1,1050 @@
+{
+  "generatedAt": "2026-07-11T19:03:10.343Z",
+  "baseUrl": "http://127.0.0.1:8082",
+  "viewports": [
+    375
+  ],
+  "routeCount": 14,
+  "checkCount": 206,
+  "passed": 206,
+  "failed": 0,
+  "browsers": [
+    {
+      "browser": "Chromium/Edge",
+      "status": "tested"
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "name": "375px / HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px / runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px / language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "375px / one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px / navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "375px / breadcrumb",
+      "pass": true,
+      "detail": "0/0"
+    },
+    {
+      "name": "375px / section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "375px / horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px / button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px / mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px / mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /kurumsal HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /kurumsal runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /kurumsal language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "375px /kurumsal one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /kurumsal navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "375px /kurumsal breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /kurumsal section navigation",
+      "pass": true,
+      "detail": "9; missing="
+    },
+    {
+      "name": "375px /kurumsal horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /kurumsal button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /kurumsal sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /kurumsal anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":106.015625,\"headerBottom\":82}"
+    },
+    {
+      "name": "375px /kurumsal floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /kurumsal footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-0.09375}"
+    },
+    {
+      "name": "375px /kurumsal mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /kurumsal mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /urunler HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /urunler runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /urunler language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "375px /urunler one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /urunler navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "375px /urunler breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /urunler section navigation",
+      "pass": true,
+      "detail": "5; missing="
+    },
+    {
+      "name": "375px /urunler horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /urunler button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /urunler sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /urunler anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":99.71875,\"headerBottom\":82}"
+    },
+    {
+      "name": "375px /urunler floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /urunler footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-59.625}"
+    },
+    {
+      "name": "375px /urunler mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /urunler mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /tasarim HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /tasarim runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /tasarim language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "375px /tasarim one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /tasarim navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "375px /tasarim breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /tasarim section navigation",
+      "pass": true,
+      "detail": "8; missing="
+    },
+    {
+      "name": "375px /tasarim horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /tasarim button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /tasarim sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /tasarim anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":104,\"headerBottom\":82}"
+    },
+    {
+      "name": "375px /tasarim floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /tasarim footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-60}"
+    },
+    {
+      "name": "375px /tasarim mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /tasarim mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /koleksiyon/referans HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /koleksiyon/referans runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /koleksiyon/referans language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "375px /koleksiyon/referans one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /koleksiyon/referans navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "375px /koleksiyon/referans breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /koleksiyon/referans section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "375px /koleksiyon/referans horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /koleksiyon/referans button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /koleksiyon/referans sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /koleksiyon/referans floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /koleksiyon/referans footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-59.625}"
+    },
+    {
+      "name": "375px /koleksiyon/referans mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /koleksiyon/referans mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /galeri/galerim2 HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /galeri/galerim2 runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /galeri/galerim2 language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "375px /galeri/galerim2 one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /galeri/galerim2 navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "375px /galeri/galerim2 breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /galeri/galerim2 section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "375px /galeri/galerim2 horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /galeri/galerim2 button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /galeri/galerim2 sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /galeri/galerim2 floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /galeri/galerim2 footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-59.40625}"
+    },
+    {
+      "name": "375px /galeri/galerim2 mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /galeri/galerim2 mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /galeri/galerim2 lightbox",
+      "pass": true,
+      "detail": "{\"open\":true,\"title\":\"Tesis\",\"description\":\"Vista Moda Tekstil uretim alani\",\"collision\":false,\"imageWidth\":324}"
+    },
+    {
+      "name": "375px /galeri/galerim2 lightbox navigation",
+      "pass": true,
+      "detail": "1 / 24 -> 2 / 24"
+    },
+    {
+      "name": "375px /galeri/galerim2 lightbox focus return",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /iletisim HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /iletisim runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /iletisim language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "375px /iletisim one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /iletisim navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "375px /iletisim breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /iletisim section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "375px /iletisim horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /iletisim button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /iletisim sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /iletisim floating controls",
+      "pass": true,
+      "detail": "{\"visible\":false,\"avoidanceVisible\":true,\"overlaps\":[]}"
+    },
+    {
+      "name": "375px /iletisim footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-59.484375}"
+    },
+    {
+      "name": "375px /iletisim mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /iletisim mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /iletisim form contract",
+      "pass": true,
+      "detail": "{\"basic\":7,\"details\":8,\"privacy\":1,\"total\":16,\"disabled\":true,\"detailsInitiallyClosed\":true,\"statusVisible\":false}"
+    },
+    {
+      "name": "375px /iletisim form accordion",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/ HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /en/ runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/ language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "375px /en/ one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /en/ navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "375px /en/ breadcrumb",
+      "pass": true,
+      "detail": "0/0"
+    },
+    {
+      "name": "375px /en/ section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "375px /en/ horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /en/ button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/ mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /en/ mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/about HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /en/about runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/about language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "375px /en/about one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /en/about navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "375px /en/about breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /en/about section navigation",
+      "pass": true,
+      "detail": "9; missing="
+    },
+    {
+      "name": "375px /en/about horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /en/about button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/about sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /en/about anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":106.3125,\"headerBottom\":82}"
+    },
+    {
+      "name": "375px /en/about floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /en/about footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-24.390625}"
+    },
+    {
+      "name": "375px /en/about mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /en/about mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/products HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /en/products runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/products language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "375px /en/products one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /en/products navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "375px /en/products breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /en/products section navigation",
+      "pass": true,
+      "detail": "5; missing="
+    },
+    {
+      "name": "375px /en/products horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /en/products button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/products sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /en/products anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":103.71875,\"headerBottom\":82}"
+    },
+    {
+      "name": "375px /en/products floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /en/products footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-84.09375}"
+    },
+    {
+      "name": "375px /en/products mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /en/products mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/design HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /en/design runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/design language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "375px /en/design one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /en/design navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "375px /en/design breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /en/design section navigation",
+      "pass": true,
+      "detail": "8; missing="
+    },
+    {
+      "name": "375px /en/design horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /en/design button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/design sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /en/design anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":102.015625,\"headerBottom\":82}"
+    },
+    {
+      "name": "375px /en/design floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /en/design footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-84.078125}"
+    },
+    {
+      "name": "375px /en/design mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /en/design mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/collection HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /en/collection runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/collection language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "375px /en/collection one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /en/collection navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "375px /en/collection breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /en/collection section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "375px /en/collection horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /en/collection button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/collection sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /en/collection floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /en/collection footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-83.625}"
+    },
+    {
+      "name": "375px /en/collection mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /en/collection mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/gallery HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /en/gallery runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/gallery language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "375px /en/gallery one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /en/gallery navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "375px /en/gallery breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /en/gallery section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "375px /en/gallery horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /en/gallery button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/gallery sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /en/gallery floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"overlaps\":[],\"rect\":{\"x\":304,\"y\":842,\"width\":46,\"height\":46,\"top\":842,\"right\":350,\"bottom\":888,\"left\":304}}"
+    },
+    {
+      "name": "375px /en/gallery footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-83.40625}"
+    },
+    {
+      "name": "375px /en/gallery mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /en/gallery mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/gallery lightbox",
+      "pass": true,
+      "detail": "{\"open\":true,\"title\":\"Facility\",\"description\":\"Vista Moda Tekstil production floor\",\"collision\":false,\"imageWidth\":324}"
+    },
+    {
+      "name": "375px /en/gallery lightbox navigation",
+      "pass": true,
+      "detail": "1 / 24 -> 2 / 24"
+    },
+    {
+      "name": "375px /en/gallery lightbox focus return",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/contact HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "375px /en/contact runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/contact language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "375px /en/contact one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "375px /en/contact navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "375px /en/contact breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "375px /en/contact section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "375px /en/contact horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "375px /en/contact button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/contact sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":82,\"scrolled\":true}"
+    },
+    {
+      "name": "375px /en/contact floating controls",
+      "pass": true,
+      "detail": "{\"visible\":false,\"avoidanceVisible\":true,\"overlaps\":[]}"
+    },
+    {
+      "name": "375px /en/contact footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":-83.90625}"
+    },
+    {
+      "name": "375px /en/contact mobile menu",
+      "pass": true,
+      "detail": "{\"open\":true,\"bodyLocked\":true,\"mainInert\":true,\"focusedInside\":true,\"links\":7,\"insideViewport\":true,\"scrollable\":true}"
+    },
+    {
+      "name": "375px /en/contact mobile menu close",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "375px /en/contact form contract",
+      "pass": true,
+      "detail": "{\"basic\":7,\"details\":8,\"privacy\":1,\"total\":16,\"disabled\":true,\"detailsInitiallyClosed\":true,\"statusVisible\":false}"
+    },
+    {
+      "name": "375px /en/contact form accordion",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

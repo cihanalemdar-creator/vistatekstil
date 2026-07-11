@@ -1,0 +1,765 @@
+{
+  "generatedAt": "2026-07-11T19:23:46.473Z",
+  "baseUrl": "http://127.0.0.1:8082",
+  "viewports": [
+    1440
+  ],
+  "routeCount": 14,
+  "checkCount": 149,
+  "passed": 149,
+  "failed": 0,
+  "browsers": [
+    {
+      "browser": "Chromium/Chrome",
+      "status": "tested"
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "name": "1440px / HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px / runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px / language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "1440px / one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px / navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "1440px / breadcrumb",
+      "pass": true,
+      "detail": "0/0"
+    },
+    {
+      "name": "1440px / section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "1440px / horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px / button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /kurumsal HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /kurumsal runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /kurumsal language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "1440px /kurumsal one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /kurumsal navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "1440px /kurumsal breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /kurumsal section navigation",
+      "pass": true,
+      "detail": "9; missing="
+    },
+    {
+      "name": "1440px /kurumsal horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /kurumsal button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /kurumsal sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":92,\"scrolled\":true}"
+    },
+    {
+      "name": "1440px /kurumsal anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":116,\"headerBottom\":92}"
+    },
+    {
+      "name": "1440px /kurumsal floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"collisionRisk\":false,\"overlaps\":[],\"rect\":{\"x\":1363,\"y\":834,\"width\":48,\"height\":48,\"top\":834,\"right\":1411,\"bottom\":882,\"left\":1363}}"
+    },
+    {
+      "name": "1440px /kurumsal footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":427.9375}"
+    },
+    {
+      "name": "1440px /urunler HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /urunler runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /urunler language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "1440px /urunler one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /urunler navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "1440px /urunler breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /urunler section navigation",
+      "pass": true,
+      "detail": "5; missing="
+    },
+    {
+      "name": "1440px /urunler horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /urunler button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /urunler sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":92,\"scrolled\":true}"
+    },
+    {
+      "name": "1440px /urunler anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":113.703125,\"headerBottom\":92}"
+    },
+    {
+      "name": "1440px /urunler floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"collisionRisk\":false,\"overlaps\":[],\"rect\":{\"x\":1363,\"y\":834,\"width\":48,\"height\":48,\"top\":834,\"right\":1411,\"bottom\":882,\"left\":1363}}"
+    },
+    {
+      "name": "1440px /urunler footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":428.46875}"
+    },
+    {
+      "name": "1440px /tasarim HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /tasarim runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /tasarim language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "1440px /tasarim one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /tasarim navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "1440px /tasarim breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /tasarim section navigation",
+      "pass": true,
+      "detail": "8; missing="
+    },
+    {
+      "name": "1440px /tasarim horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /tasarim button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /tasarim sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":92,\"scrolled\":true}"
+    },
+    {
+      "name": "1440px /tasarim anchor offset",
+      "pass": true,
+      "detail": "{\"targetTop\":116,\"headerBottom\":92}"
+    },
+    {
+      "name": "1440px /tasarim floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"collisionRisk\":false,\"overlaps\":[],\"rect\":{\"x\":1363,\"y\":834,\"width\":48,\"height\":48,\"top\":834,\"right\":1411,\"bottom\":882,\"left\":1363}}"
+    },
+    {
+      "name": "1440px /tasarim footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":428.71875}"
+    },
+    {
+      "name": "1440px /koleksiyon/referans HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /koleksiyon/referans runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /koleksiyon/referans language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "1440px /koleksiyon/referans one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /koleksiyon/referans navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "1440px /koleksiyon/referans breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /koleksiyon/referans section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "1440px /koleksiyon/referans horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /koleksiyon/referans button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /galeri/galerim2 HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /galeri/galerim2 runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /galeri/galerim2 language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "1440px /galeri/galerim2 one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /galeri/galerim2 navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "1440px /galeri/galerim2 breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /galeri/galerim2 section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "1440px /galeri/galerim2 horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /galeri/galerim2 button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /galeri/galerim2 sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":92,\"scrolled\":true}"
+    },
+    {
+      "name": "1440px /galeri/galerim2 floating controls",
+      "pass": true,
+      "detail": "{\"visible\":true,\"avoidanceVisible\":false,\"collisionRisk\":false,\"overlaps\":[],\"rect\":{\"x\":1363,\"y\":834,\"width\":48,\"height\":48,\"top\":834,\"right\":1411,\"bottom\":882,\"left\":1363}}"
+    },
+    {
+      "name": "1440px /galeri/galerim2 footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":428.890625}"
+    },
+    {
+      "name": "1440px /galeri/galerim2 lightbox",
+      "pass": true,
+      "detail": "{\"open\":true,\"title\":\"Tesis\",\"description\":\"Vista Moda Tekstil uretim alani\",\"collision\":false,\"imageWidth\":948}"
+    },
+    {
+      "name": "1440px /galeri/galerim2 lightbox navigation",
+      "pass": true,
+      "detail": "1 / 24 -> 2 / 24"
+    },
+    {
+      "name": "1440px /galeri/galerim2 lightbox focus return",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /iletisim HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /iletisim runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /iletisim language",
+      "pass": true,
+      "detail": "tr"
+    },
+    {
+      "name": "1440px /iletisim one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /iletisim navigation",
+      "pass": true,
+      "detail": "Ana Sayfa, Kurumsal, Ürünler, Tasarım, Koleksiyon, Galeri, İletişim; active=1"
+    },
+    {
+      "name": "1440px /iletisim breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /iletisim section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "1440px /iletisim horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /iletisim button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /iletisim sticky header",
+      "pass": true,
+      "detail": "{\"top\":0,\"height\":92,\"scrolled\":true}"
+    },
+    {
+      "name": "1440px /iletisim floating controls",
+      "pass": true,
+      "detail": "{\"visible\":false,\"avoidanceVisible\":true,\"collisionRisk\":false,\"overlaps\":[]}"
+    },
+    {
+      "name": "1440px /iletisim footer safety",
+      "pass": true,
+      "detail": "{\"hidden\":true,\"footerTop\":427.921875}"
+    },
+    {
+      "name": "1440px /iletisim form contract",
+      "pass": true,
+      "detail": "{\"basic\":7,\"details\":8,\"privacy\":1,\"total\":16,\"disabled\":true,\"detailsInitiallyClosed\":true,\"statusVisible\":false}"
+    },
+    {
+      "name": "1440px /iletisim form accordion",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/ HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /en/ runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/ language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "1440px /en/ one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /en/ navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "1440px /en/ breadcrumb",
+      "pass": true,
+      "detail": "0/0"
+    },
+    {
+      "name": "1440px /en/ section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "1440px /en/ horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /en/ button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/about HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /en/about runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/about language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "1440px /en/about one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /en/about navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "1440px /en/about breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /en/about section navigation",
+      "pass": true,
+      "detail": "9; missing="
+    },
+    {
+      "name": "1440px /en/about horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /en/about button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/products HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /en/products runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/products language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "1440px /en/products one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /en/products navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "1440px /en/products breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /en/products section navigation",
+      "pass": true,
+      "detail": "5; missing="
+    },
+    {
+      "name": "1440px /en/products horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /en/products button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/design HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /en/design runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/design language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "1440px /en/design one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /en/design navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "1440px /en/design breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /en/design section navigation",
+      "pass": true,
+      "detail": "8; missing="
+    },
+    {
+      "name": "1440px /en/design horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /en/design button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/collection HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /en/collection runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/collection language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "1440px /en/collection one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /en/collection navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "1440px /en/collection breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /en/collection section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "1440px /en/collection horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /en/collection button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/gallery HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /en/gallery runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/gallery language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "1440px /en/gallery one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /en/gallery navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "1440px /en/gallery breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /en/gallery section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "1440px /en/gallery horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /en/gallery button clipping",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/contact HTTP",
+      "pass": true,
+      "detail": "200"
+    },
+    {
+      "name": "1440px /en/contact runtime",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "1440px /en/contact language",
+      "pass": true,
+      "detail": "en"
+    },
+    {
+      "name": "1440px /en/contact one H1",
+      "pass": true,
+      "detail": "1"
+    },
+    {
+      "name": "1440px /en/contact navigation",
+      "pass": true,
+      "detail": "Home, About, Products, Design, Collection, Gallery, Contact; active=1"
+    },
+    {
+      "name": "1440px /en/contact breadcrumb",
+      "pass": true,
+      "detail": "1/2"
+    },
+    {
+      "name": "1440px /en/contact section navigation",
+      "pass": true,
+      "detail": "0; missing="
+    },
+    {
+      "name": "1440px /en/contact horizontal overflow",
+      "pass": true,
+      "detail": "-15px; "
+    },
+    {
+      "name": "1440px /en/contact button clipping",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

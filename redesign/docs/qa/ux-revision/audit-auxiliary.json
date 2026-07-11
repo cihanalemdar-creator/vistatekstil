@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-07-11T19:24:50.932Z",
+  "baseUrl": "http://127.0.0.1:8082",
+  "viewports": [
+    320,
+    375,
+    430,
+    768,
+    1024,
+    1280,
+    1440
+  ],
+  "routeCount": 14,
+  "checkCount": 10,
+  "passed": 10,
+  "failed": 0,
+  "browsers": [
+    {
+      "browser": "Chromium/Chrome",
+      "status": "tested"
+    },
+    {
+      "browser": "WebKit",
+      "status": "tested"
+    }
+  ],
+  "failures": [],
+  "checks": [
+    {
+      "name": "320px 200% text and long CTA labels",
+      "pass": true,
+      "detail": "{\"overflow\":-15,\"clipped\":[],\"widths\":[{\"text\":\"Teklif ve Üretim Detaylarını Paylaşın\\n    ↗\",\"width\":269,\"viewport\":320},{\"text\":\"Request a Detailed Manufacturing Quotation\",\"width\":269,\"viewport\":320},{\"text\":\"Explore Our Apparel Development and Production Process\",\"width\":269,\"viewport\":320}]}"
+    },
+    {
+      "name": "no-JS /",
+      "pass": true,
+      "detail": "{\"h1\":1,\"nav\":7,\"breadcrumb\":0,\"sectionLinks\":0,\"galleryLinks\":0,\"paginationLinks\":0,\"formControls\":0,\"detailsNative\":true,\"expectedSectionNav\":false}"
+    },
+    {
+      "name": "no-JS /kurumsal",
+      "pass": true,
+      "detail": "{\"h1\":1,\"nav\":7,\"breadcrumb\":1,\"sectionLinks\":9,\"galleryLinks\":0,\"paginationLinks\":0,\"formControls\":0,\"detailsNative\":true,\"expectedSectionNav\":true}"
+    },
+    {
+      "name": "no-JS /urunler",
+      "pass": true,
+      "detail": "{\"h1\":1,\"nav\":7,\"breadcrumb\":1,\"sectionLinks\":5,\"galleryLinks\":0,\"paginationLinks\":0,\"formControls\":0,\"detailsNative\":true,\"expectedSectionNav\":true}"
+    },
+    {
+      "name": "no-JS /tasarim",
+      "pass": true,
+      "detail": "{\"h1\":1,\"nav\":7,\"breadcrumb\":1,\"sectionLinks\":8,\"galleryLinks\":0,\"paginationLinks\":0,\"formControls\":0,\"detailsNative\":true,\"expectedSectionNav\":true}"
+    },
+    {
+      "name": "no-JS /koleksiyon/referans",
+      "pass": true,
+      "detail": "{\"h1\":1,\"nav\":7,\"breadcrumb\":1,\"sectionLinks\":0,\"galleryLinks\":0,\"paginationLinks\":0,\"formControls\":0,\"detailsNative\":true,\"expectedSectionNav\":false}"
+    },
+    {
+      "name": "no-JS /galeri/galerim2",
+      "pass": true,
+      "detail": "{\"h1\":1,\"nav\":7,\"breadcrumb\":1,\"sectionLinks\":0,\"galleryLinks\":24,\"paginationLinks\":18,\"formControls\":0,\"detailsNative\":true,\"expectedSectionNav\":false}"
+    },
+    {
+      "name": "no-JS /iletisim",
+      "pass": true,
+      "detail": "{\"h1\":1,\"nav\":7,\"breadcrumb\":1,\"sectionLinks\":0,\"galleryLinks\":0,\"paginationLinks\":0,\"formControls\":16,\"detailsNative\":true,\"expectedSectionNav\":false}"
+    },
+    {
+      "name": "reduced motion",
+      "pass": true,
+      "detail": "{\"preference\":true,\"hiddenReveal\":false,\"scrollBehavior\":\"auto\"}"
+    },
+    {
+      "name": "WebKit mobile smoke",
+      "pass": true,
+      "detail": "{\"h1\":1,\"overflow\":0,\"errors\":[]}"
+    }
+  ]
+}

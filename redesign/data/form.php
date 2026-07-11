@@ -1,0 +1,58 @@
+<?php
+declare(strict_types=1);
+
+return [
+    'labels' => [
+        'tr' => [
+            'name' => 'Ad Soyad', 'company' => 'Şirket / Marka', 'country' => 'Ülke', 'email' => 'E-posta',
+            'phone' => 'Telefon / WhatsApp', 'category' => 'Ürün kategorisi', 'fabricType' => 'Ürünün yapısı',
+            'quantity' => 'Tahmini sipariş miktarı', 'styles' => 'Model sayısı', 'delivery' => 'Hedef teslim dönemi',
+            'techPack' => 'Tech pack mevcut mu?', 'sample' => 'Referans numune mevcut mu?', 'subject' => 'Konu',
+            'message' => 'Mesaj', 'file' => 'Dosya yükleme', 'choose' => 'Seçiniz', 'yes' => 'Evet', 'no' => 'Hayır',
+            'knit' => 'Örme', 'woven' => 'Dokuma', 'both' => 'Her ikisi', 'required' => 'Zorunlu alan',
+            'details' => 'Ek proje detayları', 'detailsHint' => 'Ülke, ürün yapısı, model ve teknik hazırlık bilgileri',
+        ],
+        'en' => [
+            'name' => 'Full name', 'company' => 'Company / Brand', 'country' => 'Country', 'email' => 'Email',
+            'phone' => 'Phone / WhatsApp', 'category' => 'Product category', 'fabricType' => 'Product construction',
+            'quantity' => 'Estimated order quantity', 'styles' => 'Number of styles', 'delivery' => 'Target delivery period',
+            'techPack' => 'Is a tech pack available?', 'sample' => 'Is a reference sample available?', 'subject' => 'Subject',
+            'message' => 'Message', 'file' => 'File upload', 'choose' => 'Select', 'yes' => 'Yes', 'no' => 'No',
+            'knit' => 'Knit', 'woven' => 'Woven', 'both' => 'Both', 'required' => 'Required field',
+            'details' => 'Additional project details', 'detailsHint' => 'Country, construction, styles and technical preparation',
+        ],
+    ],
+    'groups' => [
+        'basic' => ['name', 'company', 'email', 'category', 'quantity', 'message', 'file'],
+        'details' => ['country', 'phone', 'fabricType', 'styles', 'delivery', 'techPack', 'sample', 'subject'],
+    ],
+    'fields' => [
+        'name' => ['type' => 'text', 'required' => true, 'autocomplete' => 'name'],
+        'company' => ['type' => 'text', 'required' => true, 'autocomplete' => 'organization'],
+        'country' => ['type' => 'text', 'required' => true, 'autocomplete' => 'country-name'],
+        'email' => ['type' => 'email', 'required' => true, 'autocomplete' => 'email'],
+        'phone' => ['type' => 'tel', 'required' => false, 'autocomplete' => 'tel'],
+        'category' => [
+            'type' => 'select', 'required' => true,
+            'options' => [
+                'womenswear' => ['tr' => 'Kadın giyim', 'en' => 'Womenswear'],
+                'menswear' => ['tr' => 'Erkek giyim', 'en' => 'Menswear'],
+                'childrenswear' => ['tr' => 'Çocuk giyim', 'en' => 'Childrenswear'],
+            ],
+        ],
+        'fabricType' => [
+            'type' => 'select', 'required' => true,
+            'options' => [
+                'knit' => ['labelKey' => 'knit'], 'woven' => ['labelKey' => 'woven'], 'both' => ['labelKey' => 'both'],
+            ],
+        ],
+        'quantity' => ['type' => 'number', 'required' => true, 'min' => 1, 'inputmode' => 'numeric'],
+        'styles' => ['type' => 'number', 'required' => false, 'min' => 1, 'inputmode' => 'numeric'],
+        'delivery' => ['type' => 'text', 'required' => false],
+        'techPack' => ['type' => 'select', 'required' => false, 'options' => ['yes' => ['labelKey' => 'yes'], 'no' => ['labelKey' => 'no']]],
+        'sample' => ['type' => 'select', 'required' => false, 'options' => ['yes' => ['labelKey' => 'yes'], 'no' => ['labelKey' => 'no']]],
+        'subject' => ['type' => 'text', 'required' => true],
+        'message' => ['type' => 'textarea', 'required' => true, 'rows' => 6],
+        'file' => ['type' => 'file', 'required' => false, 'accept' => '.pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png,.zip', 'help' => 'PDF, DOCX, XLSX, JPG, PNG, ZIP'],
+    ],
+];

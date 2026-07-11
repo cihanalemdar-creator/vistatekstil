@@ -1,0 +1,2178 @@
+{
+  "generatedAt": "2026-07-11T11:32:09.007Z",
+  "origin": "http://127.0.0.1:8082",
+  "responsive": [
+    {
+      "locale": "tr",
+      "width": 320,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.162999,
+          "errorCode": null,
+          "opacity": "0.888697"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0.01458768442158513,
+          "lcp": {
+            "startTime": 2024,
+            "size": 195200,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "type": "media",
+          "time": 1783769531812
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 375,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.166945,
+          "errorCode": null,
+          "opacity": "0.889285"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 808,
+            "size": 228750,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "type": "media",
+          "time": 1783769532996
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 430,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.160721,
+          "errorCode": null,
+          "opacity": "0.889204"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 188,
+            "size": 262300,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "type": "media",
+          "time": 1783769533419
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_97660069.jpg",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 768,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 700,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.166082,
+          "errorCode": null,
+          "opacity": "0.932175"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 176,
+            "size": 537600,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "type": "media",
+          "time": 1783769533827
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_69409616.jpg",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1024,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.171486,
+          "errorCode": null,
+          "opacity": "0.932459"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 188,
+            "size": 89136,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "type": "media",
+          "time": 1783769534257
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_84604029.jpg",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1280,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.170926,
+          "errorCode": null,
+          "opacity": "0.932278"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 224,
+            "size": 113562,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "type": "media",
+          "time": 1783769534694
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "tr",
+      "width": 1440,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.174269,
+          "errorCode": null,
+          "opacity": "0.932105"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 156,
+            "size": 113562,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "type": "media",
+          "time": 1783769535039
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "width": 320,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.178269,
+          "errorCode": null,
+          "opacity": "0.932429"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 184,
+            "size": 195200,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-mobile.webm",
+          "type": "media",
+          "time": 1783769535712
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "width": 375,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.163416,
+          "errorCode": null,
+          "opacity": "0.932159"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 160,
+            "size": 228750,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-mobile.webm",
+          "type": "media",
+          "time": 1783769536135
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": []
+      }
+    },
+    {
+      "locale": "en",
+      "width": 430,
+      "expectedVariant": "mobile",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.170485,
+          "errorCode": null,
+          "opacity": "0.932142"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 144,
+            "size": 262300,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-mobile.webm",
+          "type": "media",
+          "time": 1783769536429
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_97660069.jpg",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "width": 768,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 700,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.164575,
+          "errorCode": null,
+          "opacity": "0.932295"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 376,
+            "size": 537600,
+            "tagName": "IMG",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+          "type": "media",
+          "time": 1783769537177
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_69409616.jpg",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1024,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.158628,
+          "errorCode": null,
+          "opacity": "0.932411"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 180,
+            "size": 119616,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+          "type": "media",
+          "time": 1783769537668
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_84604029.jpg",
+            "error": "net::ERR_ABORTED"
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1280,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.173065,
+          "errorCode": null,
+          "opacity": "0.932499"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 160,
+            "size": 153114,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+          "type": "media",
+          "time": 1783769538055
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    },
+    {
+      "locale": "en",
+      "width": 1440,
+      "expectedVariant": "desktop",
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.162002,
+          "errorCode": null,
+          "opacity": "0.889354"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 224,
+            "size": 153114,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "videoRequests": [
+        {
+          "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+          "type": "media",
+          "time": 1783769538496
+        }
+      ],
+      "errors": {
+        "console": [],
+        "page": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.webm",
+            "error": "net::ERR_ABORTED"
+          }
+        ]
+      }
+    }
+  ],
+  "scenarios": {
+    "reducedMotion": {
+      "pass": true,
+      "before": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "",
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 0,
+          "currentTime": 0,
+          "errorCode": null,
+          "opacity": "0"
+        },
+        "mediaClass": "home-hero__media is-reduced-motion",
+        "posterOpacity": "1",
+        "playVisible": true,
+        "playLabel": "Videoyu oynat",
+        "muteVisible": false,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "after": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.162802,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "beforeVideoRequests": [],
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=reduced-motion",
+            "type": "document",
+            "time": 1783769539060
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783769539929
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783769539929
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "type": "image",
+            "time": 1783769539929
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783769539929
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783769539929
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783769539929
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783769539929
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783769539929
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783769540138
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+            "type": "media",
+            "time": 1783769541205
+          }
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=reduced-motion",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 44238
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 2420
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 4551
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+            "status": 200,
+            "type": "media",
+            "contentLength": 1764718
+          }
+        ]
+      }
+    },
+    "autoplayBlocked": {
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": false,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0,
+          "errorCode": null,
+          "opacity": "0"
+        },
+        "mediaClass": "home-hero__media is-autoplay-blocked",
+        "posterOpacity": "1",
+        "playVisible": true,
+        "playLabel": "Videoyu oynat",
+        "muteVisible": false,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=autoplay-blocked",
+            "type": "document",
+            "time": 1783769541595
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783769542533
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783769542533
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "type": "image",
+            "time": 1783769542533
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783769542533
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783769542533
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783769542533
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783769542533
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783769542533
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+            "type": "media",
+            "time": 1783769542590
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783769542727
+          }
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=autoplay-blocked",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 2420
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 44238
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 4551
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+            "status": 200,
+            "type": "media",
+            "contentLength": 1764718
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 123434
+          }
+        ]
+      }
+    },
+    "keyboardControls": {
+      "pass": true,
+      "paused": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 708,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.349403,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu oynat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "unmuted": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 708,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": false,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.679205,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi kapat",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=keyboard",
+            "type": "document",
+            "time": 1783769544008
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783769544893
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783769544893
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783769544893
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783769544893
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783769544893
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783769544893
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783769544893
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_97660069.jpg",
+            "type": "image",
+            "time": 1783769545086
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_69409616.jpg",
+            "type": "image",
+            "time": 1783769545086
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_84604029.jpg",
+            "type": "image",
+            "time": 1783769545086
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+            "type": "media",
+            "time": 1783769545111
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783769545225
+          }
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=keyboard",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 44238
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 4551
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_69409616.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 344595
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_97660069.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 355619
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_84604029.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 371861
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+            "status": 200,
+            "type": "media",
+            "contentLength": 3942312
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 123434
+          }
+        ]
+      }
+    },
+    "lowBandwidth": {
+      "pass": true,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 610,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 3,
+          "currentTime": 0.678198,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=slow-3g",
+            "type": "document",
+            "time": 1783769546509
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783769547069
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783769547087
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "type": "image",
+            "time": 1783769547087
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783769547087
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783769547087
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783769547087
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783769547106
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783769547204
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+            "type": "media",
+            "time": 1783769548838
+          }
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=slow-3g",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 2420
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 44238
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 4551
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-mobile.webm",
+            "status": 200,
+            "type": "media",
+            "contentLength": 1764718
+          }
+        ]
+      },
+      "profile": {
+        "latencyMs": 180,
+        "downloadBytesPerSecond": 120000
+      }
+    }
+  },
+  "performance": {
+    "posterOnlyBaseline": {
+      "label": "poster-only",
+      "requestCount": 12,
+      "transferSize": 1924043,
+      "encodedBodySize": 1920743,
+      "videoEntries": [],
+      "responseContentLength": 1920743,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "",
+          "paused": true,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 0,
+          "currentTime": 0,
+          "errorCode": null,
+          "opacity": "0"
+        },
+        "mediaClass": "home-hero__media is-reduced-motion",
+        "posterOpacity": "1",
+        "playVisible": true,
+        "playLabel": "Videoyu oynat",
+        "muteVisible": false,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 1060,
+            "size": 113562,
+            "tagName": "H1",
+            "className": ""
+          }
+        }
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=performance-poster-only",
+            "type": "document",
+            "time": 1783769550721
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783769551627
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783769551627
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783769551632
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783769551633
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783769551633
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783769551633
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783769551633
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783769551761
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_97660069.jpg",
+            "type": "image",
+            "time": 1783769551786
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_69409616.jpg",
+            "type": "image",
+            "time": 1783769551786
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_84604029.jpg",
+            "type": "image",
+            "time": 1783769551786
+          }
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=performance-poster-only",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 44238
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 4551
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_97660069.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 355619
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_69409616.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 344595
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_84604029.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 371861
+          }
+        ]
+      }
+    },
+    "autoplay": {
+      "label": "autoplay",
+      "requestCount": 13,
+      "transferSize": 1924043,
+      "encodedBodySize": 1920743,
+      "videoEntries": [],
+      "responseContentLength": 5863055,
+      "state": {
+        "htmlLang": "tr",
+        "h1Count": 1,
+        "heroHeight": 760,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 2.771566,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Videoyu duraklat",
+        "muteVisible": true,
+        "muteLabel": "Sesi aç",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": {
+          "cls": 0,
+          "lcp": {
+            "startTime": 1076,
+            "size": 1094400,
+            "tagName": "VIDEO",
+            "className": "home-hero__video"
+          }
+        }
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=performance-autoplay",
+            "type": "document",
+            "time": 1783769554658
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783769555555
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783769555555
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "type": "image",
+            "time": 1783769555555
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783769555555
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783769555555
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783769555555
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783769555556
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+            "type": "media",
+            "time": 1783769555595
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_97660069.jpg",
+            "type": "image",
+            "time": 1783769555737
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_69409616.jpg",
+            "type": "image",
+            "time": 1783769555737
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_84604029.jpg",
+            "type": "image",
+            "time": 1783769555739
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "other",
+            "time": 1783769555752
+          }
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:8082/?qa=performance-autoplay",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 44238
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 4551
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/tr-desktop.webm",
+            "status": 200,
+            "type": "media",
+            "contentLength": 3942312
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_97660069.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 355619
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_69409616.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 344595
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_84604029.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 371861
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "other",
+            "contentLength": 123434
+          }
+        ]
+      }
+    }
+  },
+  "browserSupport": {
+    "chromium": {
+      "available": true
+    },
+    "webkit": {
+      "available": true,
+      "pass": true,
+      "state": {
+        "htmlLang": "en",
+        "h1Count": 1,
+        "heroHeight": 708,
+        "overflow": 0,
+        "video": {
+          "currentSrc": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop.mp4",
+          "paused": false,
+          "muted": true,
+          "loop": true,
+          "autoplay": true,
+          "playsInline": true,
+          "readyState": 4,
+          "currentTime": 0.174006,
+          "errorCode": null,
+          "opacity": "1"
+        },
+        "mediaClass": "home-hero__media is-playing",
+        "posterOpacity": "0",
+        "playVisible": true,
+        "playLabel": "Pause video",
+        "muteVisible": true,
+        "muteLabel": "Turn sound on",
+        "controlsOverlapH1": false,
+        "ctasVisible": true,
+        "metrics": null
+      },
+      "diagnostics": {
+        "consoleErrors": [],
+        "pageErrors": [
+          "Temporal.Duration properties must be finite and of consistent sign"
+        ],
+        "failedRequests": [],
+        "requests": [
+          {
+            "url": "http://127.0.0.1:8082/en/?qa=webkit",
+            "type": "document",
+            "time": 1783769600879
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "type": "font",
+            "time": 1783769600991
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "type": "font",
+            "time": 1783769600991
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop-poster.webp",
+            "type": "image",
+            "time": 1783769600991
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "type": "stylesheet",
+            "time": 1783769600991
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "type": "script",
+            "time": 1783769600991
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "type": "image",
+            "time": 1783769601003
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "type": "image",
+            "time": 1783769601003
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/637455e4-c170-4d80-b1da-af0b35f280ed",
+            "type": "image",
+            "time": 1783769601004
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/fa2b7baa-8d82-4a65-86a6-43a99bb9c1fd",
+            "type": "image",
+            "time": 1783769601004
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/16eb2aea-aef7-4332-ad82-956aa90c7d12",
+            "type": "image",
+            "time": 1783769601004
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/65dbc1b9-8906-4698-aece-4c6b483a224b",
+            "type": "image",
+            "time": 1783769601010
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/478b4d3f-4a57-4031-80ed-2647669be588",
+            "type": "image",
+            "time": 1783769601010
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/5a5f41a1-36bf-4598-bf95-c2ae1fdb0f29",
+            "type": "image",
+            "time": 1783769601010
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/d6f5d9bd-cf6f-4c61-bdfa-601526da7cb7",
+            "type": "image",
+            "time": 1783769601010
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/240b680c-d4dc-476f-a1ae-bbaf2332ce9c",
+            "type": "image",
+            "time": 1783769601027
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/ab57a7ee-6619-4f16-b700-d57d054df544",
+            "type": "image",
+            "time": 1783769601027
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/b0e6f899-b090-41da-b23e-98c3ccbeac5e",
+            "type": "image",
+            "time": 1783769601069
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/901a7ac6-474d-462c-b8bb-f100dc8c5bcb",
+            "type": "image",
+            "time": 1783769601184
+          }
+        ],
+        "responses": [
+          {
+            "url": "http://127.0.0.1:8082/en/?qa=webkit",
+            "status": 200,
+            "type": "document",
+            "contentLength": 0
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/637455e4-c170-4d80-b1da-af0b35f280ed",
+            "status": 200,
+            "type": "image",
+            "contentLength": 399
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/fa2b7baa-8d82-4a65-86a6-43a99bb9c1fd",
+            "status": 200,
+            "type": "image",
+            "contentLength": 841
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/16eb2aea-aef7-4332-ad82-956aa90c7d12",
+            "status": 200,
+            "type": "image",
+            "contentLength": 3139
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/65dbc1b9-8906-4698-aece-4c6b483a224b",
+            "status": 200,
+            "type": "image",
+            "contentLength": 1556
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/478b4d3f-4a57-4031-80ed-2647669be588",
+            "status": 200,
+            "type": "image",
+            "contentLength": 310
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/5a5f41a1-36bf-4598-bf95-c2ae1fdb0f29",
+            "status": 200,
+            "type": "image",
+            "contentLength": 3571
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/d6f5d9bd-cf6f-4c61-bdfa-601526da7cb7",
+            "status": 200,
+            "type": "image",
+            "contentLength": 501
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 24836
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/240b680c-d4dc-476f-a1ae-bbaf2332ce9c",
+            "status": 200,
+            "type": "image",
+            "contentLength": 860
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/ab57a7ee-6619-4f16-b700-d57d054df544",
+            "status": 200,
+            "type": "image",
+            "contentLength": 833
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/fonts/manrope-latin-ext.woff2",
+            "status": 200,
+            "type": "font",
+            "contentLength": 15120
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/media/hero/eng-desktop-poster.webp",
+            "status": 200,
+            "type": "image",
+            "contentLength": 4330
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/css/styles.css",
+            "status": 200,
+            "type": "stylesheet",
+            "contentLength": 44238
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/js/hero-video.js",
+            "status": 200,
+            "type": "script",
+            "contentLength": 4551
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/b0e6f899-b090-41da-b23e-98c3ccbeac5e",
+            "status": 200,
+            "type": "image",
+            "contentLength": 1489
+          },
+          {
+            "url": "http://127.0.0.1:8082/redesign/assets/img/vista-moda-tekstil-logo.png",
+            "status": 200,
+            "type": "image",
+            "contentLength": 123434
+          },
+          {
+            "url": "http://127.0.0.1:8082/public_html/yukleme/galeri/b_13240915.jpg",
+            "status": 200,
+            "type": "image",
+            "contentLength": 508725
+          },
+          {
+            "url": "blob:http://127.0.0.1:8082/901a7ac6-474d-462c-b8bb-f100dc8c5bcb",
+            "status": 200,
+            "type": "image",
+            "contentLength": 1448
+          }
+        ]
+      },
+      "ignoredEngineErrors": [
+        "Temporal.Duration properties must be finite and of consistent sign"
+      ],
+      "actionablePageErrors": []
+    }
+  },
+  "failures": [],
+  "summary": {
+    "responsiveChecks": 14,
+    "responsivePasses": 14,
+    "totalFailures": 0
+  }
+}
