@@ -264,7 +264,15 @@
 
         const reveal = (link, behavior = 'auto') => {
             const left = link.offsetLeft - ((container.clientWidth - link.offsetWidth) / 2);
-            container.scrollTo({ left: Math.max(0, left), behavior });
+            const target = Math.min(
+                container.scrollWidth - container.clientWidth,
+                Math.max(0, left)
+            );
+            if (behavior === 'smooth') {
+                container.scrollTo({ left: target, behavior });
+            } else {
+                container.scrollLeft = target;
+            }
         };
 
         container.addEventListener('scroll', scheduleUpdate, { passive: true });

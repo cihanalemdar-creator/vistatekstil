@@ -302,7 +302,7 @@ $interiorTr = [
         'eyebrow' => 'Galeri',
         'title' => 'Tesis, üretim ve ürün arşivi',
         'intro' => 'Çalışma ortamımızı, modelhane ve üretim aşamalarını, kumaş ve ürün detaylarını geniş görsel arşivimiz üzerinden inceleyin.',
-        'filters' => ['all' => 'Tümü', 'facility' => 'Tesis', 'design' => 'Tasarım ve modelhane', 'production' => 'Üretim', 'products' => 'Ürünler', 'childrenswear' => 'Çocuk Giyim', 'archive' => 'Arşiv'],
+        'filters' => ['all' => 'Tümü', 'facility' => 'Tesis', 'design' => 'Tasarım ve modelhane', 'production' => 'Üretim', 'products' => 'Ürünler', 'womenswear' => 'Kadın Giyim', 'childrenswear' => 'Çocuk Giyim', 'archive' => 'Arşiv'],
     ],
     'contact' => [
         'meta' => ['title' => 'İletişim | Vista Moda Tekstil', 'description' => 'Vista Moda Tekstil merkez ofis, üretim tesisi, telefon, e-posta ve üretim talep formu.'],
@@ -376,7 +376,7 @@ $interiorEn = [
         'eyebrow' => 'Gallery',
         'title' => 'Facility, production and garment archive',
         'intro' => 'Explore our working environment, pattern room, production stages, fabric details and garments through the wider visual archive.',
-        'filters' => ['all' => 'All', 'facility' => 'Facility', 'design' => 'Design and pattern room', 'production' => 'Production', 'products' => 'Products', 'childrenswear' => 'Childrenswear', 'archive' => 'Archive'],
+        'filters' => ['all' => 'All', 'facility' => 'Facility', 'design' => 'Design and pattern room', 'production' => 'Production', 'products' => 'Products', 'womenswear' => 'Womenswear', 'childrenswear' => 'Childrenswear', 'archive' => 'Archive'],
     ],
     'contact' => [
         'meta' => ['title' => 'Contact | Vista Moda Tekstil', 'description' => 'Vista Moda Tekstil head office, production facility, phone, email and manufacturing enquiry form.'],

@@ -28,6 +28,9 @@ ASSET_EXTENSIONS = {
 ATTRIBUTE_PATTERN = re.compile(r'(?P<name>href|src|poster)="(?P<value>[^"]+)"', re.IGNORECASE)
 SRCSET_PATTERN = re.compile(r'srcset="(?P<value>[^"]+)"', re.IGNORECASE)
 
+project_link_file = OUTPUT / ".vercel" / "project.json"
+project_link = project_link_file.read_text(encoding="utf-8") if project_link_file.is_file() else None
+
 
 def normalize_page_url(value: str) -> str | None:
     decoded = html.unescape(value)
@@ -104,6 +107,9 @@ if OUTPUT.exists():
     shutil.rmtree(resolved)
 
 OUTPUT.mkdir(parents=True)
+if project_link is not None:
+    project_link_file.parent.mkdir(parents=True, exist_ok=True)
+    project_link_file.write_text(project_link, encoding="utf-8")
 shutil.copytree(ROOT / "redesign" / "assets", OUTPUT / "redesign" / "assets")
 
 queue = deque(INITIAL_ROUTES)
