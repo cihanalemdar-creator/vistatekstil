@@ -1,5 +1,5 @@
 <?php if (!empty($items)): ?>
-<nav class="breadcrumb" aria-label="<?= e($locale === 'tr' ? 'İçerik yolu' : 'Breadcrumb') ?>">
+<nav class="breadcrumb" aria-label="<?= e(localized_text($locale, ['tr' => 'İçerik yolu', 'en' => 'Breadcrumb', 'de' => 'Brotkrümelnavigation', 'es' => 'Ruta de navegación'])) ?>">
     <ol>
         <?php foreach ($items as $index => $item): ?>
             <li>

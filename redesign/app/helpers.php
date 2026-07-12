@@ -14,6 +14,11 @@ function h(mixed $value): string
     return e($value);
 }
 
+function localized_text(string $locale, array $translations): string
+{
+    return (string) ($translations[$locale] ?? $translations['en'] ?? reset($translations) ?: '');
+}
+
 function normalize_path(string $path): string
 {
     $decoded = rawurldecode($path);

@@ -12,8 +12,10 @@
     <meta name="robots" content="<?= $isIndexable ? 'index,follow' : 'noindex,nofollow' ?>">
     <link rel="canonical" href="<?= e($canonical) ?>">
     <?php if ($route['found'] && !$isUnavailableLocale): ?>
-        <?php foreach (['tr', 'en'] as $alternateLocale): ?>
-            <link rel="alternate" hreflang="<?= e($locales[$alternateLocale]['hreflang']) ?>" href="https://www.vistatekstil.com<?= e(route_for($routeConfig, $pageKey, $alternateLocale)) ?>">
+        <?php foreach (array_keys($locales) as $alternateLocale): ?>
+            <?php if (($routeConfig['pages'][$pageKey]['locales'][$alternateLocale]['publicationStatus'] ?? 'unavailable') !== 'unavailable'): ?>
+                <link rel="alternate" hreflang="<?= e($locales[$alternateLocale]['hreflang']) ?>" href="https://www.vistatekstil.com<?= e(route_for($routeConfig, $pageKey, $alternateLocale)) ?>">
+            <?php endif; ?>
         <?php endforeach; ?>
         <link rel="alternate" hreflang="x-default" href="https://www.vistatekstil.com<?= e(route_for($routeConfig, $pageKey, 'tr')) ?>">
     <?php endif; ?>

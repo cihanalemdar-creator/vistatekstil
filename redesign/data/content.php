@@ -391,11 +391,24 @@ $interiorEn = [
     ],
 ];
 
+$german = require __DIR__ . '/locales/de.php';
+$spanish = require __DIR__ . '/locales/es.php';
+
+// German and Spanish use the approved English master video files with localized interface copy.
+$assets['videos']['de'] = $assets['videos']['en'];
+$assets['videos']['de']['title'] = 'Produktionsprozess von Vista Moda Tekstil';
+$assets['videos']['es'] = $assets['videos']['en'];
+$assets['videos']['es']['title'] = 'Proceso de producción de Vista Moda Tekstil';
+$assets['hero_videos']['de'] = $assets['hero_videos']['en'];
+$assets['hero_videos']['de']['title'] = 'Produktionsvideo von Vista Moda Tekstil';
+$assets['hero_videos']['es'] = $assets['hero_videos']['en'];
+$assets['hero_videos']['es']['title'] = 'Vídeo de producción de Vista Moda Tekstil';
+
 return [
     'pages' => [
-        'home' => ['tr' => $homeTr, 'en' => $homeEn],
+        'home' => ['tr' => $homeTr, 'en' => $homeEn, 'de' => $german['home'], 'es' => $spanish['home']],
     ],
-    'interiors' => ['tr' => $interiorTr, 'en' => $interiorEn],
+    'interiors' => ['tr' => $interiorTr, 'en' => $interiorEn, 'de' => $german['interiors'], 'es' => $spanish['interiors']],
     'assets' => $assets,
     'schema' => [
         'organization' => [

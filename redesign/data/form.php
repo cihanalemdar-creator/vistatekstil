@@ -21,6 +21,24 @@ return [
             'knit' => 'Knit', 'woven' => 'Woven', 'both' => 'Both', 'required' => 'Required field',
             'details' => 'Additional project details', 'detailsHint' => 'Country, construction, styles and technical preparation',
         ],
+        'de' => [
+            'name' => 'Vor- und Nachname', 'company' => 'Unternehmen / Marke', 'country' => 'Land', 'email' => 'E-Mail',
+            'phone' => 'Telefon / WhatsApp', 'category' => 'Produktgruppe', 'fabricType' => 'Produktkonstruktion',
+            'quantity' => 'Geschätzte Bestellmenge', 'styles' => 'Anzahl der Modelle', 'delivery' => 'Gewünschter Lieferzeitraum',
+            'techPack' => 'Ist ein Tech Pack vorhanden?', 'sample' => 'Ist ein Referenzmuster vorhanden?', 'subject' => 'Betreff',
+            'message' => 'Nachricht', 'file' => 'Datei hochladen', 'choose' => 'Bitte wählen', 'yes' => 'Ja', 'no' => 'Nein',
+            'knit' => 'Strick', 'woven' => 'Webware', 'both' => 'Beides', 'required' => 'Pflichtfeld',
+            'details' => 'Weitere Projektdetails', 'detailsHint' => 'Land, Konstruktion, Modelle und technische Vorbereitung',
+        ],
+        'es' => [
+            'name' => 'Nombre completo', 'company' => 'Empresa / Marca', 'country' => 'País', 'email' => 'Correo electrónico',
+            'phone' => 'Teléfono / WhatsApp', 'category' => 'Categoría de producto', 'fabricType' => 'Construcción del producto',
+            'quantity' => 'Cantidad estimada', 'styles' => 'Número de modelos', 'delivery' => 'Periodo de entrega objetivo',
+            'techPack' => '¿Dispone de ficha técnica?', 'sample' => '¿Dispone de muestra de referencia?', 'subject' => 'Asunto',
+            'message' => 'Mensaje', 'file' => 'Adjuntar archivo', 'choose' => 'Seleccionar', 'yes' => 'Sí', 'no' => 'No',
+            'knit' => 'Punto', 'woven' => 'Tejido plano', 'both' => 'Ambos', 'required' => 'Campo obligatorio',
+            'details' => 'Detalles adicionales del proyecto', 'detailsHint' => 'País, construcción, modelos y preparación técnica',
+        ],
     ],
     'groups' => [
         'basic' => ['name', 'company', 'email', 'category', 'quantity', 'message', 'file'],
@@ -35,9 +53,9 @@ return [
         'category' => [
             'type' => 'select', 'required' => true,
             'options' => [
-                'womenswear' => ['tr' => 'Kadın giyim', 'en' => 'Womenswear'],
-                'menswear' => ['tr' => 'Erkek giyim', 'en' => 'Menswear'],
-                'childrenswear' => ['tr' => 'Çocuk giyim', 'en' => 'Childrenswear'],
+                'womenswear' => ['tr' => 'Kadın giyim', 'en' => 'Womenswear', 'de' => 'Damenbekleidung', 'es' => 'Moda mujer'],
+                'menswear' => ['tr' => 'Erkek giyim', 'en' => 'Menswear', 'de' => 'Herrenbekleidung', 'es' => 'Moda hombre'],
+                'childrenswear' => ['tr' => 'Çocuk giyim', 'en' => 'Childrenswear', 'de' => 'Kinderbekleidung', 'es' => 'Moda infantil'],
             ],
         ],
         'fabricType' => [

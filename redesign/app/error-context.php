@@ -8,7 +8,7 @@ $content = require VISTA_REDESIGN_ROOT . '/data/content.php';
 $formContract = require VISTA_REDESIGN_ROOT . '/data/form.php';
 $path = normalize_path(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/');
 $locale = preg_match('#^/(en|de|es)(?:/|$)#', $path, $match) === 1 ? $match[1] : 'tr';
-$contentLocale = in_array($locale, ['tr', 'en'], true) ? $locale : 'en';
+$contentLocale = isset($content['pages']['home'][$locale]) ? $locale : 'en';
 $pageKey = 'home';
 $routePage = $routeConfig['pages']['home'];
 $localizedRoute = $routePage['locales'][$locale];
@@ -35,8 +35,8 @@ return [
     'isNotFound' => true,
     'isIndexable' => false,
     'pageMeta' => [
-        'title' => ($contentLocale === 'tr' ? 'Sunucu hatası' : 'Server error') . ' | Vista Moda Tekstil',
-        'description' => $contentLocale === 'tr' ? 'Sayfa şu anda görüntülenemiyor.' : 'The page cannot be displayed right now.',
+        'title' => localized_text($contentLocale, ['tr' => 'Sunucu hatası', 'en' => 'Server error', 'de' => 'Serverfehler', 'es' => 'Error del servidor']) . ' | Vista Moda Tekstil',
+        'description' => localized_text($contentLocale, ['tr' => 'Sayfa şu anda görüntülenemiyor.', 'en' => 'The page cannot be displayed right now.', 'de' => 'Die Seite kann derzeit nicht angezeigt werden.', 'es' => 'La página no se puede mostrar en este momento.']),
     ],
     'canonical' => 'https://www.vistatekstil.com' . route_for($routeConfig, 'home', $contentLocale),
     'heroAsset' => $content['assets']['hero_factory'],

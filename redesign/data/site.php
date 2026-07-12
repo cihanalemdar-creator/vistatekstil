@@ -19,6 +19,8 @@ return [
         'hours' => [
             'tr' => 'Pazartesi - Cuma, 09.00 - 18.00',
             'en' => 'Monday - Friday, 09:00 - 18:00',
+            'de' => 'Montag - Freitag, 09:00 - 18:00',
+            'es' => 'Lunes - Viernes, 09:00 - 18:00',
         ],
         'social' => [
             ['label' => 'Facebook', 'url' => 'https://www.facebook.com/'],
@@ -27,15 +29,15 @@ return [
         ],
     ],
     'facts' => [
-        ['value' => '2019', 'label' => ['tr' => 'Kuruluş yılı', 'en' => 'Founded'], 'shortLabel' => ['tr' => 'Kuruluş', 'en' => 'Founded']],
-        ['value' => '5.000', 'suffix' => ['tr' => 'adet', 'en' => 'pcs'], 'label' => ['tr' => 'Aylık iç üretim kapasitesi', 'en' => 'Monthly in-house capacity'], 'shortLabel' => ['tr' => 'Aylık iç kapasite', 'en' => 'Monthly in-house']],
-        ['value' => '35.000', 'suffix' => ['tr' => 'adet', 'en' => 'pcs'], 'label' => ['tr' => 'Toplam aylık kapasite', 'en' => 'Total monthly capacity'], 'shortLabel' => ['tr' => 'Toplam aylık kapasite', 'en' => 'Total monthly']],
-        ['value' => '100', 'suffix' => ['tr' => 'adet', 'en' => 'pcs'], 'label' => ['tr' => 'Minimum sipariş adedi', 'en' => 'Minimum order quantity'], 'shortLabel' => ['tr' => 'Minimum sipariş', 'en' => 'Minimum order']],
+        ['value' => '2019', 'label' => ['tr' => 'Kuruluş yılı', 'en' => 'Founded', 'de' => 'Gründungsjahr', 'es' => 'Año de fundación'], 'shortLabel' => ['tr' => 'Kuruluş', 'en' => 'Founded', 'de' => 'Gegründet', 'es' => 'Fundación']],
+        ['value' => '5.000', 'suffix' => ['tr' => 'adet', 'en' => 'pcs', 'de' => 'Stk.', 'es' => 'uds.'], 'label' => ['tr' => 'Aylık iç üretim kapasitesi', 'en' => 'Monthly in-house capacity', 'de' => 'Monatliche Eigenkapazität', 'es' => 'Capacidad interna mensual'], 'shortLabel' => ['tr' => 'Aylık iç kapasite', 'en' => 'Monthly in-house', 'de' => 'Monatlich intern', 'es' => 'Interna mensual']],
+        ['value' => '35.000', 'suffix' => ['tr' => 'adet', 'en' => 'pcs', 'de' => 'Stk.', 'es' => 'uds.'], 'label' => ['tr' => 'Toplam aylık kapasite', 'en' => 'Total monthly capacity', 'de' => 'Gesamtkapazität pro Monat', 'es' => 'Capacidad mensual total'], 'shortLabel' => ['tr' => 'Toplam aylık kapasite', 'en' => 'Total monthly', 'de' => 'Gesamt monatlich', 'es' => 'Total mensual']],
+        ['value' => '100', 'suffix' => ['tr' => 'adet', 'en' => 'pcs', 'de' => 'Stk.', 'es' => 'uds.'], 'label' => ['tr' => 'Minimum sipariş adedi', 'en' => 'Minimum order quantity', 'de' => 'Mindestbestellmenge', 'es' => 'Pedido mínimo'], 'shortLabel' => ['tr' => 'Minimum sipariş', 'en' => 'Minimum order', 'de' => 'Mindestmenge', 'es' => 'Pedido mínimo']],
     ],
     'markets' => [
-        ['tr' => 'Amerika Birleşik Devletleri', 'en' => 'United States'],
-        ['tr' => 'İngiltere', 'en' => 'United Kingdom'],
-        ['tr' => 'Almanya', 'en' => 'Germany'],
-        ['tr' => 'Türkiye', 'en' => 'Türkiye'],
+        ['tr' => 'Amerika Birleşik Devletleri', 'en' => 'United States', 'de' => 'Vereinigte Staaten', 'es' => 'Estados Unidos'],
+        ['tr' => 'İngiltere', 'en' => 'United Kingdom', 'de' => 'Vereinigtes Königreich', 'es' => 'Reino Unido'],
+        ['tr' => 'Almanya', 'en' => 'Germany', 'de' => 'Deutschland', 'es' => 'Alemania'],
+        ['tr' => 'Türkiye', 'en' => 'Türkiye', 'de' => 'Türkei', 'es' => 'Turquía'],
     ],
 ];

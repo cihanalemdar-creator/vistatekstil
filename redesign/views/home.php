@@ -1,3 +1,12 @@
+<?php
+$scopeCircular = localized_text($locale, ['tr' => 'Yuvarlak örme', 'en' => 'Circular knit', 'de' => 'Rundstrick', 'es' => 'Punto circular']);
+$scopeWoven = localized_text($locale, ['tr' => 'Dokuma', 'en' => 'Woven', 'de' => 'Webware', 'es' => 'Tejido plano']);
+$scopeCity = localized_text($locale, ['tr' => 'İstanbul', 'en' => 'Istanbul', 'de' => 'Istanbul', 'es' => 'Estambul']);
+$playVideo = localized_text($locale, ['tr' => 'Videoyu oynat', 'en' => 'Play video', 'de' => 'Video abspielen', 'es' => 'Reproducir vídeo']);
+$pauseVideo = localized_text($locale, ['tr' => 'Videoyu duraklat', 'en' => 'Pause video', 'de' => 'Video pausieren', 'es' => 'Pausar vídeo']);
+$unmuteVideo = localized_text($locale, ['tr' => 'Sesi aç', 'en' => 'Turn sound on', 'de' => 'Ton einschalten', 'es' => 'Activar sonido']);
+$muteVideo = localized_text($locale, ['tr' => 'Sesi kapat', 'en' => 'Mute video', 'de' => 'Ton ausschalten', 'es' => 'Silenciar vídeo']);
+?>
 <section class="home-hero">
     <div class="home-hero__media" data-hero-video>
         <picture class="home-hero__poster" aria-hidden="true">
@@ -33,24 +42,24 @@
             </div>
         </div>
         <div class="home-hero__scope" aria-hidden="true">
-            <span><?= e($locale === 'tr' ? 'Yuvarlak örme' : 'Circular knit') ?></span>
-            <span><?= e($locale === 'tr' ? 'Dokuma' : 'Woven') ?></span>
-            <span><?= e($locale === 'tr' ? 'İstanbul' : 'Istanbul') ?></span>
+            <span><?= e($scopeCircular) ?></span>
+            <span><?= e($scopeWoven) ?></span>
+            <span><?= e($scopeCity) ?></span>
         </div>
         <div
             class="hero-video-controls"
-            data-play-label="<?= e($locale === 'tr' ? 'Videoyu oynat' : 'Play video') ?>"
-            data-pause-label="<?= e($locale === 'tr' ? 'Videoyu duraklat' : 'Pause video') ?>"
-            data-unmute-label="<?= e($locale === 'tr' ? 'Sesi aç' : 'Turn sound on') ?>"
-            data-mute-label="<?= e($locale === 'tr' ? 'Sesi kapat' : 'Mute video') ?>"
+            data-play-label="<?= e($playVideo) ?>"
+            data-pause-label="<?= e($pauseVideo) ?>"
+            data-unmute-label="<?= e($unmuteVideo) ?>"
+            data-mute-label="<?= e($muteVideo) ?>"
         >
-            <button class="hero-video-control hero-video-control--play" type="button" aria-label="<?= e($locale === 'tr' ? 'Videoyu oynat' : 'Play video') ?>">
+            <button class="hero-video-control hero-video-control--play" type="button" aria-label="<?= e($playVideo) ?>">
                 <span class="hero-video-control__icon" aria-hidden="true">▶</span>
-                <span class="hero-video-control__label"><?= e($locale === 'tr' ? 'Videoyu oynat' : 'Play video') ?></span>
+                <span class="hero-video-control__label"><?= e($playVideo) ?></span>
             </button>
-            <button class="hero-video-control hero-video-control--mute" type="button" aria-label="<?= e($locale === 'tr' ? 'Sesi aç' : 'Turn sound on') ?>" aria-hidden="true" disabled>
+            <button class="hero-video-control hero-video-control--mute" type="button" aria-label="<?= e($unmuteVideo) ?>" aria-hidden="true" disabled>
                 <span class="hero-video-control__icon" aria-hidden="true">M</span>
-                <span class="hero-video-control__label"><?= e($locale === 'tr' ? 'Sesi aç' : 'Turn sound on') ?></span>
+                <span class="hero-video-control__label"><?= e($unmuteVideo) ?></span>
             </button>
         </div>
     </div>

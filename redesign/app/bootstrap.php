@@ -21,7 +21,7 @@ if ($path === '/sitemap.xml') {
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
     echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
     foreach ($routeConfig['pages'] as $page) {
-        foreach (['tr', 'en'] as $sitemapLocale) {
+        foreach (array_keys($locales) as $sitemapLocale) {
             $localized = $page['locales'][$sitemapLocale];
             if (in_array($localized['publicationStatus'], ['approved', 'published'], true)) {
                 echo '  <url><loc>https://www.vistatekstil.com' . e($localized['path']) . '</loc></url>' . "\n";
@@ -41,9 +41,9 @@ $locale = $route['locale'];
 $pageKey = $route['pageKey'];
 $routePage = $route['page'];
 $localizedRoute = $route['localized'];
-$contentLocale = in_array($locale, ['tr', 'en'], true) ? $locale : 'en';
+$contentLocale = isset($content['pages']['home'][$locale]) ? $locale : 'en';
 $home = $content['pages']['home'][$contentLocale];
-$isUnavailableLocale = $route['found'] && in_array($locale, ['de', 'es'], true);
+$isUnavailableLocale = $route['found'] && ($localizedRoute['publicationStatus'] ?? 'unavailable') === 'unavailable';
 $isHome = $route['found'] && $pageKey === 'home' && !$isUnavailableLocale;
 $interior = $content['interiors'][$contentLocale][$pageKey] ?? null;
 $isNotFound = !$route['found'] || (!$isHome && !$isUnavailableLocale && $interior === null);
@@ -58,8 +58,8 @@ $unavailableMeta = $locale === 'de'
     ? ['title' => 'Deutsche Inhalte in Vorbereitung | Vista Moda Tekstil', 'description' => 'Die deutsche Version wird derzeit vorbereitet.']
     : ['title' => 'Contenido en español en preparación | Vista Moda Tekstil', 'description' => 'La versión en español se encuentra en preparación.'];
 $notFoundMeta = [
-    'title' => ($contentLocale === 'tr' ? 'Sayfa bulunamadı' : 'Page not found') . ' | Vista Moda Tekstil',
-    'description' => $contentLocale === 'tr' ? 'Aradığınız sayfa bulunamadı.' : 'The requested page could not be found.',
+    'title' => localized_text($contentLocale, ['tr' => 'Sayfa bulunamadı', 'en' => 'Page not found', 'de' => 'Seite nicht gefunden', 'es' => 'Página no encontrada']) . ' | Vista Moda Tekstil',
+    'description' => localized_text($contentLocale, ['tr' => 'Aradığınız sayfa bulunamadı.', 'en' => 'The requested page could not be found.', 'de' => 'Die angeforderte Seite wurde nicht gefunden.', 'es' => 'No se ha encontrado la página solicitada.']),
 ];
 $pageMeta = $isNotFound
     ? $notFoundMeta
