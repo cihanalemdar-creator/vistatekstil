@@ -290,6 +290,8 @@
             scheduleUpdate();
         }, { passive: true });
 
+        if (active) reveal(active);
+        updateState();
         window.requestAnimationFrame(() => {
             if (active) reveal(active);
             updateState();
