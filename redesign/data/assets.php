@@ -17,6 +17,52 @@ $asset = static function (
     ];
 };
 
+$childrenswearDescriptions = [
+    ['Siyah biye detaylı çocuk eşofman takımı', 'Black childrenswear tracksuit with contrast piping'],
+    ['Kırmızı beyaz çizgili kapüşonlu çocuk takımı', 'Red and white striped hooded childrenswear set'],
+    ['Kırmızı kontrast biyeli çocuk ev giyim takımı', 'Red childrenswear lounge set with contrast piping'],
+    ['Gri puantiyeli kapüşonlu bebek takımı', 'Grey polka-dot hooded babywear set'],
+    ['Siyah beyaz desenli kısa kollu bebek takımı', 'Black and white printed short-sleeve babywear set'],
+    ['Bej baskılı bebek üst ve şort takımı', 'Beige printed babywear top and shorts set'],
+    ['Zebra desenli kapüşonlu çocuk dış giyim modeli', 'Zebra-print hooded childrenswear outerwear style'],
+    ['Siyah beyaz desenli çocuk sweatshirt takımı', 'Black and white printed childrenswear sweatshirt set'],
+    ['Sarı puantiyeli çocuk eşofman takımı', 'Yellow polka-dot childrenswear tracksuit'],
+    ['Beyaz kolsuz çocuk elbisesi', 'White sleeveless childrenswear dress'],
+    ['Doğal tonlarda çizgili çocuk elbisesi', 'Neutral striped childrenswear dress'],
+    ['Sarı kolsuz çocuk üst ve şort takımı', 'Yellow sleeveless childrenswear top and shorts set'],
+    ['Beyaz peluş kapüşonlu bebek tulumu', 'White fleece hooded babywear romper'],
+    ['Beyaz baskılı sweatshirt ve mavi çocuk pantolonu', 'White printed sweatshirt with blue childrenswear trousers'],
+    ['Krem sweatshirt ve kahverengi çocuk pantolonu', 'Cream sweatshirt with brown childrenswear trousers'],
+    ['Siyah kar desenli çocuk peluş üst giyim modeli', 'Black snow-print childrenswear fleece top'],
+    ['Renkli çizgili fermuarlı bebek tulumu', 'Colourful striped zip-front babywear romper'],
+    ['Pembe baskılı çocuk tişört ve şort takımı', 'Pink printed childrenswear T-shirt and shorts set'],
+    ['Beyaz puantiyeli kolsuz çocuk elbisesi', 'White polka-dot sleeveless childrenswear dress'],
+    ['Leopar desenli kapüşonlu bebek tulumu', 'Leopard-print hooded babywear romper'],
+    ['Siyah benekli beyaz dolgulu bebek dış giyim tulumu', 'White padded babywear outerwear romper with black spots'],
+    ['Pembe baskılı çocuk tişörtü ve siyah etek', 'Pink printed childrenswear T-shirt with black skirt'],
+    ['Mavi desenli beyaz çocuk sweatshirt modeli', 'White childrenswear sweatshirt with blue print'],
+    ['Taba peluş detaylı çocuk ceketi', 'Tan childrenswear jacket with fleece trim'],
+    ['Mavi geometrik desenli çocuk ceket ve pantolon takımı', 'Blue geometric-print childrenswear jacket and trousers set'],
+    ['Siyah beyaz desenli kapüşonlu çocuk ceketi', 'Black and white printed hooded childrenswear jacket'],
+    ['Beyaz peluş çocuk ceketi', 'White fleece childrenswear jacket'],
+    ['Siyah ve gri çocuk spor giyim takımları', 'Black and grey childrenswear sportswear sets'],
+    ['Gri ve siyah çocuk eşofman takımları', 'Grey and black childrenswear tracksuits'],
+    ['Krem ve kahverengi çocuk üst giyim takımı', 'Cream and brown childrenswear top set'],
+    ['Mavi baskılı çocuk eşofman takımı', 'Blue printed childrenswear tracksuit'],
+];
+
+$childrenswearGallery = [];
+foreach ($childrenswearDescriptions as $index => [$altTr, $altEn]) {
+    $name = sprintf('childrenswear-%02d.webp', $index + 1);
+    $childrenswearGallery[] = $asset(
+        'redesign/assets/media/childrenswear/full/' . $name,
+        $altTr,
+        $altEn,
+        'childrenswear',
+        'redesign/assets/media/childrenswear/thumb/' . $name
+    );
+}
+
 $galleryDetails = [
     'b_13240915.jpg' => ['facility', 'Vista Moda Tekstil uretim alani', 'Vista Moda Tekstil production floor'],
     'b_14591654.jpg' => ['facility', 'Vista Moda Tekstil giris ve karsilama alani', 'Vista Moda Tekstil reception area'],
@@ -153,7 +199,7 @@ return [
     'home_products' => [
         'womenswear' => $asset('public_html/yukleme/galeri/b_97660069.jpg', 'Siyah kadin elbisesi', 'Black womenswear dress'),
         'menswear' => $asset('public_html/yukleme/galeri/b_69409616.jpg', 'Lacivert erkek dis giyim urunu', 'Navy menswear outerwear garment'),
-        'kidswear' => $asset('public_html/yukleme/galeri/b_84604029.jpg', 'Cocuk giyim urunu', 'Childrenswear garment'),
+        'kidswear' => $childrenswearGallery[8],
     ],
     'process' => [
         'design' => $asset('public_html/yukleme/anasayfa/9.jpg', 'Kumas ve renk kartelasi uzerinde tasarim calismasi', 'Design work with fabric and colour references', 'design'),
@@ -183,12 +229,12 @@ return [
             $product('b_71024668.jpg', 'Siyah erkek pantolonu', 'Black menswear trousers'),
         ],
         'kidswear' => [
-            $product('b_22747453.jpg', 'Bebek tulumu', 'Baby romper'),
-            $product('b_32464086.jpg', 'Cocuk dis giyim modeli', 'Childrenswear outerwear style'),
-            $product('b_37791168.jpg', 'Cocuk sweatshirt modeli', 'Childrenswear sweatshirt'),
-            $product('b_41672768.jpg', 'Bebek takimi', 'Babywear set'),
-            $product('b_55726790.jpg', 'Desenli cocuk montlari', 'Printed childrenswear jackets'),
-            $product('b_56804425.jpg', 'Desenli cocuk ust giyim modeli', 'Printed childrenswear top'),
+            $childrenswearGallery[0],
+            $childrenswearGallery[8],
+            $childrenswearGallery[13],
+            $childrenswearGallery[19],
+            $childrenswearGallery[23],
+            $childrenswearGallery[24],
         ],
         'knitwear' => [
             $product('b_38099833.jpg', 'Kahverengi orme kadin ustu', 'Brown knit womenswear top'),
@@ -210,12 +256,14 @@ return [
         $asset('public_html/yukleme/referanslar/kadin.jpg', 'Kadin giyim referans modeli', 'Womenswear reference garment', 'collection'),
         $product('b_27635530.jpg', 'Cizgili kadin elbisesi', 'Striped womenswear dress'),
         $product('b_49281808.jpg', 'Siyah erkek polo tisortu', 'Black menswear polo shirt'),
-        $product('b_55726790.jpg', 'Desenli cocuk montlari', 'Printed childrenswear jackets'),
+        $childrenswearGallery[8],
+        $childrenswearGallery[23],
         $product('b_41904014.jpg', 'Desenli dokuma kadin elbisesi', 'Printed woven womenswear dress'),
-        $product('b_56804425.jpg', 'Desenli cocuk ust giyim modeli', 'Printed childrenswear top'),
+        $childrenswearGallery[24],
+        $childrenswearGallery[27],
         $product('b_5674047.jpg', 'Lacivert erkek dis giyim modeli', 'Navy menswear outerwear style'),
     ],
-    'gallery' => $gallery,
+    'gallery' => array_merge($gallery, $childrenswearGallery),
     'archive_gallery' => $archiveGallery,
     'videos' => [
         'tr' => [
