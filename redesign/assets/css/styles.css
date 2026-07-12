@@ -1074,12 +1074,33 @@ html, body { overflow-x: clip; }
 .collection-editorial figcaption { display: flex; gap: 16px; margin-top: 12px; color: var(--muted); font-size: 12px; }
 .collection-editorial figcaption span { color: var(--accent-dark); font-weight: 800; }
 
-.gallery-filters { border-bottom: 1px solid var(--line); background: var(--soft); }
-.gallery-filters .shell { display: flex; overflow-x: auto; }
-.gallery-filters a { flex: 0 0 auto; padding: 20px 22px; border-left: 1px solid var(--line); color: var(--muted); font-size: 12px; font-weight: 750; }
-.gallery-filters a:first-child { padding-left: 0; border-left: 0; }
+.gallery-filters { position: relative; border-bottom: 1px solid var(--line); background: var(--soft); }
+.gallery-filters .shell {
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    scroll-padding-inline: 22px;
+    scrollbar-width: thin;
+    -webkit-overflow-scrolling: touch;
+}
+.gallery-filters .shell::after { content: ""; flex: 0 0 22px; }
+.gallery-filters a { flex: 0 0 auto; padding: 20px 22px; border-left: 1px solid var(--line); color: var(--muted); font-size: 12px; font-weight: 750; white-space: nowrap; }
+.gallery-filters a:first-child { border-left: 0; }
 .gallery-filters a:hover { color: var(--accent-dark); background: var(--color-indigo-100); }
 .gallery-filters a.is-current { color: var(--paper); background: var(--accent); border-color: var(--accent); }
+.gallery-filters.has-horizontal-overflow:not(.is-at-end)::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: max(var(--side), calc((100% - var(--shell)) / 2));
+    bottom: 0;
+    width: 44px;
+    z-index: var(--z-content);
+    pointer-events: none;
+    background: linear-gradient(90deg, rgba(243, 246, 250, 0), var(--color-indigo-050) 88%);
+}
 .gallery-archive__meta { display: flex; justify-content: space-between; margin-bottom: 22px; border-bottom: 1px solid var(--ink); }
 .gallery-archive__meta p { margin: 0 0 10px; color: var(--muted); font-size: 12px; }
 .gallery-masonry { display: grid; grid-template-columns: repeat(4, 1fr); gap: 28px 10px; }

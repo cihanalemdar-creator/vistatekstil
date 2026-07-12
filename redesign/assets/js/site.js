@@ -241,10 +241,58 @@
         }, true);
     };
 
+    const initGalleryFilters = () => {
+        const container = document.querySelector('.gallery-filters .shell');
+        if (!container) return;
+        const filters = container.closest('.gallery-filters');
+        const active = container.querySelector('[aria-current="page"]');
+        let scheduled = false;
+
+        const updateState = () => {
+            const hasOverflow = container.scrollWidth > container.clientWidth + 1;
+            const atEnd = container.scrollLeft + container.clientWidth >= container.scrollWidth - 2;
+            filters.classList.toggle('has-horizontal-overflow', hasOverflow);
+            filters.classList.toggle('is-at-end', !hasOverflow || atEnd);
+            scheduled = false;
+        };
+
+        const scheduleUpdate = () => {
+            if (scheduled) return;
+            scheduled = true;
+            window.requestAnimationFrame(updateState);
+        };
+
+        const reveal = (link, behavior = 'auto') => {
+            const left = link.offsetLeft - ((container.clientWidth - link.offsetWidth) / 2);
+            container.scrollTo({ left: Math.max(0, left), behavior });
+        };
+
+        container.addEventListener('scroll', scheduleUpdate, { passive: true });
+        container.addEventListener('focusin', (event) => {
+            const link = event.target.closest('a[href]');
+            if (!link) return;
+            const linkRect = link.getBoundingClientRect();
+            const containerRect = container.getBoundingClientRect();
+            if (linkRect.left < containerRect.left || linkRect.right > containerRect.right) {
+                reveal(link, reducedMotion.matches ? 'auto' : 'smooth');
+            }
+        });
+        window.addEventListener('resize', () => {
+            if (active) reveal(active);
+            scheduleUpdate();
+        }, { passive: true });
+
+        window.requestAnimationFrame(() => {
+            if (active) reveal(active);
+            updateState();
+        });
+    };
+
     initStickyHeader();
     initBackToTop();
     initMobileMenu();
     initReveal();
     initLightbox();
     initFormDetails();
+    initGalleryFilters();
 })();
