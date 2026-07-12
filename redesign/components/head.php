@@ -21,7 +21,7 @@
     <meta property="og:description" content="<?= e($pageMeta['description']) ?>">
     <meta property="og:type" content="website">
     <meta property="og:url" content="<?= e($canonical) ?>">
-    <meta name="theme-color" content="#171a17">
+    <meta name="theme-color" content="#121c33">
     <link rel="icon" href="<?= e(asset_url($site['brand']['logo'], true)) ?>" type="image/png">
     <link rel="preload" href="<?= e(asset_url('redesign/assets/fonts/manrope-latin.woff2', true)) ?>" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="<?= e(asset_url('redesign/assets/fonts/manrope-latin-ext.woff2', true)) ?>" as="font" type="font/woff2" crossorigin>
