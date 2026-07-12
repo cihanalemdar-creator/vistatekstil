@@ -170,6 +170,42 @@ return array (
       ),
       1 =>
       array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-02.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-02.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kiremit rengi kolsuz kadın üst ve şort takımı',
+          'en' => 'Rust sleeveless womenswear top and shorts set',
+        ),
+      ),
+      2 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-03.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-03.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Pudra kısa kollu kadın tulumu',
+          'en' => 'Dusty rose short-sleeve womenswear jumpsuit',
+        ),
+      ),
+      3 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-04.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-04.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah A kesim kadın eteği',
+          'en' => 'Black A-line womenswear skirt',
+        ),
+      ),
+      4 =>
+      array (
         'src' => 'redesign/assets/media/womenswear/full/womenswear-05.webp',
         'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-05.webp',
         'category' => 'womenswear',
@@ -180,7 +216,103 @@ return array (
           'en' => 'Olive belted womenswear jumpsuit',
         ),
       ),
-      2 =>
+      5 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-06.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-06.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Ekose askılı kadın midi elbisesi',
+          'en' => 'Plaid strappy womenswear midi dress',
+        ),
+      ),
+      6 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-07.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-07.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Baskılı kadın tişört ve pantolon ev giyim takımı',
+          'en' => 'Printed womenswear T-shirt and trousers lounge set',
+        ),
+      ),
+      7 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-08.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-08.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah kolsuz kruvaze kadın elbisesi',
+          'en' => 'Black sleeveless wrap womenswear dress',
+        ),
+      ),
+      8 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-09.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-09.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Açık mavi çizgili kolsuz kadın bluzu',
+          'en' => 'Light blue striped sleeveless womenswear blouse',
+        ),
+      ),
+      9 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-10.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-10.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Dantel kadın üst giyim model seçkisi',
+          'en' => 'Womenswear lace top style selection',
+        ),
+      ),
+      10 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-11.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-11.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Bordo kapüşonlu kadın sweatshirt modeli',
+          'en' => 'Burgundy hooded womenswear sweatshirt',
+        ),
+      ),
+      11 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-12.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-12.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Sarı dantel kadın üst ve etek takımı',
+          'en' => 'Yellow lace womenswear top and skirt set',
+        ),
+      ),
+      12 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-13.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-13.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz baskılı kadın tişört ve pantolon takımı',
+          'en' => 'White printed womenswear T-shirt and trousers set',
+        ),
+      ),
+      13 =>
       array (
         'src' => 'redesign/assets/media/womenswear/full/womenswear-14.webp',
         'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-14.webp',
@@ -192,7 +324,55 @@ return array (
           'en' => 'Black sleeveless slit womenswear dress',
         ),
       ),
-      3 =>
+      14 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-15.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-15.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Turkuaz kolsuz rahat kesim kadın elbisesi',
+          'en' => 'Turquoise sleeveless relaxed womenswear dress',
+        ),
+      ),
+      15 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-16.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-16.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz düğmeli kolsuz kadın bluzu',
+          'en' => 'White button-front sleeveless womenswear blouse',
+        ),
+      ),
+      16 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-17.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-17.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Krem dantel askılı kadın üstü',
+          'en' => 'Cream lace camisole top',
+        ),
+      ),
+      17 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-18.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-18.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah beyaz kontrast yakalı kadın elbisesi',
+          'en' => 'Black womenswear dress with contrast white collar',
+        ),
+      ),
+      18 =>
       array (
         'src' => 'redesign/assets/media/womenswear/full/womenswear-19.webp',
         'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-19.webp',
@@ -204,7 +384,67 @@ return array (
           'en' => 'Rust button-front womenswear shirt dress',
         ),
       ),
-      4 =>
+      19 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-20.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-20.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Saks mavi püskül kollu kadın elbisesi',
+          'en' => 'Cobalt blue womenswear dress with fringed sleeves',
+        ),
+      ),
+      20 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-21.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-21.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz kolsuz üst ve lacivert kadın şortu',
+          'en' => 'White sleeveless top with navy womenswear shorts',
+        ),
+      ),
+      21 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-22.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-22.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Bej kemerli kadın gömlek elbisesi',
+          'en' => 'Beige belted womenswear shirt dress',
+        ),
+      ),
+      22 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-23.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-23.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Taş rengi kemerli kısa kollu kadın elbisesi',
+          'en' => 'Stone belted short-sleeve womenswear dress',
+        ),
+      ),
+      23 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-24.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-24.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Leopar desenli askılı kadın elbisesi',
+          'en' => 'Leopard-print strappy womenswear dress',
+        ),
+      ),
+      24 =>
       array (
         'src' => 'redesign/assets/media/womenswear/full/womenswear-25.webp',
         'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-25.webp',
@@ -216,7 +456,499 @@ return array (
           'en' => 'Dark green bustier and wide-leg womenswear trousers set',
         ),
       ),
-      5 =>
+      25 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-26.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-26.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Leopar desenli kadın tulumu',
+          'en' => 'Leopard-print womenswear jumpsuit',
+        ),
+      ),
+      26 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-27.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-27.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz kadın bluzu ve bordo etek kombini',
+          'en' => 'White womenswear blouse with burgundy skirt',
+        ),
+      ),
+      27 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-28.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-28.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Vizon drapeli uzun kollu kadın üstü',
+          'en' => 'Taupe draped long-sleeve womenswear top',
+        ),
+      ),
+      28 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-29.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-29.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Mavi desenli beyaz kadın ceketi',
+          'en' => 'White womenswear jacket with blue print',
+        ),
+      ),
+      29 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-30.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-30.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Dekoratif düğmeli beyaz kadın polo üstü',
+          'en' => 'White womenswear polo top with decorative buttons',
+        ),
+      ),
+      30 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-31.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-31.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Baskılı kadın tişört ve pantolon takımı',
+          'en' => 'Printed womenswear T-shirt and trousers set',
+        ),
+      ),
+      31 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-32.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-32.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kahverengi kolsuz geniş paça kadın tulumu',
+          'en' => 'Brown sleeveless wide-leg womenswear jumpsuit',
+        ),
+      ),
+      32 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-33.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-33.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kırmızı balıkçı yaka kadın üstü ve siyah etek',
+          'en' => 'Red turtleneck womenswear top with black skirt',
+        ),
+      ),
+      33 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-34.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-34.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Metal detaylı siyah kısa kadın elbisesi',
+          'en' => 'Black short womenswear dress with metal details',
+        ),
+      ),
+      34 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-35.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-35.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Çok renkli çizgili kadın yazlık elbisesi',
+          'en' => 'Multicolour striped womenswear summer dress',
+        ),
+      ),
+      35 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-36.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-36.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Saten çizgili kadın askılı üstü',
+          'en' => 'Striped satin womenswear camisole',
+        ),
+      ),
+      36 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-37.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-37.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kahverengi düğmeli kadın maksi eteği',
+          'en' => 'Brown button-front womenswear maxi skirt',
+        ),
+      ),
+      37 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-38.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-38.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Mavi kısa kollu kadın gömleği',
+          'en' => 'Blue short-sleeve womenswear shirt',
+        ),
+      ),
+      38 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-39.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-39.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah geniş paça kadın pantolonu',
+          'en' => 'Black wide-leg womenswear trousers',
+        ),
+      ),
+      39 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-40.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-40.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz tığ işi kadın plaj elbisesi',
+          'en' => 'White crochet womenswear beach dress',
+        ),
+      ),
+      40 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-41.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-41.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Püskül detaylı beyaz oversize kadın tişörtü',
+          'en' => 'White oversized womenswear T-shirt with fringe detail',
+        ),
+      ),
+      41 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-42.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-42.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Dantel detaylı beyaz kadın bluzu',
+          'en' => 'White womenswear blouse with lace detail',
+        ),
+      ),
+      42 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-43.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-43.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah uzun kollu asimetrik düğmeli kadın elbisesi',
+          'en' => 'Black long-sleeve asymmetric button womenswear dress',
+        ),
+      ),
+      43 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-44.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-44.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Pudra dantel kadın plaj elbisesi',
+          'en' => 'Pale pink lace womenswear beach dress',
+        ),
+      ),
+      44 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-45.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-45.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz dantel kadın takım editoryali',
+          'en' => 'White lace womenswear matching-set editorial',
+        ),
+      ),
+      45 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-46.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-46.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Bej tığ işi uzun kollu kadın elbisesi',
+          'en' => 'Beige crochet long-sleeve womenswear dress',
+        ),
+      ),
+      46 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-47.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-47.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah file kadın plaj pantolonu',
+          'en' => 'Black mesh womenswear beach trousers',
+        ),
+      ),
+      47 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-48.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-48.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz dantel geniş paça kadın pantolonu',
+          'en' => 'White lace wide-leg womenswear trousers',
+        ),
+      ),
+      48 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-49.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-49.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz oversize kapüşonlu kadın sweatshirtü',
+          'en' => 'White oversized hooded womenswear sweatshirt',
+        ),
+      ),
+      49 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-50.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-50.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Bej büzgü detaylı kadın yazlık takımı',
+          'en' => 'Beige gathered womenswear summer set',
+        ),
+      ),
+      50 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-51.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-51.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Çok renkli çizgili kadın triko elbisesi',
+          'en' => 'Multicolour striped womenswear knit dress',
+        ),
+      ),
+      51 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-52.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-52.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz straplez dantel kadın elbisesi',
+          'en' => 'White strapless lace womenswear dress',
+        ),
+      ),
+      52 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-53.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-53.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Bordo düğmeli kolsuz kadın yeleği',
+          'en' => 'Burgundy button-front sleeveless womenswear vest',
+        ),
+      ),
+      53 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-54.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-54.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Koyu kahverengi düğmeli kolsuz kadın yeleği',
+          'en' => 'Dark brown button-front sleeveless womenswear vest',
+        ),
+      ),
+      54 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-55.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-55.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Gül kurusu fitilli kadın üst ve şort takımı',
+          'en' => 'Rose ribbed womenswear top and shorts set',
+        ),
+      ),
+      55 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-56.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-56.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz asimetrik kadın şortu',
+          'en' => 'White asymmetric womenswear shorts',
+        ),
+      ),
+      56 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-57.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-57.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Mavi beyaz tığ işi kadın plaj takımı',
+          'en' => 'Blue and white crochet womenswear beach set',
+        ),
+      ),
+      57 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-58.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-58.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz baskılı kadın tişörtü',
+          'en' => 'White printed womenswear T-shirt',
+        ),
+      ),
+      58 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-59.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-59.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Bej çizgili kolsuz kadın gömleği',
+          'en' => 'Beige striped sleeveless womenswear shirt',
+        ),
+      ),
+      59 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-60.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-60.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz rahat kesim kadın yazlık elbisesi',
+          'en' => 'White relaxed womenswear summer dress',
+        ),
+      ),
+      60 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-61.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-61.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah puantiyeli beyaz kadın elbisesi',
+          'en' => 'White womenswear dress with black polka dots',
+        ),
+      ),
+      61 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-62.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-62.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz kolsuz üst ve pembe kadın şortu',
+          'en' => 'White sleeveless top with pink womenswear shorts',
+        ),
+      ),
+      62 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-63.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-63.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Lacivert yırtmaçlı kadın maksi elbisesi',
+          'en' => 'Navy slit womenswear maxi dress',
+        ),
+      ),
+      63 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-64.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-64.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Lacivert boyundan bağlı kadın midi elbisesi',
+          'en' => 'Navy halter womenswear midi dress',
+        ),
+      ),
+      64 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-65.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-65.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Çok renkli çizgili kolsuz kadın üstü',
+          'en' => 'Multicolour striped sleeveless womenswear top',
+        ),
+      ),
+      65 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-66.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-66.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz kısa üst ve kadın pantolon takımı',
+          'en' => 'White crop top and womenswear trousers set',
+        ),
+      ),
+      66 =>
       array (
         'src' => 'redesign/assets/media/womenswear/full/womenswear-67.webp',
         'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-67.webp',
@@ -226,6 +958,210 @@ return array (
         array (
           'tr' => 'Şeftali rengi saten kadın gömlek ve şort takımı',
           'en' => 'Peach satin womenswear shirt and shorts set',
+        ),
+      ),
+      67 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-68.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-68.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kırmızı asimetrik kadın üstü ve siyah etek',
+          'en' => 'Red asymmetric womenswear top with black skirt',
+        ),
+      ),
+      68 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-69.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-69.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Leopar desenli kadın üstü ve beyaz etek',
+          'en' => 'Leopard-print womenswear top with white skirt',
+        ),
+      ),
+      69 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-70.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-70.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz kadın üstü ve mavi çizgili pantolon',
+          'en' => 'White womenswear top with blue striped trousers',
+        ),
+      ),
+      70 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-71.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-71.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kahverengi kapüşonlu kadın ceketi',
+          'en' => 'Brown hooded womenswear jacket',
+        ),
+      ),
+      71 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-72.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-72.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah omzu açık kadın üst ve pantolon takımı',
+          'en' => 'Black off-shoulder womenswear top and trousers set',
+        ),
+      ),
+      72 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-73.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-73.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Pudra kadın gömlek ve şort takımı',
+          'en' => 'Pale pink womenswear shirt and shorts set',
+        ),
+      ),
+      73 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-74.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-74.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Taba peluş kadın ceketi',
+          'en' => 'Camel fleece womenswear jacket',
+        ),
+      ),
+      74 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-75.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-75.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah kapüşonlu kadın gömlek ceketi',
+          'en' => 'Black hooded womenswear shirt jacket',
+        ),
+      ),
+      75 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-76.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-76.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kırmızı fermuarlı kadın ceketi',
+          'en' => 'Red zip-front womenswear jacket',
+        ),
+      ),
+      76 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-77.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-77.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Açık mavi kadın sweatshirt ve pantolon takımı',
+          'en' => 'Light blue womenswear sweatshirt and trousers set',
+        ),
+      ),
+      77 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-78.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-78.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah benekli beyaz kadın peluş ceketi',
+          'en' => 'White womenswear fleece jacket with black spots',
+        ),
+      ),
+      78 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-79.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-79.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah kısa kollu kadın tulumu',
+          'en' => 'Black short-sleeve womenswear jumpsuit',
+        ),
+      ),
+      79 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-80.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-80.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Açık mavi kadın yelek ve pantolon takımı',
+          'en' => 'Light blue womenswear vest and trousers set',
+        ),
+      ),
+      80 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-81.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-81.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Gri ekose kadın ceket ve etek takımı',
+          'en' => 'Grey checked womenswear jacket and skirt set',
+        ),
+      ),
+      81 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-82.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-82.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Gri desenli kadın hırka ve etek takımı',
+          'en' => 'Grey patterned womenswear cardigan and skirt set',
+        ),
+      ),
+      82 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-83.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-83.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah kısa paça kadın pantolon kombini',
+          'en' => 'Black cropped-trouser womenswear outfit',
+        ),
+      ),
+      83 =>
+      array (
+        'src' => 'redesign/assets/media/womenswear/full/womenswear-84.webp',
+        'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-84.webp',
+        'category' => 'womenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Lacivert kolsuz kadın üst ve geniş paça pantolon takımı',
+          'en' => 'Navy sleeveless womenswear top and wide-leg trousers set',
         ),
       ),
     ),
@@ -320,6 +1256,90 @@ return array (
       ),
       1 =>
       array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-02.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-02.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kırmızı beyaz çizgili kapüşonlu çocuk takımı',
+          'en' => 'Red and white striped hooded childrenswear set',
+        ),
+      ),
+      2 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-03.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-03.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Kırmızı kontrast biyeli çocuk ev giyim takımı',
+          'en' => 'Red childrenswear lounge set with contrast piping',
+        ),
+      ),
+      3 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-04.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-04.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Gri puantiyeli kapüşonlu bebek takımı',
+          'en' => 'Grey polka-dot hooded babywear set',
+        ),
+      ),
+      4 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-05.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-05.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah beyaz desenli kısa kollu bebek takımı',
+          'en' => 'Black and white printed short-sleeve babywear set',
+        ),
+      ),
+      5 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-06.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-06.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Bej baskılı bebek üst ve şort takımı',
+          'en' => 'Beige printed babywear top and shorts set',
+        ),
+      ),
+      6 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-07.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-07.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Zebra desenli kapüşonlu çocuk dış giyim modeli',
+          'en' => 'Zebra-print hooded childrenswear outerwear style',
+        ),
+      ),
+      7 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-08.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-08.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah beyaz desenli çocuk sweatshirt takımı',
+          'en' => 'Black and white printed childrenswear sweatshirt set',
+        ),
+      ),
+      8 =>
+      array (
         'src' => 'redesign/assets/media/childrenswear/full/childrenswear-09.webp',
         'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-09.webp',
         'category' => 'childrenswear',
@@ -330,7 +1350,55 @@ return array (
           'en' => 'Yellow polka-dot childrenswear tracksuit',
         ),
       ),
-      2 =>
+      9 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-10.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-10.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz kolsuz çocuk elbisesi',
+          'en' => 'White sleeveless childrenswear dress',
+        ),
+      ),
+      10 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-11.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-11.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Doğal tonlarda çizgili çocuk elbisesi',
+          'en' => 'Neutral striped childrenswear dress',
+        ),
+      ),
+      11 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-12.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-12.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Sarı kolsuz çocuk üst ve şort takımı',
+          'en' => 'Yellow sleeveless childrenswear top and shorts set',
+        ),
+      ),
+      12 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-13.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-13.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz peluş kapüşonlu bebek tulumu',
+          'en' => 'White fleece hooded babywear romper',
+        ),
+      ),
+      13 =>
       array (
         'src' => 'redesign/assets/media/childrenswear/full/childrenswear-14.webp',
         'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-14.webp',
@@ -342,7 +1410,67 @@ return array (
           'en' => 'White printed sweatshirt with blue childrenswear trousers',
         ),
       ),
-      3 =>
+      14 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-15.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-15.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Krem sweatshirt ve kahverengi çocuk pantolonu',
+          'en' => 'Cream sweatshirt with brown childrenswear trousers',
+        ),
+      ),
+      15 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-16.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-16.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah kar desenli çocuk peluş üst giyim modeli',
+          'en' => 'Black snow-print childrenswear fleece top',
+        ),
+      ),
+      16 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-17.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-17.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Renkli çizgili fermuarlı bebek tulumu',
+          'en' => 'Colourful striped zip-front babywear romper',
+        ),
+      ),
+      17 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-18.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-18.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Pembe baskılı çocuk tişört ve şort takımı',
+          'en' => 'Pink printed childrenswear T-shirt and shorts set',
+        ),
+      ),
+      18 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-19.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-19.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz puantiyeli kolsuz çocuk elbisesi',
+          'en' => 'White polka-dot sleeveless childrenswear dress',
+        ),
+      ),
+      19 =>
       array (
         'src' => 'redesign/assets/media/childrenswear/full/childrenswear-20.webp',
         'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-20.webp',
@@ -354,7 +1482,43 @@ return array (
           'en' => 'Leopard-print hooded babywear romper',
         ),
       ),
-      4 =>
+      20 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-21.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-21.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah benekli beyaz dolgulu bebek dış giyim tulumu',
+          'en' => 'White padded babywear outerwear romper with black spots',
+        ),
+      ),
+      21 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-22.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-22.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Pembe baskılı çocuk tişörtü ve siyah etek',
+          'en' => 'Pink printed childrenswear T-shirt with black skirt',
+        ),
+      ),
+      22 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-23.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-23.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Mavi desenli beyaz çocuk sweatshirt modeli',
+          'en' => 'White childrenswear sweatshirt with blue print',
+        ),
+      ),
+      23 =>
       array (
         'src' => 'redesign/assets/media/childrenswear/full/childrenswear-24.webp',
         'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-24.webp',
@@ -366,7 +1530,7 @@ return array (
           'en' => 'Tan childrenswear jacket with fleece trim',
         ),
       ),
-      5 =>
+      24 =>
       array (
         'src' => 'redesign/assets/media/childrenswear/full/childrenswear-25.webp',
         'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-25.webp',
@@ -376,6 +1540,78 @@ return array (
         array (
           'tr' => 'Mavi geometrik desenli çocuk ceket ve pantolon takımı',
           'en' => 'Blue geometric-print childrenswear jacket and trousers set',
+        ),
+      ),
+      25 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-26.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-26.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah beyaz desenli kapüşonlu çocuk ceketi',
+          'en' => 'Black and white printed hooded childrenswear jacket',
+        ),
+      ),
+      26 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-27.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-27.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Beyaz peluş çocuk ceketi',
+          'en' => 'White fleece childrenswear jacket',
+        ),
+      ),
+      27 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-28.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-28.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Siyah ve gri çocuk spor giyim takımları',
+          'en' => 'Black and grey childrenswear sportswear sets',
+        ),
+      ),
+      28 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-29.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-29.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Gri ve siyah çocuk eşofman takımları',
+          'en' => 'Grey and black childrenswear tracksuits',
+        ),
+      ),
+      29 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-30.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-30.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Krem ve kahverengi çocuk üst giyim takımı',
+          'en' => 'Cream and brown childrenswear top set',
+        ),
+      ),
+      30 =>
+      array (
+        'src' => 'redesign/assets/media/childrenswear/full/childrenswear-31.webp',
+        'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-31.webp',
+        'category' => 'childrenswear',
+        'status' => 'available',
+        'alt' =>
+        array (
+          'tr' => 'Mavi baskılı çocuk eşofman takımı',
+          'en' => 'Blue printed childrenswear tracksuit',
         ),
       ),
     ),
@@ -1397,1386 +2633,6 @@ return array (
       array (
         'tr' => 'Vista Moda Tekstil urun ve koleksiyon calismasi',
         'en' => 'Vista Moda Tekstil garment and collection work',
-      ),
-    ),
-    64 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-01.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-01.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Metal halka detaylı siyah kadın elbisesi',
-        'en' => 'Black womenswear dress with metal ring details',
-      ),
-    ),
-    65 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-02.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-02.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kiremit rengi kolsuz kadın üst ve şort takımı',
-        'en' => 'Rust sleeveless womenswear top and shorts set',
-      ),
-    ),
-    66 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-03.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-03.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Pudra kısa kollu kadın tulumu',
-        'en' => 'Dusty rose short-sleeve womenswear jumpsuit',
-      ),
-    ),
-    67 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-04.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-04.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah A kesim kadın eteği',
-        'en' => 'Black A-line womenswear skirt',
-      ),
-    ),
-    68 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-05.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-05.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Haki kemerli kadın tulumu',
-        'en' => 'Olive belted womenswear jumpsuit',
-      ),
-    ),
-    69 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-06.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-06.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Ekose askılı kadın midi elbisesi',
-        'en' => 'Plaid strappy womenswear midi dress',
-      ),
-    ),
-    70 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-07.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-07.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Baskılı kadın tişört ve pantolon ev giyim takımı',
-        'en' => 'Printed womenswear T-shirt and trousers lounge set',
-      ),
-    ),
-    71 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-08.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-08.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah kolsuz kruvaze kadın elbisesi',
-        'en' => 'Black sleeveless wrap womenswear dress',
-      ),
-    ),
-    72 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-09.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-09.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Açık mavi çizgili kolsuz kadın bluzu',
-        'en' => 'Light blue striped sleeveless womenswear blouse',
-      ),
-    ),
-    73 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-10.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-10.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Dantel kadın üst giyim model seçkisi',
-        'en' => 'Womenswear lace top style selection',
-      ),
-    ),
-    74 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-11.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-11.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Bordo kapüşonlu kadın sweatshirt modeli',
-        'en' => 'Burgundy hooded womenswear sweatshirt',
-      ),
-    ),
-    75 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-12.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-12.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Sarı dantel kadın üst ve etek takımı',
-        'en' => 'Yellow lace womenswear top and skirt set',
-      ),
-    ),
-    76 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-13.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-13.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz baskılı kadın tişört ve pantolon takımı',
-        'en' => 'White printed womenswear T-shirt and trousers set',
-      ),
-    ),
-    77 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-14.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-14.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah kolsuz yırtmaçlı kadın elbisesi',
-        'en' => 'Black sleeveless slit womenswear dress',
-      ),
-    ),
-    78 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-15.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-15.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Turkuaz kolsuz rahat kesim kadın elbisesi',
-        'en' => 'Turquoise sleeveless relaxed womenswear dress',
-      ),
-    ),
-    79 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-16.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-16.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz düğmeli kolsuz kadın bluzu',
-        'en' => 'White button-front sleeveless womenswear blouse',
-      ),
-    ),
-    80 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-17.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-17.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Krem dantel askılı kadın üstü',
-        'en' => 'Cream lace camisole top',
-      ),
-    ),
-    81 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-18.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-18.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah beyaz kontrast yakalı kadın elbisesi',
-        'en' => 'Black womenswear dress with contrast white collar',
-      ),
-    ),
-    82 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-19.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-19.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kiremit rengi düğmeli kadın gömlek elbisesi',
-        'en' => 'Rust button-front womenswear shirt dress',
-      ),
-    ),
-    83 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-20.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-20.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Saks mavi püskül kollu kadın elbisesi',
-        'en' => 'Cobalt blue womenswear dress with fringed sleeves',
-      ),
-    ),
-    84 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-21.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-21.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz kolsuz üst ve lacivert kadın şortu',
-        'en' => 'White sleeveless top with navy womenswear shorts',
-      ),
-    ),
-    85 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-22.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-22.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Bej kemerli kadın gömlek elbisesi',
-        'en' => 'Beige belted womenswear shirt dress',
-      ),
-    ),
-    86 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-23.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-23.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Taş rengi kemerli kısa kollu kadın elbisesi',
-        'en' => 'Stone belted short-sleeve womenswear dress',
-      ),
-    ),
-    87 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-24.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-24.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Leopar desenli askılı kadın elbisesi',
-        'en' => 'Leopard-print strappy womenswear dress',
-      ),
-    ),
-    88 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-25.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-25.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Koyu yeşil büstiyer ve geniş paça kadın pantolon takımı',
-        'en' => 'Dark green bustier and wide-leg womenswear trousers set',
-      ),
-    ),
-    89 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-26.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-26.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Leopar desenli kadın tulumu',
-        'en' => 'Leopard-print womenswear jumpsuit',
-      ),
-    ),
-    90 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-27.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-27.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz kadın bluzu ve bordo etek kombini',
-        'en' => 'White womenswear blouse with burgundy skirt',
-      ),
-    ),
-    91 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-28.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-28.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Vizon drapeli uzun kollu kadın üstü',
-        'en' => 'Taupe draped long-sleeve womenswear top',
-      ),
-    ),
-    92 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-29.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-29.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Mavi desenli beyaz kadın ceketi',
-        'en' => 'White womenswear jacket with blue print',
-      ),
-    ),
-    93 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-30.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-30.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Dekoratif düğmeli beyaz kadın polo üstü',
-        'en' => 'White womenswear polo top with decorative buttons',
-      ),
-    ),
-    94 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-31.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-31.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Baskılı kadın tişört ve pantolon takımı',
-        'en' => 'Printed womenswear T-shirt and trousers set',
-      ),
-    ),
-    95 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-32.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-32.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kahverengi kolsuz geniş paça kadın tulumu',
-        'en' => 'Brown sleeveless wide-leg womenswear jumpsuit',
-      ),
-    ),
-    96 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-33.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-33.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kırmızı balıkçı yaka kadın üstü ve siyah etek',
-        'en' => 'Red turtleneck womenswear top with black skirt',
-      ),
-    ),
-    97 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-34.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-34.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Metal detaylı siyah kısa kadın elbisesi',
-        'en' => 'Black short womenswear dress with metal details',
-      ),
-    ),
-    98 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-35.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-35.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Çok renkli çizgili kadın yazlık elbisesi',
-        'en' => 'Multicolour striped womenswear summer dress',
-      ),
-    ),
-    99 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-36.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-36.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Saten çizgili kadın askılı üstü',
-        'en' => 'Striped satin womenswear camisole',
-      ),
-    ),
-    100 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-37.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-37.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kahverengi düğmeli kadın maksi eteği',
-        'en' => 'Brown button-front womenswear maxi skirt',
-      ),
-    ),
-    101 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-38.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-38.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Mavi kısa kollu kadın gömleği',
-        'en' => 'Blue short-sleeve womenswear shirt',
-      ),
-    ),
-    102 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-39.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-39.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah geniş paça kadın pantolonu',
-        'en' => 'Black wide-leg womenswear trousers',
-      ),
-    ),
-    103 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-40.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-40.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz tığ işi kadın plaj elbisesi',
-        'en' => 'White crochet womenswear beach dress',
-      ),
-    ),
-    104 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-41.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-41.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Püskül detaylı beyaz oversize kadın tişörtü',
-        'en' => 'White oversized womenswear T-shirt with fringe detail',
-      ),
-    ),
-    105 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-42.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-42.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Dantel detaylı beyaz kadın bluzu',
-        'en' => 'White womenswear blouse with lace detail',
-      ),
-    ),
-    106 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-43.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-43.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah uzun kollu asimetrik düğmeli kadın elbisesi',
-        'en' => 'Black long-sleeve asymmetric button womenswear dress',
-      ),
-    ),
-    107 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-44.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-44.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Pudra dantel kadın plaj elbisesi',
-        'en' => 'Pale pink lace womenswear beach dress',
-      ),
-    ),
-    108 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-45.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-45.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz dantel kadın takım editoryali',
-        'en' => 'White lace womenswear matching-set editorial',
-      ),
-    ),
-    109 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-46.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-46.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Bej tığ işi uzun kollu kadın elbisesi',
-        'en' => 'Beige crochet long-sleeve womenswear dress',
-      ),
-    ),
-    110 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-47.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-47.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah file kadın plaj pantolonu',
-        'en' => 'Black mesh womenswear beach trousers',
-      ),
-    ),
-    111 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-48.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-48.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz dantel geniş paça kadın pantolonu',
-        'en' => 'White lace wide-leg womenswear trousers',
-      ),
-    ),
-    112 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-49.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-49.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz oversize kapüşonlu kadın sweatshirtü',
-        'en' => 'White oversized hooded womenswear sweatshirt',
-      ),
-    ),
-    113 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-50.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-50.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Bej büzgü detaylı kadın yazlık takımı',
-        'en' => 'Beige gathered womenswear summer set',
-      ),
-    ),
-    114 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-51.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-51.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Çok renkli çizgili kadın triko elbisesi',
-        'en' => 'Multicolour striped womenswear knit dress',
-      ),
-    ),
-    115 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-52.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-52.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz straplez dantel kadın elbisesi',
-        'en' => 'White strapless lace womenswear dress',
-      ),
-    ),
-    116 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-53.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-53.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Bordo düğmeli kolsuz kadın yeleği',
-        'en' => 'Burgundy button-front sleeveless womenswear vest',
-      ),
-    ),
-    117 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-54.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-54.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Koyu kahverengi düğmeli kolsuz kadın yeleği',
-        'en' => 'Dark brown button-front sleeveless womenswear vest',
-      ),
-    ),
-    118 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-55.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-55.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Gül kurusu fitilli kadın üst ve şort takımı',
-        'en' => 'Rose ribbed womenswear top and shorts set',
-      ),
-    ),
-    119 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-56.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-56.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz asimetrik kadın şortu',
-        'en' => 'White asymmetric womenswear shorts',
-      ),
-    ),
-    120 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-57.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-57.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Mavi beyaz tığ işi kadın plaj takımı',
-        'en' => 'Blue and white crochet womenswear beach set',
-      ),
-    ),
-    121 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-58.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-58.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz baskılı kadın tişörtü',
-        'en' => 'White printed womenswear T-shirt',
-      ),
-    ),
-    122 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-59.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-59.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Bej çizgili kolsuz kadın gömleği',
-        'en' => 'Beige striped sleeveless womenswear shirt',
-      ),
-    ),
-    123 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-60.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-60.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz rahat kesim kadın yazlık elbisesi',
-        'en' => 'White relaxed womenswear summer dress',
-      ),
-    ),
-    124 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-61.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-61.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah puantiyeli beyaz kadın elbisesi',
-        'en' => 'White womenswear dress with black polka dots',
-      ),
-    ),
-    125 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-62.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-62.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz kolsuz üst ve pembe kadın şortu',
-        'en' => 'White sleeveless top with pink womenswear shorts',
-      ),
-    ),
-    126 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-63.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-63.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Lacivert yırtmaçlı kadın maksi elbisesi',
-        'en' => 'Navy slit womenswear maxi dress',
-      ),
-    ),
-    127 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-64.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-64.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Lacivert boyundan bağlı kadın midi elbisesi',
-        'en' => 'Navy halter womenswear midi dress',
-      ),
-    ),
-    128 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-65.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-65.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Çok renkli çizgili kolsuz kadın üstü',
-        'en' => 'Multicolour striped sleeveless womenswear top',
-      ),
-    ),
-    129 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-66.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-66.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz kısa üst ve kadın pantolon takımı',
-        'en' => 'White crop top and womenswear trousers set',
-      ),
-    ),
-    130 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-67.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-67.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Şeftali rengi saten kadın gömlek ve şort takımı',
-        'en' => 'Peach satin womenswear shirt and shorts set',
-      ),
-    ),
-    131 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-68.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-68.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kırmızı asimetrik kadın üstü ve siyah etek',
-        'en' => 'Red asymmetric womenswear top with black skirt',
-      ),
-    ),
-    132 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-69.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-69.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Leopar desenli kadın üstü ve beyaz etek',
-        'en' => 'Leopard-print womenswear top with white skirt',
-      ),
-    ),
-    133 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-70.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-70.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz kadın üstü ve mavi çizgili pantolon',
-        'en' => 'White womenswear top with blue striped trousers',
-      ),
-    ),
-    134 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-71.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-71.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kahverengi kapüşonlu kadın ceketi',
-        'en' => 'Brown hooded womenswear jacket',
-      ),
-    ),
-    135 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-72.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-72.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah omzu açık kadın üst ve pantolon takımı',
-        'en' => 'Black off-shoulder womenswear top and trousers set',
-      ),
-    ),
-    136 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-73.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-73.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Pudra kadın gömlek ve şort takımı',
-        'en' => 'Pale pink womenswear shirt and shorts set',
-      ),
-    ),
-    137 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-74.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-74.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Taba peluş kadın ceketi',
-        'en' => 'Camel fleece womenswear jacket',
-      ),
-    ),
-    138 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-75.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-75.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah kapüşonlu kadın gömlek ceketi',
-        'en' => 'Black hooded womenswear shirt jacket',
-      ),
-    ),
-    139 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-76.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-76.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kırmızı fermuarlı kadın ceketi',
-        'en' => 'Red zip-front womenswear jacket',
-      ),
-    ),
-    140 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-77.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-77.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Açık mavi kadın sweatshirt ve pantolon takımı',
-        'en' => 'Light blue womenswear sweatshirt and trousers set',
-      ),
-    ),
-    141 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-78.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-78.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah benekli beyaz kadın peluş ceketi',
-        'en' => 'White womenswear fleece jacket with black spots',
-      ),
-    ),
-    142 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-79.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-79.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah kısa kollu kadın tulumu',
-        'en' => 'Black short-sleeve womenswear jumpsuit',
-      ),
-    ),
-    143 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-80.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-80.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Açık mavi kadın yelek ve pantolon takımı',
-        'en' => 'Light blue womenswear vest and trousers set',
-      ),
-    ),
-    144 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-81.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-81.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Gri ekose kadın ceket ve etek takımı',
-        'en' => 'Grey checked womenswear jacket and skirt set',
-      ),
-    ),
-    145 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-82.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-82.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Gri desenli kadın hırka ve etek takımı',
-        'en' => 'Grey patterned womenswear cardigan and skirt set',
-      ),
-    ),
-    146 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-83.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-83.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah kısa paça kadın pantolon kombini',
-        'en' => 'Black cropped-trouser womenswear outfit',
-      ),
-    ),
-    147 =>
-    array (
-      'src' => 'redesign/assets/media/womenswear/full/womenswear-84.webp',
-      'thumbnail' => 'redesign/assets/media/womenswear/thumb/womenswear-84.webp',
-      'category' => 'womenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Lacivert kolsuz kadın üst ve geniş paça pantolon takımı',
-        'en' => 'Navy sleeveless womenswear top and wide-leg trousers set',
-      ),
-    ),
-    148 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-01.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-01.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah biye detaylı çocuk eşofman takımı',
-        'en' => 'Black childrenswear tracksuit with contrast piping',
-      ),
-    ),
-    149 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-02.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-02.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kırmızı beyaz çizgili kapüşonlu çocuk takımı',
-        'en' => 'Red and white striped hooded childrenswear set',
-      ),
-    ),
-    150 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-03.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-03.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Kırmızı kontrast biyeli çocuk ev giyim takımı',
-        'en' => 'Red childrenswear lounge set with contrast piping',
-      ),
-    ),
-    151 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-04.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-04.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Gri puantiyeli kapüşonlu bebek takımı',
-        'en' => 'Grey polka-dot hooded babywear set',
-      ),
-    ),
-    152 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-05.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-05.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah beyaz desenli kısa kollu bebek takımı',
-        'en' => 'Black and white printed short-sleeve babywear set',
-      ),
-    ),
-    153 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-06.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-06.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Bej baskılı bebek üst ve şort takımı',
-        'en' => 'Beige printed babywear top and shorts set',
-      ),
-    ),
-    154 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-07.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-07.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Zebra desenli kapüşonlu çocuk dış giyim modeli',
-        'en' => 'Zebra-print hooded childrenswear outerwear style',
-      ),
-    ),
-    155 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-08.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-08.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah beyaz desenli çocuk sweatshirt takımı',
-        'en' => 'Black and white printed childrenswear sweatshirt set',
-      ),
-    ),
-    156 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-09.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-09.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Sarı puantiyeli çocuk eşofman takımı',
-        'en' => 'Yellow polka-dot childrenswear tracksuit',
-      ),
-    ),
-    157 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-10.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-10.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz kolsuz çocuk elbisesi',
-        'en' => 'White sleeveless childrenswear dress',
-      ),
-    ),
-    158 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-11.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-11.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Doğal tonlarda çizgili çocuk elbisesi',
-        'en' => 'Neutral striped childrenswear dress',
-      ),
-    ),
-    159 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-12.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-12.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Sarı kolsuz çocuk üst ve şort takımı',
-        'en' => 'Yellow sleeveless childrenswear top and shorts set',
-      ),
-    ),
-    160 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-13.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-13.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz peluş kapüşonlu bebek tulumu',
-        'en' => 'White fleece hooded babywear romper',
-      ),
-    ),
-    161 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-14.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-14.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz baskılı sweatshirt ve mavi çocuk pantolonu',
-        'en' => 'White printed sweatshirt with blue childrenswear trousers',
-      ),
-    ),
-    162 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-15.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-15.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Krem sweatshirt ve kahverengi çocuk pantolonu',
-        'en' => 'Cream sweatshirt with brown childrenswear trousers',
-      ),
-    ),
-    163 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-16.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-16.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah kar desenli çocuk peluş üst giyim modeli',
-        'en' => 'Black snow-print childrenswear fleece top',
-      ),
-    ),
-    164 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-17.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-17.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Renkli çizgili fermuarlı bebek tulumu',
-        'en' => 'Colourful striped zip-front babywear romper',
-      ),
-    ),
-    165 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-18.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-18.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Pembe baskılı çocuk tişört ve şort takımı',
-        'en' => 'Pink printed childrenswear T-shirt and shorts set',
-      ),
-    ),
-    166 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-19.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-19.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz puantiyeli kolsuz çocuk elbisesi',
-        'en' => 'White polka-dot sleeveless childrenswear dress',
-      ),
-    ),
-    167 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-20.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-20.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Leopar desenli kapüşonlu bebek tulumu',
-        'en' => 'Leopard-print hooded babywear romper',
-      ),
-    ),
-    168 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-21.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-21.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah benekli beyaz dolgulu bebek dış giyim tulumu',
-        'en' => 'White padded babywear outerwear romper with black spots',
-      ),
-    ),
-    169 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-22.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-22.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Pembe baskılı çocuk tişörtü ve siyah etek',
-        'en' => 'Pink printed childrenswear T-shirt with black skirt',
-      ),
-    ),
-    170 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-23.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-23.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Mavi desenli beyaz çocuk sweatshirt modeli',
-        'en' => 'White childrenswear sweatshirt with blue print',
-      ),
-    ),
-    171 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-24.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-24.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Taba peluş detaylı çocuk ceketi',
-        'en' => 'Tan childrenswear jacket with fleece trim',
-      ),
-    ),
-    172 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-25.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-25.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Mavi geometrik desenli çocuk ceket ve pantolon takımı',
-        'en' => 'Blue geometric-print childrenswear jacket and trousers set',
-      ),
-    ),
-    173 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-26.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-26.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah beyaz desenli kapüşonlu çocuk ceketi',
-        'en' => 'Black and white printed hooded childrenswear jacket',
-      ),
-    ),
-    174 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-27.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-27.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Beyaz peluş çocuk ceketi',
-        'en' => 'White fleece childrenswear jacket',
-      ),
-    ),
-    175 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-28.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-28.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Siyah ve gri çocuk spor giyim takımları',
-        'en' => 'Black and grey childrenswear sportswear sets',
-      ),
-    ),
-    176 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-29.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-29.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Gri ve siyah çocuk eşofman takımları',
-        'en' => 'Grey and black childrenswear tracksuits',
-      ),
-    ),
-    177 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-30.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-30.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Krem ve kahverengi çocuk üst giyim takımı',
-        'en' => 'Cream and brown childrenswear top set',
-      ),
-    ),
-    178 =>
-    array (
-      'src' => 'redesign/assets/media/childrenswear/full/childrenswear-31.webp',
-      'thumbnail' => 'redesign/assets/media/childrenswear/thumb/childrenswear-31.webp',
-      'category' => 'childrenswear',
-      'status' => 'available',
-      'alt' =>
-      array (
-        'tr' => 'Mavi baskılı çocuk eşofman takımı',
-        'en' => 'Blue printed childrenswear tracksuit',
       ),
     ),
   ),

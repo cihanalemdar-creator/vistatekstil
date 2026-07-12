@@ -311,14 +311,7 @@ return [
         'fabric' => $asset('public_html/yukleme/galeri/b_81455276.jpg', 'Kumas ve renk numuneleri', 'Fabric and colour samples', 'design'),
     ],
     'products' => [
-        'womenswear' => [
-            $womenswearGallery[0],
-            $womenswearGallery[4],
-            $womenswearGallery[13],
-            $womenswearGallery[18],
-            $womenswearGallery[24],
-            $womenswearGallery[66],
-        ],
+        'womenswear' => $womenswearGallery,
         'menswear' => [
             $product('b_11894314.jpg', 'Baskili erkek tisortu', 'Printed menswear T-shirt'),
             $product('b_18152692.jpg', 'Erkek polo tisortu', 'Menswear polo shirt'),
@@ -327,14 +320,7 @@ return [
             $product('b_5674047.jpg', 'Lacivert erkek dis giyim modeli', 'Navy menswear outerwear style'),
             $product('b_71024668.jpg', 'Siyah erkek pantolonu', 'Black menswear trousers'),
         ],
-        'kidswear' => [
-            $childrenswearGallery[0],
-            $childrenswearGallery[8],
-            $childrenswearGallery[13],
-            $childrenswearGallery[19],
-            $childrenswearGallery[23],
-            $childrenswearGallery[24],
-        ],
+        'kidswear' => $childrenswearGallery,
         'knitwear' => [
             $product('b_38099833.jpg', 'Kahverengi orme kadin ustu', 'Brown knit womenswear top'),
             $product('b_45427853.jpg', 'Siyah orme kadin takimi', 'Black knit womenswear set'),
@@ -362,7 +348,7 @@ return [
         $childrenswearGallery[27],
         $product('b_5674047.jpg', 'Lacivert erkek dis giyim modeli', 'Navy menswear outerwear style'),
     ],
-    'gallery' => array_merge($gallery, $womenswearGallery, $childrenswearGallery),
+    'gallery' => $gallery,
     'archive_gallery' => $archiveGallery,
     'videos' => [
         'tr' => [

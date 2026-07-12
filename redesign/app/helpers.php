@@ -206,3 +206,27 @@ function gallery_state(array $items, array $filters, int $perPage = 24): array
         'perPage' => $perPage,
     ];
 }
+
+function product_catalog_state(array $categories, int $perPage = 24): ?array
+{
+    $requestedCategory = isset($_GET['category']) && is_string($_GET['category']) ? $_GET['category'] : null;
+    $catalogCategories = array_intersect_key($categories, array_flip(['womenswear', 'menswear', 'kidswear']));
+    if ($requestedCategory === null || !array_key_exists($requestedCategory, $catalogCategories)) {
+        return null;
+    }
+
+    $items = array_values($catalogCategories[$requestedCategory]);
+    $requestedPage = isset($_GET['page']) && is_scalar($_GET['page']) ? filter_var((string) $_GET['page'], FILTER_VALIDATE_INT) : false;
+    $page = $requestedPage !== false && $requestedPage > 0 ? (int) $requestedPage : 1;
+    $pageCount = max(1, (int) ceil(count($items) / $perPage));
+    $page = min($page, $pageCount);
+
+    return [
+        'category' => $requestedCategory,
+        'page' => $page,
+        'pageCount' => $pageCount,
+        'total' => count($items),
+        'items' => array_slice($items, ($page - 1) * $perPage, $perPage),
+        'perPage' => $perPage,
+    ];
+}

@@ -89,6 +89,10 @@ if (!$isNotFound && $pageKey === 'gallery' && $interior !== null) {
         24
     );
 }
+$productCatalog = null;
+if (!$isNotFound && $pageKey === 'products' && $interior !== null) {
+    $productCatalog = product_catalog_state($content['assets']['products'], 24);
+}
 
 $pageView = $isNotFound
     ? 'errors/404'
@@ -123,6 +127,7 @@ return [
     'breadcrumbs' => $breadcrumbs,
     'sectionNavigation' => $sectionNavigation,
     'gallery' => $gallery,
+    'productCatalog' => $productCatalog,
     'pageView' => $pageView,
     'currentYear' => date('Y'),
 ];
