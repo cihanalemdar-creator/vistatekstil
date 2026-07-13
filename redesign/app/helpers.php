@@ -4,6 +4,20 @@ declare(strict_types=1);
 define('VISTA_PROJECT_ROOT', dirname(__DIR__, 2));
 define('VISTA_REDESIGN_ROOT', dirname(__DIR__));
 
+function app_environment(): string
+{
+    $environment = defined('VISTA_ENVIRONMENT')
+        ? (string) VISTA_ENVIRONMENT
+        : (string) (getenv('VISTA_ENVIRONMENT') ?: 'development');
+
+    return in_array($environment, ['development', 'production'], true) ? $environment : 'development';
+}
+
+function is_production(): bool
+{
+    return app_environment() === 'production';
+}
+
 function e(mixed $value): string
 {
     return htmlspecialchars((string) $value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
@@ -89,7 +103,10 @@ function asset_source(array|string $asset): string
 function asset_url(array|string $asset, bool $versioned = false): string
 {
     $source = ltrim(asset_source($asset), '/');
-    $url = '/' . $source;
+    $publicSource = is_production() && str_starts_with($source, 'public_html/')
+        ? substr($source, strlen('public_html/'))
+        : $source;
+    $url = '/' . $publicSource;
     if (!$versioned || $source === '' || !str_starts_with($source, 'redesign/')) {
         return $url;
     }

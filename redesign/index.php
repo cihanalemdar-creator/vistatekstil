@@ -2,6 +2,7 @@
 declare(strict_types=1);
 
 require __DIR__ . '/app/helpers.php';
+require __DIR__ . '/app/contact.php';
 
 set_error_handler(static function (int $severity, string $message, string $file, int $line): bool {
     if ((error_reporting() & $severity) === 0) {

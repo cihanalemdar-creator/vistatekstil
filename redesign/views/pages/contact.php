@@ -1,15 +1,20 @@
 <?php
 $directContact = localized_text($locale, ['tr' => 'Doğrudan iletişim', 'en' => 'Direct contact', 'de' => 'Direkter Kontakt', 'es' => 'Contacto directo']);
 $workingHours = localized_text($locale, ['tr' => 'Çalışma saatleri', 'en' => 'Working hours', 'de' => 'Öffnungszeiten', 'es' => 'Horario de atención']);
-$localMode = localized_text($locale, ['tr' => 'Local geliştirme modu: form verileri gönderilmez.', 'en' => 'Local development mode: form data is not submitted.', 'de' => 'Lokaler Entwicklungsmodus: Formulardaten werden nicht gesendet.', 'es' => 'Modo de desarrollo local: los datos del formulario no se envían.']);
+$formEnabled = is_array($formState) && ($formState['enabled'] ?? false);
+$formNotice = $formEnabled
+    ? localized_text($locale, ['tr' => 'Talebiniz şifreli bağlantı üzerinden güvenli biçimde iletilir.', 'en' => 'Your enquiry is delivered securely over an encrypted connection.', 'de' => 'Ihre Anfrage wird sicher über eine verschlüsselte Verbindung übermittelt.', 'es' => 'Su solicitud se envía de forma segura mediante una conexión cifrada.'])
+    : (is_production()
+        ? localized_text($locale, ['tr' => 'Form gönderimi hazırlanıyor. Lütfen e-posta veya telefonla iletişim kurun.', 'en' => 'Form delivery is being prepared. Please contact us by email or phone.', 'de' => 'Der Formularversand wird vorbereitet. Bitte kontaktieren Sie uns per E-Mail oder Telefon.', 'es' => 'El envío del formulario se está preparando. Póngase en contacto por correo o teléfono.'])
+        : localized_text($locale, ['tr' => 'Local geliştirme modu: form verileri gönderilmez.', 'en' => 'Local development mode: form data is not submitted.', 'de' => 'Lokaler Entwicklungsmodus: Formulardaten werden nicht gesendet.', 'es' => 'Modo de desarrollo local: los datos del formulario no se envían.']));
 $mapHeading = localized_text($locale, ['tr' => 'İstanbul’daki merkez ve üretim tesisi', 'en' => 'Head office and production facility in Istanbul', 'de' => 'Hauptsitz und Produktionsstätte in Istanbul', 'es' => 'Oficina central y planta de producción en Estambul']);
 ?>
 <?php render_component('page-hero', ['asset' => $pageHeroAssets['contact'], 'breadcrumbs' => $breadcrumbs, 'interior' => $interior, 'locale' => $locale]); ?>
 
 <section class="contact-section section"><div class="shell contact-layout">
     <div class="contact-details" data-reveal><p class="kicker"><?= e($home['footer']['contact']) ?></p><h2><?= e($directContact) ?></h2><address><a href="mailto:<?= e($site['contact']['email']) ?>"><?= e($site['contact']['email']) ?></a><a href="tel:<?= e($site['contact']['phoneHref']) ?>"><?= e($site['contact']['phone']) ?></a><a href="tel:<?= e($site['contact']['secondaryPhoneHref']) ?>"><?= e($site['contact']['secondaryPhone']) ?></a></address><dl><div><dt><?= e($home['footer']['office']) ?></dt><dd><?= e($site['contact']['officeAddress']) ?></dd></div><div><dt><?= e($home['footer']['factory']) ?></dt><dd><?= e($site['contact']['factoryAddress']) ?></dd></div><div><dt><?= e($workingHours) ?></dt><dd><?= e($site['contact']['hours'][$locale]) ?></dd></div></dl><div class="social-links"><?php foreach ($site['contact']['social'] as $social): ?><a href="<?= e(safe_href($social['url'])) ?>" target="_blank" rel="noopener"><?= e($social['label']) ?><span aria-hidden="true">↗</span></a><?php endforeach; ?></div></div>
-    <div class="quote-form-wrap" id="quote-form" data-reveal><p class="kicker"><?= e($interior['eyebrow']) ?></p><h2><?= e($interior['formTitle']) ?></h2><p><?= e($interior['formIntro']) ?></p><div class="form-notice" role="status"><?= e($localMode) ?></div>
-        <?php render_component('contact-form', ['contract' => $formContract, 'locale' => $locale, 'interior' => $interior]); ?>
+    <div class="quote-form-wrap" id="quote-form" data-reveal><p class="kicker"><?= e($interior['eyebrow']) ?></p><h2><?= e($interior['formTitle']) ?></h2><p><?= e($interior['formIntro']) ?></p><div class="form-notice" role="status"><?= e($formNotice) ?></div>
+        <?php render_component('contact-form', ['contract' => $formContract, 'locale' => $locale, 'interior' => $interior, 'formState' => $formState, 'actionPath' => route_for($routeConfig, 'contact', $locale)]); ?>
     </div>
 </div></section>
 

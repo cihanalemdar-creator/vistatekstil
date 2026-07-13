@@ -6,8 +6,10 @@ const require = createRequire(import.meta.url);
 const { chromium, webkit } = require('C:\\Users\\User\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\playwright');
 
 const root = process.cwd();
-const baseUrl = 'http://127.0.0.1:8082';
-const outputDir = path.join(root, 'redesign', 'docs', 'qa', 'ux-revision');
+const baseUrl = process.env.AUDIT_BASE_URL || 'http://127.0.0.1:8082';
+const outputDir = process.env.AUDIT_OUTPUT_DIR
+  ? path.resolve(process.env.AUDIT_OUTPUT_DIR)
+  : path.join(root, 'redesign', 'docs', 'qa', 'ux-revision');
 const screenshotDir = path.join(outputDir, 'screenshots');
 const allViewports = [320, 375, 430, 768, 1024, 1280, 1440];
 const viewports = process.env.AUDIT_WIDTH ? [Number(process.env.AUDIT_WIDTH)] : allViewports;
@@ -255,12 +257,13 @@ if (process.env.SKIP_MAIN !== '1') for (const width of viewports) {
         basic: document.querySelectorAll('.quote-form__basic .form-field').length,
         details: document.querySelectorAll('.form-details__grid .form-field').length,
         privacy: document.querySelectorAll('.privacy-field input').length,
-        total: document.querySelectorAll('[data-quote-form] input, [data-quote-form] select, [data-quote-form] textarea').length,
+        total: document.querySelectorAll('[data-quote-form] input:not([type="hidden"]):not([name="website"]), [data-quote-form] select, [data-quote-form] textarea').length,
         disabled: document.querySelector('.form-submit').disabled,
+        expectedDisabled: document.querySelector('[data-quote-form]')?.dataset.formEnabled !== 'true',
         detailsInitiallyClosed: !document.querySelector('[data-form-details]').open,
         statusVisible: Array.from(document.querySelectorAll('.form-status')).some((status) => !status.hidden),
       }));
-      addCheck(`${prefix} form contract`, form.basic === 7 && form.details === 8 && form.privacy === 1 && form.total === 16 && form.disabled && form.detailsInitiallyClosed && !form.statusVisible, JSON.stringify(form));
+      addCheck(`${prefix} form contract`, form.basic === 7 && form.details === 8 && form.privacy === 1 && form.total === 16 && form.disabled === form.expectedDisabled && form.detailsInitiallyClosed && !form.statusVisible, JSON.stringify(form));
       await page.evaluate(() => {
         const summary = document.querySelector('[data-form-details] summary');
         summary.focus();
@@ -329,7 +332,7 @@ if (process.env.SKIP_AUXILIARY !== '1') {
       sectionLinks: document.querySelectorAll('.section-navigation a').length,
       galleryLinks: document.querySelectorAll('[data-lightbox-item][href]').length,
       paginationLinks: document.querySelectorAll('.pagination a[href], .gallery-filters a[href]').length,
-      formControls: document.querySelectorAll('[data-quote-form] input, [data-quote-form] select, [data-quote-form] textarea').length,
+      formControls: document.querySelectorAll('[data-quote-form] input:not([type="hidden"]):not([name="website"]), [data-quote-form] select, [data-quote-form] textarea').length,
       detailsNative: key !== 'contact' || document.querySelector('[data-form-details]')?.tagName === 'DETAILS',
       expectedSectionNav: sectionNav,
     }), { key: route.key, sectionNav: route.sectionNav });

@@ -1,0 +1,86 @@
+Options -Indexes
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Keep one HTTPS hostname for cookies, canonicals and search signals.
+    RewriteCond %{HTTPS} !=on [OR]
+    RewriteCond %{HTTP_HOST} !^www\.vistatekstil\.com$ [NC]
+    RewriteRule ^ https://www.vistatekstil.com%{REQUEST_URI} [R=301,L,NE]
+
+    # Preserve the established public URL contract.
+    RewriteCond %{THE_REQUEST} \s/+index\.php(?:[?\s]) [NC]
+    RewriteRule ^index\.php$ / [R=301,L]
+    RewriteRule ^kurumsal\.php$ /kurumsal [R=301,L,NE]
+    RewriteRule ^urunler\.php$ /urunler [R=301,L,NE]
+    RewriteRule ^tasarim\.php$ /tasarim [R=301,L,NE]
+    RewriteRule ^koleksiyon\.php$ /koleksiyon/referans [R=301,L,NE]
+    RewriteRule ^galeri\.php$ /galeri/galerim2 [R=301,L,NE]
+    RewriteRule ^iletisim\.php$ /iletisim [R=301,L,NE]
+    RewriteRule ^urun-kategori\.php$ /urunler [R=301,L,NE]
+    RewriteRule ^urun-detay\.php$ /urunler [R=301,L,NE]
+
+    RewriteRule ^koleksiyon/?$ /koleksiyon/referans [R=301,L,NE]
+    RewriteRule ^galeri/?$ /galeri/galerim2 [R=301,L,NE]
+    RewriteRule ^urun-kategori/?$ /urunler [R=301,L,NE]
+    RewriteRule ^kategori/kadin/?$ /urunler#kadin-giyim [R=301,L,NE]
+    RewriteRule ^kategori/erkek/?$ /urunler#erkek-giyim [R=301,L,NE]
+    RewriteRule ^kategori/cocuk/?$ /urunler#cocuk-giyim [R=301,L,NE]
+    RewriteRule ^kadin/?$ /urunler#kadin-giyim [R=301,L,NE]
+    RewriteRule ^erkek/?$ /urunler#erkek-giyim [R=301,L,NE]
+    RewriteRule ^cocuk/?$ /urunler#cocuk-giyim [R=301,L,NE]
+    RewriteRule ^en$ /en/ [R=301,L,NE]
+    RewriteRule ^de$ /de/ [R=301,L,NE]
+    RewriteRule ^es$ /es/ [R=301,L,NE]
+
+    # Retired CMS and application internals must not be reachable from the web.
+    RewriteRule ^(?:admin|Eski)(?:/|$) - [F,L,NC]
+    RewriteRule ^redesign/(?:app|components|config|data|deploy|layouts|views)(?:/|$) - [F,L,NC]
+    RewriteRule ^redesign/(?:index|router)\.php$ - [F,L,NC]
+    RewriteCond %{THE_REQUEST} \s/+[^?\s]*\.php(?:[?\s]) [NC]
+    RewriteRule ^ - [F,L]
+
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    RewriteRule ^ index.php [L,QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+    Header onsuccess unset X-Content-Type-Options
+    Header onsuccess unset X-Frame-Options
+    Header onsuccess unset Referrer-Policy
+    Header onsuccess unset Permissions-Policy
+    Header always set X-Content-Type-Options "nosniff"
+    Header always set X-Frame-Options "SAMEORIGIN"
+    Header always set Referrer-Policy "strict-origin-when-cross-origin"
+    Header always set Permissions-Policy "camera=(), geolocation=(), microphone=()"
+    Header always set Strict-Transport-Security "max-age=31536000"
+    Header always set Content-Security-Policy "default-src 'self'; base-uri 'self'; connect-src 'self'; font-src 'self'; form-action 'self'; frame-ancestors 'self'; img-src 'self' data:; media-src 'self'; object-src 'none'; script-src 'self' 'unsafe-inline'; style-src 'self'; upgrade-insecure-requests"
+
+    <FilesMatch "\.(?:css|js|woff2)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+    <FilesMatch "\.(?:webp|avif|png|jpe?g|gif|svg|ico|mp4|webm)$">
+        Header set Cache-Control "public, max-age=2592000, stale-while-revalidate=86400"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/css "access plus 1 year"
+    ExpiresByType application/javascript "access plus 1 year"
+    ExpiresByType font/woff2 "access plus 1 year"
+    ExpiresByType image/webp "access plus 1 month"
+    ExpiresByType image/avif "access plus 1 month"
+    ExpiresByType image/png "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 month"
+    ExpiresByType video/mp4 "access plus 1 month"
+    ExpiresByType video/webm "access plus 1 month"
+</IfModule>
+
+<FilesMatch "^\.(?:env|git|user\.ini)|(?:composer\.(?:json|lock)|phpunit\.xml|README(?:\.md)?)$">
+    Require all denied
+</FilesMatch>

@@ -9,22 +9,50 @@ $formContract = require VISTA_REDESIGN_ROOT . '/data/form.php';
 
 $requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
 $path = normalize_path($requestPath);
+$isProduction = is_production();
+
+header('X-Content-Type-Options: nosniff');
+header('Referrer-Policy: strict-origin-when-cross-origin');
+header('X-Frame-Options: SAMEORIGIN');
+header('Permissions-Policy: camera=(), geolocation=(), microphone=()');
 
 if ($path === '/robots.txt') {
     header('Content-Type: text/plain; charset=UTF-8');
-    echo "User-agent: *\nDisallow: /\n";
+    header('Cache-Control: public, max-age=3600');
+    if ($isProduction) {
+        echo "User-agent: *\nAllow: /\nDisallow: /admin/\nDisallow: /Eski/\nSitemap: https://www.vistatekstil.com/sitemap.xml\n";
+    } else {
+        echo "User-agent: *\nDisallow: /\n";
+    }
     exit;
 }
 
 if ($path === '/sitemap.xml') {
+    if (!$isProduction) {
+        http_response_code(404);
+        header('Content-Type: text/plain; charset=UTF-8');
+        echo 'Not found';
+        exit;
+    }
     header('Content-Type: application/xml; charset=UTF-8');
+    header('Cache-Control: public, max-age=3600');
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
-    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
+    echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">' . "\n";
     foreach ($routeConfig['pages'] as $page) {
         foreach (array_keys($locales) as $sitemapLocale) {
             $localized = $page['locales'][$sitemapLocale];
             if (in_array($localized['publicationStatus'], ['approved', 'published'], true)) {
-                echo '  <url><loc>https://www.vistatekstil.com' . e($localized['path']) . '</loc></url>' . "\n";
+                echo "  <url>\n";
+                echo '    <loc>https://www.vistatekstil.com' . e($localized['path']) . '</loc>' . "\n";
+                echo '    <lastmod>' . e($routeConfig['lastModified']) . '</lastmod>' . "\n";
+                foreach (array_keys($locales) as $alternateLocale) {
+                    $alternate = $page['locales'][$alternateLocale];
+                    if (in_array($alternate['publicationStatus'], ['approved', 'published'], true)) {
+                        echo '    <xhtml:link rel="alternate" hreflang="' . e($locales[$alternateLocale]['hreflang']) . '" href="https://www.vistatekstil.com' . e($alternate['path']) . '" />' . "\n";
+                    }
+                }
+                echo '    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.vistatekstil.com' . e($page['locales']['tr']['path']) . '" />' . "\n";
+                echo "  </url>\n";
             }
         }
     }
@@ -53,7 +81,7 @@ if ($isNotFound) {
 }
 
 $publicationStatus = $localizedRoute['publicationStatus'] ?? 'draft';
-$isIndexable = !$isNotFound && !$isUnavailableLocale && in_array($publicationStatus, ['approved', 'published'], true);
+$isIndexable = $isProduction && !$isNotFound && !$isUnavailableLocale && in_array($publicationStatus, ['approved', 'published'], true);
 $unavailableMeta = $locale === 'de'
     ? ['title' => 'Deutsche Inhalte in Vorbereitung | Vista Moda Tekstil', 'description' => 'Die deutsche Version wird derzeit vorbereitet.']
     : ['title' => 'Contenido en español en preparación | Vista Moda Tekstil', 'description' => 'La versión en español se encuentra en preparación.'];
@@ -64,7 +92,7 @@ $notFoundMeta = [
 $pageMeta = $isNotFound
     ? $notFoundMeta
     : ($isUnavailableLocale ? $unavailableMeta : ($isHome ? $home['meta'] : $interior['meta']));
-$canonicalPath = $isNotFound ? route_for($routeConfig, 'home', $contentLocale) : route_for($routeConfig, $pageKey, $locale);
+$canonicalPath = $isNotFound ? $path : route_for($routeConfig, $pageKey, $locale);
 $canonical = 'https://www.vistatekstil.com' . $canonicalPath;
 $heroAsset = $content['assets']['hero_factory'];
 $heroVideo = $content['assets']['hero_videos'][$contentLocale];
@@ -93,6 +121,10 @@ $productCatalog = null;
 if (!$isNotFound && $pageKey === 'products' && $interior !== null) {
     $productCatalog = product_catalog_state($content['assets']['products'], 24);
 }
+$formState = null;
+if (!$isNotFound && $pageKey === 'contact' && $interior !== null) {
+    $formState = contact_form_state($formContract, $locale, route_for($routeConfig, 'contact', $locale));
+}
 
 $pageView = $isNotFound
     ? 'errors/404'
@@ -117,6 +149,7 @@ return [
     'isHome' => $isHome,
     'isNotFound' => $isNotFound,
     'isIndexable' => $isIndexable,
+    'isProduction' => $isProduction,
     'pageMeta' => $pageMeta,
     'canonical' => $canonical,
     'heroAsset' => $heroAsset,
@@ -128,6 +161,7 @@ return [
     'sectionNavigation' => $sectionNavigation,
     'gallery' => $gallery,
     'productCatalog' => $productCatalog,
+    'formState' => $formState,
     'pageView' => $pageView,
     'currentYear' => date('Y'),
 ];

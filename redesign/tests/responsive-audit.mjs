@@ -90,7 +90,7 @@ for (const width of viewports) {
         manrope400: document.fonts.check('400 16px Manrope', 'Çç Ğğ İi Iı Öö Şş Üü'),
         manrope650: document.fonts.check('650 16px Manrope', 'IĞDIR İZMİR ŞİŞLİ ÇORLU GÖRÜŞME ÜRETİM'),
         submitDisabled: document.querySelector('.form-submit')?.disabled ?? null,
-        formFieldCount: document.querySelectorAll('.quote-form input, .quote-form select, .quote-form textarea').length,
+        formFieldCount: document.querySelectorAll('.quote-form input:not([type="hidden"]):not([name="website"]), .quote-form select, .quote-form textarea').length,
         galleryItems: document.querySelectorAll('.gallery-masonry figure').length,
       };
     }, { expectedNavigation, width });

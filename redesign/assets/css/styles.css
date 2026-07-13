@@ -1191,6 +1191,9 @@ html, body { overflow-x: clip; }
 .form-field textarea:focus { border-color: var(--accent-active); outline: 2px solid rgba(54, 92, 145, 0.28); outline-offset: 0; }
 .form-field small { margin-top: 6px; color: var(--muted); font-size: 10px; }
 .field-error { display: none; color: #a62f26 !important; }
+.field-error.is-visible { display: block; }
+.form-honeypot { position: absolute !important; width: 1px !important; height: 1px !important; padding: 0 !important; margin: -1px !important; overflow: hidden !important; clip: rect(0, 0, 0, 0) !important; white-space: nowrap !important; border: 0 !important; }
+.privacy-error { margin: -12px 0 18px; }
 .form-field input:user-invalid,
 .form-field select:user-invalid,
 .form-field textarea:user-invalid { border-color: #a62f26; }

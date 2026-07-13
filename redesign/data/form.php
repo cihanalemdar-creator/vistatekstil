@@ -47,7 +47,7 @@ return [
     'fields' => [
         'name' => ['type' => 'text', 'required' => true, 'autocomplete' => 'name'],
         'company' => ['type' => 'text', 'required' => true, 'autocomplete' => 'organization'],
-        'country' => ['type' => 'text', 'required' => true, 'autocomplete' => 'country-name'],
+        'country' => ['type' => 'text', 'required' => false, 'autocomplete' => 'country-name'],
         'email' => ['type' => 'email', 'required' => true, 'autocomplete' => 'email'],
         'phone' => ['type' => 'tel', 'required' => false, 'autocomplete' => 'tel'],
         'category' => [
@@ -59,7 +59,7 @@ return [
             ],
         ],
         'fabricType' => [
-            'type' => 'select', 'required' => true,
+            'type' => 'select', 'required' => false,
             'options' => [
                 'knit' => ['labelKey' => 'knit'], 'woven' => ['labelKey' => 'woven'], 'both' => ['labelKey' => 'both'],
             ],
@@ -69,8 +69,18 @@ return [
         'delivery' => ['type' => 'text', 'required' => false],
         'techPack' => ['type' => 'select', 'required' => false, 'options' => ['yes' => ['labelKey' => 'yes'], 'no' => ['labelKey' => 'no']]],
         'sample' => ['type' => 'select', 'required' => false, 'options' => ['yes' => ['labelKey' => 'yes'], 'no' => ['labelKey' => 'no']]],
-        'subject' => ['type' => 'text', 'required' => true],
+        'subject' => ['type' => 'text', 'required' => false],
         'message' => ['type' => 'textarea', 'required' => true, 'rows' => 6],
-        'file' => ['type' => 'file', 'required' => false, 'accept' => '.pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png,.zip', 'help' => 'PDF, DOCX, XLSX, JPG, PNG, ZIP'],
+        'file' => [
+            'type' => 'file',
+            'required' => false,
+            'accept' => '.pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png,.zip',
+            'help' => [
+                'tr' => 'PDF, DOCX, XLSX, JPG, PNG veya ZIP; en fazla 2 MB',
+                'en' => 'PDF, DOCX, XLSX, JPG, PNG or ZIP; up to 2 MB',
+                'de' => 'PDF, DOCX, XLSX, JPG, PNG oder ZIP; bis 2 MB',
+                'es' => 'PDF, DOCX, XLSX, JPG, PNG o ZIP; hasta 2 MB',
+            ],
+        ],
     ],
 ];
