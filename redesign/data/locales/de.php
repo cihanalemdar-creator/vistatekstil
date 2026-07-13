@@ -21,7 +21,7 @@ $home = [
     ],
     'hero' => [
         'eyebrow' => 'Produktion in Istanbul seit 2019',
-        'title' => 'Fertigung von Damen-, Herren- und Kinderbekleidung.',
+        'title' => 'Fertigung von Damen-, Herren- und Kinder­bekleidung.',
         'lede' => 'Ein direkter Produktionsprozess für Rundstrick- und Webware, von Designunterstützung, Schnitt und Muster bis zu Zuschnitt, Qualitätskontrolle und Verpackung.',
         'primaryCta' => 'Produktionsmöglichkeiten',
         'secondaryCta' => 'Kontakt aufnehmen',
@@ -47,12 +47,12 @@ $home = [
     ],
     'products' => [
         'eyebrow' => 'Produktgruppen',
-        'title' => 'Damen-, Herren- und Kinderbekleidung',
+        'title' => 'Damen-, Herren- und Kinder­bekleidung',
         'intro' => 'Wir fertigen Rundstrick-Konfektion und Webware in Produktgruppen wie Blusen, Kleidern, Jacken, Röcken, Shorts und Hosen.',
         'items' => [
             ['key' => 'womenswear', 'title' => 'Damenbekleidung', 'text' => 'Blusen, Kleider, Jacken, Röcke, Shorts und Hosen.'],
             ['key' => 'menswear', 'title' => 'Herrenbekleidung', 'text' => 'Strick- und Webprodukte für unterschiedliche Kollektionserfordernisse.'],
-            ['key' => 'kidswear', 'title' => 'Kinderbekleidung', 'text' => 'Strick- und Webbekleidung für Kinder entsprechend dem Aufbau der Kollektion.'],
+            ['key' => 'kidswear', 'title' => 'Kinder­bekleidung', 'text' => 'Strick- und Webbekleidung für Kinder entsprechend dem Aufbau der Kollektion.'],
         ],
         'link' => 'Produktgruppen entdecken',
     ],
@@ -125,7 +125,7 @@ $interiors = [
     'about' => [
         'meta' => ['title' => 'Unternehmen | Vista Moda Tekstil', 'description' => 'Unternehmensgeschichte, Produktionsmodell, Kapazität, Märkte und Nachhaltigkeitsansatz von Vista Moda Tekstil.'],
         'eyebrow' => 'Unternehmen',
-        'title' => 'Direkte Bekleidungsproduktion aus Istanbul für internationale Märkte',
+        'title' => 'Direkte Bekleidungs­produktion aus Istanbul für internationale Märkte',
         'intro' => 'Vista Moda Tekstil wurde 2019 von Dilek Akkoyunlu gegründet und fertigt Rundstrick-Konfektion und Webware für Damen-, Herren- und Kinderkollektionen.',
         'sections' => [
             ['title' => 'Über Vista Tekstil', 'text' => 'Als Bekleidungshersteller steuern wir den gesamten Ablauf von der Designunterstützung bis zur Versandvorbereitung in einem Produktionsplan. Unser Spektrum umfasst unter anderem Blusen, Kleider, Jacken, Röcke, Shorts und Hosen.', 'asset' => 'facility'],
@@ -142,12 +142,12 @@ $interiors = [
     'products' => [
         'meta' => ['title' => 'Produkte | Vista Moda Tekstil', 'description' => 'Damen-, Herren- und Kinderbekleidung aus Strick- und Webware mit Produktbeispielen und Produktionsumfang.'],
         'eyebrow' => 'Produkte',
-        'title' => 'Strick- und Webprodukte für Damen-, Herren- und Kinderkollektionen',
+        'title' => 'Strick- und Webprodukte für Damen-, Herren- und Kinder­kollektionen',
         'intro' => 'Jede Produktgruppe wird passend zur Kollektion entwickelt, von der Stoff- und Zutatenprüfung über Schnitt und Muster bis zur Serienproduktion.',
         'sections' => [
             ['key' => 'womenswear', 'id' => 'damenbekleidung', 'title' => 'Damenbekleidung', 'text' => 'Wir entwickeln Blusen, Kleider, Jacken, Röcke, Shorts, Hosen, Jumpsuits und abgestimmte Sets nach der technischen Struktur der Kollektion.', 'examples' => ['Blusen und Oberteile', 'Kleider und Jumpsuits', 'Röcke, Shorts und Hosen', 'Jacken und Sets'], 'context' => 'Rundstrick-Konfektion und Webstoffoptionen sind verfügbar.'],
             ['key' => 'menswear', 'id' => 'herrenbekleidung', 'title' => 'Herrenbekleidung', 'text' => 'Wir unterstützen Modell- und Produktionsentwicklung für T-Shirts, Polos, Sweatshirts, Hosen, Oberbekleidung und kollektionsspezifische Herrenartikel.', 'examples' => ['T-Shirts und Polos', 'Sweatshirts und Oberteile', 'Hosen und Shorts', 'Jacken und Oberbekleidung'], 'context' => 'Strick- und Webprodukte werden nach Einsatzzweck und kommerzieller Positionierung geplant.'],
-            ['key' => 'kidswear', 'id' => 'kinderbekleidung', 'title' => 'Kinderbekleidung', 'text' => 'Für Baby- und Kinderkollektionen entwickeln wir Strick- und Webmodelle mit Blick auf Bewegungsfreiheit, Produktdetails und Kollektionskonsistenz.', 'examples' => ['Baby-Overalls und Sets', 'T-Shirts und Sweatshirts', 'Kleider und Unterteile', 'Jacken und Oberbekleidung'], 'context' => 'Stoffe, Zutaten und Details werden anhand der technischen Anforderungen der Kinderkollektion bewertet.'],
+            ['key' => 'kidswear', 'id' => 'kinderbekleidung', 'title' => 'Kinder­bekleidung', 'text' => 'Für Baby- und Kinderkollektionen entwickeln wir Strick- und Webmodelle mit Blick auf Bewegungsfreiheit, Produktdetails und Kollektionskonsistenz.', 'examples' => ['Baby-Overalls und Sets', 'T-Shirts und Sweatshirts', 'Kleider und Unterteile', 'Jacken und Oberbekleidung'], 'context' => 'Stoffe, Zutaten und Details werden anhand der technischen Anforderungen der Kinderkollektion bewertet.'],
             ['key' => 'knitwear', 'id' => 'strickprodukte', 'title' => 'Strickprodukte', 'text' => 'Wir entwickeln Rundstrick-Konfektion passend zu Modell, Gewicht, Oberfläche, Druck und Zutaten.', 'examples' => ['T-Shirts und Tops', 'Sweatshirts und Jogginghosen', 'Kleider und Sets', 'Polos und Freizeitoberteile'], 'context' => 'Stoffqualität, Griff, Farbe und Druckalternativen werden vor der Musterfertigung geprüft.'],
             ['key' => 'woven', 'id' => 'webprodukte', 'title' => 'Webprodukte', 'text' => 'Bei Webware betrachten wir Schnitt, Nahtdetails, Zutaten und Silhouette gemeinsam über Produktentwicklung und Produktion hinweg.', 'examples' => ['Blusen und Hemden', 'Kleider und Jumpsuits', 'Röcke und Hosen', 'Jacken und Oberbekleidung'], 'context' => 'Stoffstruktur und Produktdetails werden im Hinblick auf Zuschnitt, Nähen und das gewünschte Endbild geplant.'],
         ],

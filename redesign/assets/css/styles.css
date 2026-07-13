@@ -77,6 +77,19 @@ img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 button, input, textarea, select { font: inherit; }
 p, h1, h2, h3 { margin-top: 0; }
+h1, h2, h3 {
+    min-width: 0;
+    overflow-wrap: anywhere;
+    hyphens: auto;
+}
+
+.section-heading,
+.page-hero__inner,
+.page-hero__inner > *,
+.about-story__copy,
+.product-category__copy,
+.design-step__copy,
+.cta-section__content { min-width: 0; }
 
 .shell {
     width: min(calc(100% - (var(--side) * 2)), var(--shell));
@@ -1004,6 +1017,7 @@ html, body { overflow-x: clip; }
     position: relative;
     min-height: 520px;
     display: grid;
+    grid-template-columns: minmax(0, 1fr);
     align-items: end;
     overflow: hidden;
     padding: 96px 0 72px;
