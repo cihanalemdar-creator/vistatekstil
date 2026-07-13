@@ -3,9 +3,8 @@
 define('VISTA_PROJECT_ROOT', dirname(dirname(__DIR__)));
 define('VISTA_REDESIGN_ROOT', dirname(__DIR__));
 
-if ((string) ini_get('date.timezone') === '') {
-    date_default_timezone_set('Europe/Istanbul');
-}
+// Override empty or invalid host-level timezone values before strict error handling starts.
+date_default_timezone_set('Europe/Istanbul');
 
 if (!function_exists('str_starts_with')) {
     function str_starts_with($haystack, $needle)
