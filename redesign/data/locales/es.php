@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 $ui = [
     'skip' => 'Saltar al contenido',

@@ -8,18 +8,18 @@
 <section class="about-story section"><div class="shell">
     <?php
     $aboutAssetMap = [
-        'facility' => $content['assets']['gallery'][1] ?? $heroAsset,
-        'founder' => $content['assets']['gallery'][2] ?? $heroAsset,
+        'facility' => isset($content['assets']['gallery'][1]) ? $content['assets']['gallery'][1] : $heroAsset,
+        'founder' => isset($content['assets']['gallery'][2]) ? $content['assets']['gallery'][2] : $heroAsset,
         'production' => $content['assets']['process']['sewing'],
         'design' => $content['assets']['process']['design'],
         'sampling' => $content['assets']['process']['sampling'],
         'cutting' => $content['assets']['process']['cutting'],
-        'markets' => $content['assets']['gallery'][18] ?? $heroAsset,
+        'markets' => isset($content['assets']['gallery'][18]) ? $content['assets']['gallery'][18] : $heroAsset,
         'quality' => $content['assets']['process']['quality'],
-        'partnership' => $content['assets']['gallery'][3] ?? $heroAsset,
+        'partnership' => isset($content['assets']['gallery'][3]) ? $content['assets']['gallery'][3] : $heroAsset,
     ];
     ?>
-    <?php foreach ($interior['sections'] as $index => $section): $sectionAsset = $aboutAssetMap[$section['asset']] ?? $heroAsset; ?>
+    <?php foreach ($interior['sections'] as $index => $section): $sectionAsset = isset($aboutAssetMap[$section['asset']]) ? $aboutAssetMap[$section['asset']] : $heroAsset; ?>
         <article class="about-story__item" id="<?= e($section['asset']) ?>" data-reveal>
             <div class="about-story__media"><img src="<?= e(asset_url($sectionAsset)) ?>" alt="<?= e(asset_alt($sectionAsset, $locale)) ?>" loading="lazy"></div>
             <div class="about-story__copy"><span>0<?= e($index + 1) ?></span><h2><?= e($section['title']) ?></h2><p><?= e($section['text']) ?></p><?php if ($section['asset'] === 'quality'): $certificationAsset = $content['assets']['certifications']; ?><img class="certification-strip" src="<?= e(asset_url($certificationAsset)) ?>" alt="<?= e(asset_alt($certificationAsset, $locale)) ?>" loading="lazy"><?php endif; ?></div>

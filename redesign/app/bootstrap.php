@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 $routeConfig = require VISTA_REDESIGN_ROOT . '/config/routes.php';
 $locales = require VISTA_REDESIGN_ROOT . '/config/locales.php';
@@ -7,7 +6,7 @@ $site = require VISTA_REDESIGN_ROOT . '/data/site.php';
 $content = require VISTA_REDESIGN_ROOT . '/data/content.php';
 $formContract = require VISTA_REDESIGN_ROOT . '/data/form.php';
 
-$requestPath = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$requestPath = parse_url(isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/', PHP_URL_PATH) ?: '/';
 $path = normalize_path($requestPath);
 $isProduction = is_production();
 
@@ -71,16 +70,16 @@ $routePage = $route['page'];
 $localizedRoute = $route['localized'];
 $contentLocale = isset($content['pages']['home'][$locale]) ? $locale : 'en';
 $home = $content['pages']['home'][$contentLocale];
-$isUnavailableLocale = $route['found'] && ($localizedRoute['publicationStatus'] ?? 'unavailable') === 'unavailable';
+$isUnavailableLocale = $route['found'] && (isset($localizedRoute['publicationStatus']) ? $localizedRoute['publicationStatus'] : 'unavailable') === 'unavailable';
 $isHome = $route['found'] && $pageKey === 'home' && !$isUnavailableLocale;
-$interior = $content['interiors'][$contentLocale][$pageKey] ?? null;
+$interior = isset($content['interiors'][$contentLocale][$pageKey]) ? $content['interiors'][$contentLocale][$pageKey] : null;
 $isNotFound = !$route['found'] || (!$isHome && !$isUnavailableLocale && $interior === null);
 
 if ($isNotFound) {
     http_response_code(404);
 }
 
-$publicationStatus = $localizedRoute['publicationStatus'] ?? 'draft';
+$publicationStatus = isset($localizedRoute['publicationStatus']) ? $localizedRoute['publicationStatus'] : 'draft';
 $isIndexable = $isProduction && !$isNotFound && !$isUnavailableLocale && in_array($publicationStatus, ['approved', 'published'], true);
 $unavailableMeta = $locale === 'de'
     ? ['title' => 'Deutsche Inhalte in Vorbereitung | Vista Moda Tekstil', 'description' => 'Die deutsche Version wird derzeit vorbereitet.']
@@ -97,16 +96,16 @@ $canonical = 'https://www.vistatekstil.com' . $canonicalPath;
 $heroAsset = $content['assets']['hero_factory'];
 $heroVideo = $content['assets']['hero_videos'][$contentLocale];
 $pageHeroAssets = [
-    'about' => $content['assets']['gallery'][1] ?? $heroAsset,
+    'about' => isset($content['assets']['gallery'][1]) ? $content['assets']['gallery'][1] : $heroAsset,
     'products' => $content['assets']['home_products']['womenswear'],
     'design' => $content['assets']['process']['design'],
     'collection' => $content['assets']['collection'][0],
-    'gallery' => $content['assets']['gallery'][0] ?? $heroAsset,
-    'contact' => $content['assets']['gallery'][18] ?? $heroAsset,
+    'gallery' => isset($content['assets']['gallery'][0]) ? $content['assets']['gallery'][0] : $heroAsset,
+    'contact' => isset($content['assets']['gallery'][18]) ? $content['assets']['gallery'][18] : $heroAsset,
 ];
 
 $navigation = navigation_items($routeConfig, $locale);
-$activeNavigationKey = $isNotFound ? null : ($routePage['activeNavigationKey'] ?? $pageKey);
+$activeNavigationKey = $isNotFound ? null : (isset($routePage['activeNavigationKey']) ? $routePage['activeNavigationKey'] : $pageKey);
 $breadcrumbs = $isNotFound || $isHome || $isUnavailableLocale ? [] : breadcrumb_items($routeConfig, $pageKey, $locale);
 $sectionNavigation = $isNotFound || $isUnavailableLocale ? [] : section_navigation_items($routePage, $interior);
 $gallery = null;

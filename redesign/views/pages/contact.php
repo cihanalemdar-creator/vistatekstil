@@ -1,7 +1,7 @@
 <?php
 $directContact = localized_text($locale, ['tr' => 'Doğrudan iletişim', 'en' => 'Direct contact', 'de' => 'Direkter Kontakt', 'es' => 'Contacto directo']);
 $workingHours = localized_text($locale, ['tr' => 'Çalışma saatleri', 'en' => 'Working hours', 'de' => 'Öffnungszeiten', 'es' => 'Horario de atención']);
-$formEnabled = is_array($formState) && ($formState['enabled'] ?? false);
+$formEnabled = is_array($formState) && isset($formState['enabled']) && $formState['enabled'];
 $formNotice = $formEnabled
     ? localized_text($locale, ['tr' => 'Talebiniz şifreli bağlantı üzerinden güvenli biçimde iletilir.', 'en' => 'Your enquiry is delivered securely over an encrypted connection.', 'de' => 'Ihre Anfrage wird sicher über eine verschlüsselte Verbindung übermittelt.', 'es' => 'Su solicitud se envía de forma segura mediante una conexión cifrada.'])
     : (is_production()

@@ -1,10 +1,37 @@
 <?php
-declare(strict_types=1);
 
-define('VISTA_PROJECT_ROOT', dirname(__DIR__, 2));
+define('VISTA_PROJECT_ROOT', dirname(dirname(__DIR__)));
 define('VISTA_REDESIGN_ROOT', dirname(__DIR__));
 
-function app_environment(): string
+if ((string) ini_get('date.timezone') === '') {
+    date_default_timezone_set('Europe/Istanbul');
+}
+
+if (!function_exists('str_starts_with')) {
+    function str_starts_with($haystack, $needle)
+    {
+        return $needle === '' || strpos($haystack, $needle) === 0;
+    }
+}
+
+function vista_random_bytes($length)
+{
+    if (function_exists('random_bytes')) {
+        return random_bytes($length);
+    }
+
+    if (function_exists('openssl_random_pseudo_bytes')) {
+        $strong = false;
+        $bytes = openssl_random_pseudo_bytes($length, $strong);
+        if (is_string($bytes) && strlen($bytes) === $length && $strong) {
+            return $bytes;
+        }
+    }
+
+    throw new RuntimeException('A secure random source is not available.');
+}
+
+function app_environment()
 {
     $environment = defined('VISTA_ENVIRONMENT')
         ? (string) VISTA_ENVIRONMENT
@@ -13,37 +40,46 @@ function app_environment(): string
     return in_array($environment, ['development', 'production'], true) ? $environment : 'development';
 }
 
-function is_production(): bool
+function is_production()
 {
     return app_environment() === 'production';
 }
 
-function e(mixed $value): string
+function e($value)
 {
     return htmlspecialchars((string) $value, ENT_QUOTES | ENT_SUBSTITUTE, 'UTF-8');
 }
 
-function h(mixed $value): string
+function h($value)
 {
     return e($value);
 }
 
-function localized_text(string $locale, array $translations): string
+function localized_text($locale, array $translations)
 {
-    return (string) ($translations[$locale] ?? $translations['en'] ?? reset($translations) ?: '');
+    if (isset($translations[$locale])) {
+        return (string) $translations[$locale];
+    }
+    if (isset($translations['en'])) {
+        return (string) $translations['en'];
+    }
+
+    $fallback = reset($translations);
+    return $fallback === false ? '' : (string) $fallback;
 }
 
-function normalize_path(string $path): string
+function normalize_path($path)
 {
     $decoded = rawurldecode($path);
     if ($decoded === '' || $decoded === '/') {
         return '/';
     }
 
-    return '/' . trim(preg_replace('#/+#', '/', $decoded) ?? $decoded, '/');
+    $normalized = preg_replace('#/+#', '/', $decoded);
+    return '/' . trim($normalized === null ? $decoded : $normalized, '/');
 }
 
-function route_context(array $routeConfig, string $path): array
+function route_context(array $routeConfig, $path)
 {
     $normalized = normalize_path($path);
     foreach ($routeConfig['pages'] as $pageKey => $page) {
@@ -69,18 +105,23 @@ function route_context(array $routeConfig, string $path): array
     ];
 }
 
-function route_for(array $routeConfig, string $pageKey, string $locale): string
+function route_for(array $routeConfig, $pageKey, $locale)
 {
-    return $routeConfig['pages'][$pageKey]['locales'][$locale]['path']
-        ?? $routeConfig['pages']['home']['locales'][$locale]['path']
-        ?? '/';
+    if (isset($routeConfig['pages'][$pageKey]['locales'][$locale]['path'])) {
+        return $routeConfig['pages'][$pageKey]['locales'][$locale]['path'];
+    }
+    if (isset($routeConfig['pages']['home']['locales'][$locale]['path'])) {
+        return $routeConfig['pages']['home']['locales'][$locale]['path'];
+    }
+
+    return '/';
 }
 
-function navigation_items(array $routeConfig, string $locale): array
+function navigation_items(array $routeConfig, $locale)
 {
     $items = [];
     foreach ($routeConfig['navigationOrder'] as $pageKey) {
-        $localized = $routeConfig['pages'][$pageKey]['locales'][$locale] ?? null;
+        $localized = isset($routeConfig['pages'][$pageKey]['locales'][$locale]) ? $routeConfig['pages'][$pageKey]['locales'][$locale] : null;
         if ($localized === null) {
             continue;
         }
@@ -95,12 +136,12 @@ function navigation_items(array $routeConfig, string $locale): array
     return $items;
 }
 
-function asset_source(array|string $asset): string
+function asset_source($asset)
 {
-    return is_array($asset) ? (string) ($asset['src'] ?? '') : $asset;
+    return is_array($asset) ? (isset($asset['src']) ? (string) $asset['src'] : '') : $asset;
 }
 
-function asset_url(array|string $asset, bool $versioned = false): string
+function asset_url($asset, $versioned = false)
 {
     $source = ltrim(asset_source($asset), '/');
     $publicSource = is_production() && str_starts_with($source, 'public_html/')
@@ -119,12 +160,16 @@ function asset_url(array|string $asset, bool $versioned = false): string
     return $url . '?v=' . substr(hash('sha256', (string) filemtime($file) . ':' . (string) filesize($file)), 0, 10);
 }
 
-function asset_alt(array $asset, string $locale): string
+function asset_alt(array $asset, $locale)
 {
-    return (string) ($asset['alt'][$locale] ?? $asset['alt']['en'] ?? '');
+    if (isset($asset['alt'][$locale])) {
+        return (string) $asset['alt'][$locale];
+    }
+
+    return isset($asset['alt']['en']) ? (string) $asset['alt']['en'] : '';
 }
 
-function safe_href(string $value): string
+function safe_href($value)
 {
     $value = trim($value);
     if ($value === '' || preg_match('~^(?:/|\#|mailto:|tel:|https://)~i', $value) !== 1) {
@@ -134,9 +179,11 @@ function safe_href(string $value): string
     return $value;
 }
 
-function query_url(string $path, array $params = [], ?string $fragment = null): string
+function query_url($path, array $params = array(), $fragment = null)
 {
-    $query = http_build_query(array_filter($params, static fn(mixed $value): bool => $value !== null && $value !== ''), '', '&', PHP_QUERY_RFC3986);
+    $query = http_build_query(array_filter($params, static function ($value) {
+        return $value !== null && $value !== '';
+    }), '', '&', PHP_QUERY_RFC3986);
     $url = $path . ($query !== '' ? '?' . $query : '');
     if ($fragment !== null && $fragment !== '') {
         $url .= '#' . rawurlencode($fragment);
@@ -145,7 +192,7 @@ function query_url(string $path, array $params = [], ?string $fragment = null): 
     return $url;
 }
 
-function render_component(string $componentName, array $props = []): void
+function render_component($componentName, array $props = array())
 {
     if (preg_match('/^[a-z0-9-]+$/', $componentName) !== 1) {
         throw new InvalidArgumentException('Invalid component name.');
@@ -158,7 +205,7 @@ function render_component(string $componentName, array $props = []): void
     require $file;
 }
 
-function render_view(string $viewName, array $context = []): void
+function render_view($viewName, array $context = array())
 {
     if (preg_match('#^[a-z0-9/_-]+$#', $viewName) !== 1) {
         throw new InvalidArgumentException('Invalid view name.');
@@ -171,24 +218,33 @@ function render_view(string $viewName, array $context = []): void
     require $file;
 }
 
-function section_navigation_items(array $routePage, ?array $interior): array
+function section_navigation_items(array $routePage, $interior)
 {
-    $config = $routePage['sectionNavigation'] ?? false;
+    $config = isset($routePage['sectionNavigation']) ? $routePage['sectionNavigation'] : false;
     if ($config === false || $interior === null) {
         return [];
     }
 
     $items = [];
-    $idField = (string) ($config['idField'] ?? 'id');
-    foreach ($interior['sections'] ?? [] as $index => $section) {
-        $id = (string) ($section[$idField] ?? $section['id'] ?? $section['asset'] ?? 'section-' . ($index + 1));
+    $idField = isset($config['idField']) ? (string) $config['idField'] : 'id';
+    $sections = isset($interior['sections']) ? $interior['sections'] : array();
+    foreach ($sections as $index => $section) {
+        if (isset($section[$idField])) {
+            $id = (string) $section[$idField];
+        } elseif (isset($section['id'])) {
+            $id = (string) $section['id'];
+        } elseif (isset($section['asset'])) {
+            $id = (string) $section['asset'];
+        } else {
+            $id = 'section-' . ($index + 1);
+        }
         $items[] = ['id' => $id, 'label' => (string) $section['title']];
     }
 
     return $items;
 }
 
-function breadcrumb_items(array $routeConfig, string $pageKey, string $locale): array
+function breadcrumb_items(array $routeConfig, $pageKey, $locale)
 {
     if ($pageKey === 'home') {
         return [];
@@ -206,13 +262,15 @@ function breadcrumb_items(array $routeConfig, string $pageKey, string $locale): 
     ];
 }
 
-function gallery_state(array $items, array $filters, int $perPage = 24): array
+function gallery_state(array $items, array $filters, $perPage = 24)
 {
     $requestedCategory = isset($_GET['category']) && is_string($_GET['category']) ? $_GET['category'] : 'all';
     $category = array_key_exists($requestedCategory, $filters) ? $requestedCategory : 'all';
     $filtered = $category === 'all'
         ? array_values($items)
-        : array_values(array_filter($items, static fn(array $item): bool => ($item['category'] ?? '') === $category));
+        : array_values(array_filter($items, static function (array $item) use ($category) {
+            return (isset($item['category']) ? $item['category'] : '') === $category;
+        }));
 
     $requestedPage = isset($_GET['page']) && is_scalar($_GET['page']) ? filter_var((string) $_GET['page'], FILTER_VALIDATE_INT) : false;
     $page = $requestedPage !== false && $requestedPage > 0 ? (int) $requestedPage : 1;
@@ -229,7 +287,7 @@ function gallery_state(array $items, array $filters, int $perPage = 24): array
     ];
 }
 
-function product_catalog_state(array $categories, int $perPage = 24): ?array
+function product_catalog_state(array $categories, $perPage = 24)
 {
     $requestedCategory = isset($_GET['category']) && is_string($_GET['category']) ? $_GET['category'] : null;
     $catalogCategories = array_intersect_key($categories, array_flip(['womenswear', 'menswear', 'kidswear']));

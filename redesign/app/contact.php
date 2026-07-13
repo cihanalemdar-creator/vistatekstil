@@ -1,12 +1,14 @@
 <?php
-declare(strict_types=1);
 
-function contact_configuration(): array
+function contact_configuration()
 {
-    $path = (string) (getenv('VISTA_CONTACT_CONFIG') ?: dirname(VISTA_PROJECT_ROOT, 3) . DIRECTORY_SEPARATOR . '.vista-contact.php');
+    $path = (string) (getenv('VISTA_CONTACT_CONFIG') ?: dirname(dirname(dirname(VISTA_PROJECT_ROOT))) . DIRECTORY_SEPARATOR . '.vista-contact.php');
     $config = is_production() && is_file($path) ? require $path : [];
     $required = ['tenantId', 'clientId', 'clientSecret', 'sender', 'recipient'];
-    $complete = is_array($config) && ($config['enabled'] ?? false) === true && ($config['transport'] ?? '') === 'microsoft_graph';
+    $complete = is_array($config)
+        && isset($config['enabled'], $config['transport'])
+        && $config['enabled'] === true
+        && $config['transport'] === 'microsoft_graph';
 
     foreach ($required as $key) {
         if (!isset($config[$key]) || !is_string($config[$key]) || trim($config[$key]) === '') {
@@ -17,6 +19,7 @@ function contact_configuration(): array
         $complete = function_exists('curl_init')
             && class_exists('finfo')
             && function_exists('mb_strlen')
+            && (function_exists('random_bytes') || function_exists('openssl_random_pseudo_bytes'))
             && preg_match('/^[0-9a-f-]{36}$/i', (string) $config['tenantId']) === 1
             && preg_match('/^[0-9a-f-]{36}$/i', (string) $config['clientId']) === 1
             && filter_var($config['sender'], FILTER_VALIDATE_EMAIL) !== false
@@ -26,7 +29,7 @@ function contact_configuration(): array
     return ['enabled' => $complete, 'path' => $path, 'settings' => is_array($config) ? $config : []];
 }
 
-function contact_form_state(array $contract, string $locale, string $actionPath): array
+function contact_form_state(array $contract, $locale, $actionPath)
 {
     $configuration = contact_configuration();
     $state = [
@@ -47,12 +50,12 @@ function contact_form_state(array $contract, string $locale, string $actionPath)
     $state['csrf'] = contact_csrf_token();
 
     if (isset($_SESSION['vista_contact_flash']) && is_array($_SESSION['vista_contact_flash'])) {
-        $state['status'] = (string) ($_SESSION['vista_contact_flash']['status'] ?? 'success');
-        $state['message'] = (string) ($_SESSION['vista_contact_flash']['message'] ?? '');
+        $state['status'] = isset($_SESSION['vista_contact_flash']['status']) ? (string) $_SESSION['vista_contact_flash']['status'] : 'success';
+        $state['message'] = isset($_SESSION['vista_contact_flash']['message']) ? (string) $_SESSION['vista_contact_flash']['message'] : '';
         unset($_SESSION['vista_contact_flash']);
     }
 
-    if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'POST') {
+    if ((isset($_SERVER['REQUEST_METHOD']) ? $_SERVER['REQUEST_METHOD'] : 'GET') !== 'POST') {
         return $state;
     }
 
@@ -70,7 +73,7 @@ function contact_form_state(array $contract, string $locale, string $actionPath)
         return $state;
     }
 
-    [$values, $errors] = contact_validate_submission($contract, $locale);
+    list($values, $errors) = contact_validate_submission($contract, $locale);
     $state['values'] = $values;
     $state['errors'] = $errors;
     $state['privacy'] = isset($_POST['privacy']) && $_POST['privacy'] === '1';
@@ -98,7 +101,13 @@ function contact_form_state(array $contract, string $locale, string $actionPath)
         return $state;
     }
 
-    $delivered = contact_send_graph_mail($configuration['settings'], $contract, $locale, $values, $attachment['file'] ?? null);
+    $delivered = contact_send_graph_mail(
+        $configuration['settings'],
+        $contract,
+        $locale,
+        $values,
+        isset($attachment['file']) ? $attachment['file'] : null
+    );
     if (!$delivered) {
         http_response_code(503);
         $state['status'] = 'error';
@@ -106,39 +115,43 @@ function contact_form_state(array $contract, string $locale, string $actionPath)
         return $state;
     }
 
-    $_SESSION['vista_contact_csrf'] = bin2hex(random_bytes(32));
+    $_SESSION['vista_contact_csrf'] = bin2hex(vista_random_bytes(32));
     $_SESSION['vista_contact_flash'] = ['status' => 'success', 'message' => contact_message($locale, 'success')];
     header('Location: ' . $actionPath . '#quote-form', true, 303);
     exit;
 }
 
-function contact_start_session(): void
+function contact_start_session()
 {
     if (session_status() === PHP_SESSION_ACTIVE) {
         return;
     }
 
     session_name('vista_contact');
-    session_set_cookie_params([
-        'lifetime' => 0,
-        'path' => '/',
-        'secure' => is_production(),
-        'httponly' => true,
-        'samesite' => 'Lax',
-    ]);
+    if (version_compare(PHP_VERSION, '7.3.0', '>=')) {
+        session_set_cookie_params([
+            'lifetime' => 0,
+            'path' => '/',
+            'secure' => is_production(),
+            'httponly' => true,
+            'samesite' => 'Lax',
+        ]);
+    } else {
+        session_set_cookie_params(0, '/; samesite=Lax', '', is_production(), true);
+    }
     session_start();
 }
 
-function contact_csrf_token(): string
+function contact_csrf_token()
 {
     if (!isset($_SESSION['vista_contact_csrf']) || !is_string($_SESSION['vista_contact_csrf'])) {
-        $_SESSION['vista_contact_csrf'] = bin2hex(random_bytes(32));
+        $_SESSION['vista_contact_csrf'] = bin2hex(vista_random_bytes(32));
     }
 
     return $_SESSION['vista_contact_csrf'];
 }
 
-function contact_validate_submission(array $contract, string $locale): array
+function contact_validate_submission(array $contract, $locale)
 {
     $values = [];
     $errors = [];
@@ -146,11 +159,11 @@ function contact_validate_submission(array $contract, string $locale): array
         if ($name === 'file') {
             continue;
         }
-        $raw = $_POST[$name] ?? '';
+        $raw = isset($_POST[$name]) ? $_POST[$name] : '';
         $value = is_string($raw) ? trim($raw) : '';
         $values[$name] = $value;
 
-        if (($field['required'] ?? false) && $value === '') {
+        if ((isset($field['required']) ? $field['required'] : false) && $value === '') {
             $errors[$name] = contact_message($locale, 'required');
             continue;
         }
@@ -175,7 +188,7 @@ function contact_validate_submission(array $contract, string $locale): array
         }
         if ($field['type'] === 'number') {
             $number = filter_var($value, FILTER_VALIDATE_INT);
-            $minimum = (int) ($field['min'] ?? 1);
+            $minimum = isset($field['min']) ? (int) $field['min'] : 1;
             if ($number === false || $number < $minimum || $number > 1000000) {
                 $errors[$name] = contact_message($locale, 'number');
             }
@@ -189,24 +202,29 @@ function contact_validate_submission(array $contract, string $locale): array
     return [$values, $errors];
 }
 
-function contact_field_max_length(string $name): int
+function contact_field_max_length($name)
 {
-    return match ($name) {
-        'message' => 5000,
-        'delivery', 'subject' => 200,
-        'email' => 254,
-        default => 120,
-    };
+    if ($name === 'message') {
+        return 5000;
+    }
+    if ($name === 'delivery' || $name === 'subject') {
+        return 200;
+    }
+    if ($name === 'email') {
+        return 254;
+    }
+
+    return 120;
 }
 
-function contact_validate_attachment(string $locale): array
+function contact_validate_attachment($locale)
 {
-    if (!isset($_FILES['file']) || !is_array($_FILES['file']) || ($_FILES['file']['error'] ?? UPLOAD_ERR_NO_FILE) === UPLOAD_ERR_NO_FILE) {
+    if (!isset($_FILES['file']) || !is_array($_FILES['file']) || (isset($_FILES['file']['error']) ? $_FILES['file']['error'] : UPLOAD_ERR_NO_FILE) === UPLOAD_ERR_NO_FILE) {
         return ['file' => null];
     }
 
     $upload = $_FILES['file'];
-    if (($upload['error'] ?? UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_OK || !isset($upload['tmp_name'], $upload['name'], $upload['size'])) {
+    if ((isset($upload['error']) ? $upload['error'] : UPLOAD_ERR_NO_FILE) !== UPLOAD_ERR_OK || !isset($upload['tmp_name'], $upload['name'], $upload['size'])) {
         return ['error' => contact_message($locale, 'file')];
     }
     if ((int) $upload['size'] <= 0 || (int) $upload['size'] > 2 * 1024 * 1024 || !is_uploaded_file((string) $upload['tmp_name'])) {
@@ -242,9 +260,9 @@ function contact_validate_attachment(string $locale): array
     ]];
 }
 
-function contact_reserve_rate_limit(): bool
+function contact_reserve_rate_limit()
 {
-    $identity = (string) ($_SERVER['REMOTE_ADDR'] ?? 'unknown');
+    $identity = isset($_SERVER['REMOTE_ADDR']) ? (string) $_SERVER['REMOTE_ADDR'] : 'unknown';
     $file = rtrim(sys_get_temp_dir(), DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR . 'vista-contact-' . hash('sha256', $identity) . '.json';
     $handle = fopen($file, 'c+');
     if ($handle === false || !flock($handle, LOCK_EX)) {
@@ -256,7 +274,10 @@ function contact_reserve_rate_limit(): bool
 
     $raw = stream_get_contents($handle);
     $timestamps = is_string($raw) ? json_decode($raw, true) : [];
-    $timestamps = is_array($timestamps) ? array_values(array_filter($timestamps, static fn($value): bool => is_int($value) && $value > time() - 3600)) : [];
+    $threshold = time() - 3600;
+    $timestamps = is_array($timestamps) ? array_values(array_filter($timestamps, static function ($value) use ($threshold) {
+        return is_int($value) && $value > $threshold;
+    })) : [];
     if (count($timestamps) >= 5) {
         flock($handle, LOCK_UN);
         fclose($handle);
@@ -266,14 +287,14 @@ function contact_reserve_rate_limit(): bool
     $timestamps[] = time();
     rewind($handle);
     ftruncate($handle, 0);
-    fwrite($handle, json_encode($timestamps, JSON_THROW_ON_ERROR));
+    fwrite($handle, contact_json_encode($timestamps));
     fflush($handle);
     flock($handle, LOCK_UN);
     fclose($handle);
     return true;
 }
 
-function contact_send_graph_mail(array $settings, array $contract, string $locale, array $values, ?array $attachment): bool
+function contact_send_graph_mail(array $settings, array $contract, $locale, array $values, $attachment)
 {
     $tokenResponse = contact_http_post(
         'https://login.microsoftonline.com/' . rawurlencode((string) $settings['tenantId']) . '/oauth2/v2.0/token',
@@ -311,7 +332,7 @@ function contact_send_graph_mail(array $settings, array $contract, string $local
     $mailResponse = contact_http_post(
         'https://graph.microsoft.com/v1.0/users/' . rawurlencode((string) $settings['sender']) . '/sendMail',
         ['Authorization: Bearer ' . $tokenPayload['access_token'], 'Content-Type: application/json'],
-        json_encode(['message' => $message, 'saveToSentItems' => true], JSON_THROW_ON_ERROR | JSON_UNESCAPED_UNICODE)
+        contact_json_encode(['message' => $message, 'saveToSentItems' => true], JSON_UNESCAPED_UNICODE)
     );
     if ($mailResponse['status'] !== 202) {
         error_log('[Vista contact] Microsoft Graph sendMail failed with HTTP ' . $mailResponse['status']);
@@ -321,7 +342,7 @@ function contact_send_graph_mail(array $settings, array $contract, string $local
     return true;
 }
 
-function contact_http_post(string $url, array $headers, string $body): array
+function contact_http_post($url, array $headers, $body)
 {
     $curl = curl_init($url);
     if ($curl === false) {
@@ -340,24 +361,31 @@ function contact_http_post(string $url, array $headers, string $body): array
         CURLOPT_USERAGENT => 'VistaTekstilContact/1.0',
     ]);
     $responseBody = curl_exec($curl);
-    $status = (int) curl_getinfo($curl, CURLINFO_RESPONSE_CODE);
+    $statusInfo = defined('CURLINFO_RESPONSE_CODE') ? CURLINFO_RESPONSE_CODE : CURLINFO_HTTP_CODE;
+    $status = (int) curl_getinfo($curl, $statusInfo);
     curl_close($curl);
 
     return ['status' => $status, 'body' => is_string($responseBody) ? $responseBody : ''];
 }
 
-function contact_email_body(array $contract, string $locale, array $values): string
+function contact_email_body(array $contract, $locale, array $values)
 {
-    $labels = $contract['labels'][$locale] ?? $contract['labels']['en'];
+    $labels = isset($contract['labels'][$locale]) ? $contract['labels'][$locale] : $contract['labels']['en'];
     $rows = '';
     foreach ($values as $name => $value) {
         if ($value === '') {
             continue;
         }
-        $label = $labels[$name] ?? $name;
+        $label = isset($labels[$name]) ? $labels[$name] : $name;
         if (isset($contract['fields'][$name]['options'][$value])) {
             $option = $contract['fields'][$name]['options'][$value];
-            $value = isset($option['labelKey']) ? ($labels[$option['labelKey']] ?? $value) : ($option[$locale] ?? $option['en'] ?? $value);
+            if (isset($option['labelKey'])) {
+                $value = isset($labels[$option['labelKey']]) ? $labels[$option['labelKey']] : $value;
+            } elseif (isset($option[$locale])) {
+                $value = $option[$locale];
+            } elseif (isset($option['en'])) {
+                $value = $option['en'];
+            }
         }
         $rows .= '<tr><th style="padding:8px;text-align:left;vertical-align:top">' . e($label) . '</th><td style="padding:8px">' . nl2br(e($value)) . '</td></tr>';
     }
@@ -365,7 +393,7 @@ function contact_email_body(array $contract, string $locale, array $values): str
     return '<h1>Vista Tekstil web formu</h1><table style="border-collapse:collapse">' . $rows . '</table>';
 }
 
-function contact_message(string $locale, string $key): string
+function contact_message($locale, $key)
 {
     $messages = [
         'required' => ['tr' => 'Bu alan zorunludur.', 'en' => 'This field is required.', 'de' => 'Dieses Feld ist erforderlich.', 'es' => 'Este campo es obligatorio.'],
@@ -385,5 +413,15 @@ function contact_message(string $locale, string $key): string
         'success' => ['tr' => 'Talebiniz güvenli biçimde iletildi. Ekibimiz sizinle iletişime geçecektir.', 'en' => 'Your enquiry was delivered securely. Our team will contact you.', 'de' => 'Ihre Anfrage wurde sicher übermittelt. Unser Team wird sich mit Ihnen in Verbindung setzen.', 'es' => 'Su solicitud se ha enviado de forma segura. Nuestro equipo se pondrá en contacto con usted.'],
     ];
 
-    return localized_text($locale, $messages[$key] ?? $messages['invalid']);
+    return localized_text($locale, isset($messages[$key]) ? $messages[$key] : $messages['invalid']);
+}
+
+function contact_json_encode($value, $options = 0)
+{
+    $json = json_encode($value, $options);
+    if ($json === false) {
+        throw new RuntimeException('Contact payload could not be encoded as JSON.');
+    }
+
+    return $json;
 }

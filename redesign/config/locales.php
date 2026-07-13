@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 return [
     'tr' => ['label' => 'Türkçe', 'shortLabel' => 'TR', 'htmlLang' => 'tr', 'hreflang' => 'tr'],

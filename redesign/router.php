@@ -1,11 +1,11 @@
 <?php
-declare(strict_types=1);
 
-$path = parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/';
+$requestUri = isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/';
+$path = parse_url($requestUri, PHP_URL_PATH) ?: '/';
 $file = realpath(__DIR__ . '/..' . $path);
 $root = realpath(__DIR__ . '/..');
 
-if ($file && $root && str_starts_with($file, $root) && is_file($file)) {
+if ($file && $root && strpos($file, $root) === 0 && is_file($file)) {
     return false;
 }
 

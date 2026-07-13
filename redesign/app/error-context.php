@@ -1,12 +1,11 @@
 <?php
-declare(strict_types=1);
 
 $routeConfig = require VISTA_REDESIGN_ROOT . '/config/routes.php';
 $locales = require VISTA_REDESIGN_ROOT . '/config/locales.php';
 $site = require VISTA_REDESIGN_ROOT . '/data/site.php';
 $content = require VISTA_REDESIGN_ROOT . '/data/content.php';
 $formContract = require VISTA_REDESIGN_ROOT . '/data/form.php';
-$path = normalize_path(parse_url($_SERVER['REQUEST_URI'] ?? '/', PHP_URL_PATH) ?: '/');
+$path = normalize_path(parse_url(isset($_SERVER['REQUEST_URI']) ? $_SERVER['REQUEST_URI'] : '/', PHP_URL_PATH) ?: '/');
 $locale = preg_match('#^/(en|de|es)(?:/|$)#', $path, $match) === 1 ? $match[1] : 'tr';
 $contentLocale = isset($content['pages']['home'][$locale]) ? $locale : 'en';
 $pageKey = 'home';

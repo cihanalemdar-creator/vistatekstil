@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 $root = dirname(__DIR__);
 $directory = $root . '/docs/qa/ux-revision';
@@ -8,22 +7,30 @@ $sources = [];
 $checks = [];
 $failures = [];
 
+$decodeJson = static function ($path) {
+    $decoded = json_decode((string) file_get_contents($path), true);
+    if (!is_array($decoded)) {
+        throw new RuntimeException('Invalid JSON audit: ' . $path);
+    }
+    return $decoded;
+};
+
 foreach ($widths as $width) {
     $path = $directory . '/audit-' . $width . '.json';
     if (!is_file($path)) {
         throw new RuntimeException('Missing viewport audit: ' . $path);
     }
-    $report = json_decode((string) file_get_contents($path), true, 512, JSON_THROW_ON_ERROR);
+    $report = $decodeJson($path);
     $sources[] = basename($path);
-    $checks = array_merge($checks, $report['checks'] ?? []);
-    $failures = array_merge($failures, $report['failures'] ?? []);
+    $checks = array_merge($checks, isset($report['checks']) ? $report['checks'] : []);
+    $failures = array_merge($failures, isset($report['failures']) ? $report['failures'] : []);
 }
 
 $auxiliaryPath = $directory . '/audit-auxiliary.json';
-$auxiliary = json_decode((string) file_get_contents($auxiliaryPath), true, 512, JSON_THROW_ON_ERROR);
+$auxiliary = $decodeJson($auxiliaryPath);
 $sources[] = basename($auxiliaryPath);
-$checks = array_merge($checks, $auxiliary['checks'] ?? []);
-$failures = array_merge($failures, $auxiliary['failures'] ?? []);
+$checks = array_merge($checks, isset($auxiliary['checks']) ? $auxiliary['checks'] : []);
+$failures = array_merge($failures, isset($auxiliary['failures']) ? $auxiliary['failures'] : []);
 
 $combined = [
     'generatedAt' => gmdate(DATE_ATOM),
@@ -38,16 +45,19 @@ $combined = [
     'browsers' => ['Chromium/Chrome', 'WebKit'],
     'sources' => $sources,
     'checkCount' => count($checks),
-    'passed' => count(array_filter($checks, static fn(array $check): bool => !empty($check['pass']))),
+    'passed' => count(array_filter($checks, static function (array $check) {
+        return !empty($check['pass']);
+    })),
     'failed' => count($failures),
     'failures' => $failures,
     'checks' => $checks,
 ];
 
-file_put_contents(
-    $directory . '/audit.json',
-    json_encode($combined, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE | JSON_THROW_ON_ERROR) . PHP_EOL
-);
+$combinedJson = json_encode($combined, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
+if ($combinedJson === false) {
+    throw new RuntimeException('Combined audit could not be encoded.');
+}
+file_put_contents($directory . '/audit.json', $combinedJson . PHP_EOL);
 
 echo json_encode([
     'sources' => $combined['sources'],

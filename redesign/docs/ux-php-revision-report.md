@@ -91,9 +91,9 @@ Sonuç: 320 px ve 200% metin ölçeğinde clipping veya yatay taşma yok.
 ### PHP Sürümü
 
 - Local XAMPP: **PHP 8.2.12**
-- Production runtime bu local-only fazda DirectAdmin'e bağlanılarak sorgulanmadı.
-- `public_html` içinde PHP sürümünü sabitleyen bir handler/platform bildirimi bulunmadı.
-- Yeni runtime PHP 8 sözdizimi kullanır; production fazında PHP **8.0+** doğrulaması zorunludur.
+- Uyumluluk runtime'ı: resmi **PHP 5.6.40** Windows paketi
+- DirectAdmin production runtime: **PHP 5.6.40**
+- Uygulama PHP 5.6 ve PHP 8.2 üzerinde lint, route, form doğrulama ve çıktı eşitliği testlerinden geçirilmiştir.
 
 ### Merkezi Yapı
 
@@ -209,10 +209,9 @@ Kullanılmayan ara `gallery-manifest.php` ve generator'ı kaldırıldı; tam ass
 
 ## H. Remaining Issues
 
-1. Production PHP sürümü local-only güvenlik sınırı nedeniyle sorgulanmadı. Yayın fazından önce PHP 8.0+ doğrulanmalı.
-2. İletişim formunun gerçek backend, server-side validation, spam/rate-limit, dosya güvenliği ve SMTP/transactional mail entegrasyonu bilerek yapılmadı.
-3. Production redirect, canonical/hreflang, robots, sitemap ve teknik SEO migration bu fazın dışında kaldı.
-4. Canlı/Vercel deployment yapılmadı; review preview bu revizyonla güncellenmedi.
+1. İletişim formunun server-side validation, CSRF, honeypot, rate-limit ve dosya doğrulama katmanları hazırdır; gerçek mail transport'u özel production yapılandırması olmadığı için güvenli biçimde kapalıdır.
+2. Production redirect, canonical/hreflang, robots, sitemap ve teknik SEO migration ayrı yayın kontrolü gerektirir.
+3. Bu uyumluluk revizyonunda canlı/Vercel deployment yapılmadı.
 
 Görünür UX, modüler PHP veya responsive çakışma açısından açık kalan hata yoktur.
 

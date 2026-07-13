@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 require dirname(__DIR__) . '/app/helpers.php';
 
@@ -10,7 +9,7 @@ $routes = require dirname(__DIR__) . '/config/routes.php';
 $reference = 'en';
 $failures = [];
 
-$assertSameKeys = static function (array $expected, array $actual, string $label) use (&$failures): void {
+$assertSameKeys = static function (array $expected, array $actual, $label) use (&$failures) {
     $expectedKeys = array_keys($expected);
     $actualKeys = array_keys($actual);
     sort($expectedKeys);
@@ -38,7 +37,7 @@ foreach (['de', 'es'] as $locale) {
     }
 
     foreach ($routes['pages'] as $pageKey => $page) {
-        if (($page['locales'][$locale]['publicationStatus'] ?? 'unavailable') === 'unavailable') {
+        if ((isset($page['locales'][$locale]['publicationStatus']) ? $page['locales'][$locale]['publicationStatus'] : 'unavailable') === 'unavailable') {
             $failures[] = $locale . ' route remains unavailable: ' . $pageKey;
         }
     }

@@ -1,13 +1,12 @@
 <?php
-declare(strict_types=1);
 
 $asset = static function (
-    string $src,
-    string $altTr,
-    string $altEn,
-    string $category = 'products',
-    ?string $thumbnail = null
-): array {
+    $src,
+    $altTr,
+    $altEn,
+    $category = 'products',
+    $thumbnail = null
+) {
     return [
         'src' => $src,
         'thumbnail' => $thumbnail,
@@ -52,7 +51,9 @@ $childrenswearDescriptions = [
 ];
 
 $childrenswearGallery = [];
-foreach ($childrenswearDescriptions as $index => [$altTr, $altEn]) {
+foreach ($childrenswearDescriptions as $index => $description) {
+    $altTr = $description[0];
+    $altEn = $description[1];
     $name = sprintf('childrenswear-%02d.webp', $index + 1);
     $childrenswearGallery[] = $asset(
         'redesign/assets/media/childrenswear/full/' . $name,
@@ -151,7 +152,9 @@ $womenswearDescriptions = [
 ];
 
 $womenswearGallery = [];
-foreach ($womenswearDescriptions as $index => [$altTr, $altEn]) {
+foreach ($womenswearDescriptions as $index => $description) {
+    $altTr = $description[0];
+    $altEn = $description[1];
     $name = sprintf('womenswear-%02d.webp', $index + 1);
     $womenswearGallery[] = $asset(
         'redesign/assets/media/womenswear/full/' . $name,
@@ -189,11 +192,12 @@ $galleryDetails = [
 $gallery = [];
 foreach (glob(__DIR__ . '/../../public_html/yukleme/galeri/*.{jpg,jpeg,png,webp}', GLOB_BRACE) ?: [] as $file) {
     $name = basename($file);
-    [$category, $altTr, $altEn] = $galleryDetails[$name] ?? [
+    $details = isset($galleryDetails[$name]) ? $galleryDetails[$name] : [
         'products',
         'Vista Moda Tekstil urun ve koleksiyon calismasi',
         'Vista Moda Tekstil garment and collection work',
     ];
+    list($category, $altTr, $altEn) = $details;
     $gallery[] = $asset(
         'public_html/yukleme/galeri/' . $name,
         $altTr,
@@ -274,7 +278,9 @@ $legacySupport = [
     ['Eski/yukleme/hizmetler/slasharchitects-Elissa-Stampa-Fashion-Design-Office-22-textile-showroom.jpg', '10-slasharchitects-Elissa-Stampa-Fashion-Design-Office-22-textile-showroom.webp'],
     ['Eski/yukleme/hizmetler/tasarim.jpg', '11-tasarim.webp'],
 ];
-foreach ($legacySupport as [$source, $thumbnail]) {
+foreach ($legacySupport as $supportAsset) {
+    $source = $supportAsset[0];
+    $thumbnail = $supportAsset[1];
     $archiveGallery[] = $asset(
         'public_html/' . $source,
         'Vista Moda Tekstil eski kurumsal ve üretim destek görseli',
@@ -284,7 +290,7 @@ foreach ($legacySupport as [$source, $thumbnail]) {
     );
 }
 
-$product = static function (string $name, string $altTr, string $altEn) use ($asset): array {
+$product = static function ($name, $altTr, $altEn) use ($asset) {
     return $asset('public_html/yukleme/urunler/' . $name, $altTr, $altEn, 'products');
 };
 

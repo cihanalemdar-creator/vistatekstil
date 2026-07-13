@@ -1,6 +1,6 @@
 <?php
 $labels = $contract['labels'][$locale];
-$state = is_array($formState ?? null) ? $formState : ['enabled' => false, 'csrf' => '', 'status' => null, 'message' => null, 'errors' => [], 'values' => [], 'privacy' => false];
+$state = isset($formState) && is_array($formState) ? $formState : ['enabled' => false, 'csrf' => '', 'status' => null, 'message' => null, 'errors' => [], 'values' => [], 'privacy' => false];
 $detailErrors = array_intersect(array_keys($state['errors']), $contract['groups']['details']);
 ?>
 <form class="quote-form" action="<?= e($actionPath) ?>#quote-form" method="post" enctype="multipart/form-data" data-quote-form data-form-enabled="<?= $state['enabled'] ? 'true' : 'false' ?>" data-fixed-control-avoid>
@@ -8,7 +8,7 @@ $detailErrors = array_intersect(array_keys($state['errors']), $contract['groups'
     <div class="form-honeypot" aria-hidden="true"><label for="website">Website</label><input id="website" name="website" type="text" tabindex="-1" autocomplete="off"></div>
     <div class="quote-form__basic">
         <?php foreach ($contract['groups']['basic'] as $fieldName): ?>
-            <?php render_component('form-field', ['name' => $fieldName, 'contract' => $contract, 'labels' => $labels, 'locale' => $locale, 'value' => $state['values'][$fieldName] ?? '', 'error' => $state['errors'][$fieldName] ?? null]); ?>
+            <?php render_component('form-field', ['name' => $fieldName, 'contract' => $contract, 'labels' => $labels, 'locale' => $locale, 'value' => isset($state['values'][$fieldName]) ? $state['values'][$fieldName] : '', 'error' => isset($state['errors'][$fieldName]) ? $state['errors'][$fieldName] : null]); ?>
         <?php endforeach; ?>
     </div>
 
@@ -16,7 +16,7 @@ $detailErrors = array_intersect(array_keys($state['errors']), $contract['groups'
         <summary><span><?= e($labels['details']) ?></span><small><?= e($labels['detailsHint']) ?></small></summary>
         <div class="form-details__grid">
             <?php foreach ($contract['groups']['details'] as $fieldName): ?>
-                <?php render_component('form-field', ['name' => $fieldName, 'contract' => $contract, 'labels' => $labels, 'locale' => $locale, 'value' => $state['values'][$fieldName] ?? '', 'error' => $state['errors'][$fieldName] ?? null]); ?>
+                <?php render_component('form-field', ['name' => $fieldName, 'contract' => $contract, 'labels' => $labels, 'locale' => $locale, 'value' => isset($state['values'][$fieldName]) ? $state['values'][$fieldName] : '', 'error' => isset($state['errors'][$fieldName]) ? $state['errors'][$fieldName] : null]); ?>
             <?php endforeach; ?>
         </div>
     </details>

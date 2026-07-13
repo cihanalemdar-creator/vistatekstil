@@ -13,7 +13,7 @@
     <link rel="canonical" href="<?= e($canonical) ?>">
     <?php if ($route['found'] && !$isUnavailableLocale): ?>
         <?php foreach (array_keys($locales) as $alternateLocale): ?>
-            <?php if (($routeConfig['pages'][$pageKey]['locales'][$alternateLocale]['publicationStatus'] ?? 'unavailable') !== 'unavailable'): ?>
+            <?php if ((isset($routeConfig['pages'][$pageKey]['locales'][$alternateLocale]['publicationStatus']) ? $routeConfig['pages'][$pageKey]['locales'][$alternateLocale]['publicationStatus'] : 'unavailable') !== 'unavailable'): ?>
                 <link rel="alternate" hreflang="<?= e($locales[$alternateLocale]['hreflang']) ?>" href="https://www.vistatekstil.com<?= e(route_for($routeConfig, $pageKey, $alternateLocale)) ?>">
             <?php endif; ?>
         <?php endforeach; ?>

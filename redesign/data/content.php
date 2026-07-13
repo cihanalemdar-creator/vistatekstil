@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 $assets = require __DIR__ . '/assets-manifest.php';
 

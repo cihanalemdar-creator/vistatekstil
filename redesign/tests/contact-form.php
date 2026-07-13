@@ -1,5 +1,4 @@
 <?php
-declare(strict_types=1);
 
 require dirname(__DIR__) . '/app/helpers.php';
 require dirname(__DIR__) . '/app/contact.php';
@@ -8,7 +7,7 @@ $contract = require dirname(__DIR__) . '/data/form.php';
 $failures = [];
 
 foreach (['country', 'fabricType', 'subject'] as $optionalField) {
-    if (($contract['fields'][$optionalField]['required'] ?? true) !== false) {
+    if ((isset($contract['fields'][$optionalField]['required']) ? $contract['fields'][$optionalField]['required'] : true) !== false) {
         $failures[] = $optionalField . ' must remain optional';
     }
 }
@@ -22,7 +21,7 @@ $_POST = [
     'message' => 'A production enquiry with enough detail.',
     'privacy' => '1',
 ];
-[$validValues, $validErrors] = contact_validate_submission($contract, 'en');
+list($validValues, $validErrors) = contact_validate_submission($contract, 'en');
 if ($validErrors !== []) {
     $failures[] = 'valid basic submission rejected: ' . json_encode($validErrors);
 }
@@ -31,7 +30,8 @@ $_POST['email'] = 'not-an-email';
 $_POST['category'] = 'invalid-category';
 $_POST['quantity'] = '0';
 unset($_POST['privacy']);
-[, $invalidErrors] = contact_validate_submission($contract, 'en');
+$invalidResult = contact_validate_submission($contract, 'en');
+$invalidErrors = $invalidResult[1];
 foreach (['email', 'category', 'quantity', 'privacy'] as $expectedError) {
     if (!isset($invalidErrors[$expectedError])) {
         $failures[] = 'missing validation error: ' . $expectedError;
@@ -40,7 +40,7 @@ foreach (['email', 'category', 'quantity', 'privacy'] as $expectedError) {
 
 $validValues['message'] = '<script>alert(1)</script>';
 $body = contact_email_body($contract, 'en', $validValues);
-if (str_contains($body, '<script>') || !str_contains($body, '&lt;script&gt;')) {
+if (strpos($body, '<script>') !== false || strpos($body, '&lt;script&gt;') === false) {
     $failures[] = 'email body escaping failed';
 }
 
